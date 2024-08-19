@@ -1,0 +1,105 @@
+(footprint "3305-0-15-80-47-27-10-0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr ".105\" LONG RECEPTACLE; ACCEPTS .")
+	(tags "millmax 3305-0 keyboard")
+	(property "Reference" "REF**"
+		(at -0.792047 0.792047 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a087931f-7314-40dc-828d-ae7739fd5ce2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "3305-0-15-80-47-27-10-0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bdb84aae-b816-41b7-80b0-4cfb6c63abbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8f4cfc5-104d-4091-8946-f41438d7a846")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mill-max.com/products/receptacle/3305/3305-0-15-80-47-27-10-0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34c9c4f1-7f7c-4b05-ad3b-21636aa8152c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ".105\" LONG RECEPTACLE; ACCEPTS ."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0d6fe9e-4ccd-4c43-98f9-e77107fd2b4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole allow_missing_courtyard)
+	(fp_text user "${REFERENCE}"
+		(at -0.766529 0.779288 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "58b57ffd-ea9f-4967-90e0-d9ea7fba5eed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.262 2.262)
+		(drill 1.575)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0174ff5d-5dd3-4dbc-a777-585d797907b5")
+	)
+	(model "${KIPRJMOD}/library/mill-max-3305-0-15-01-47-XX-10-0.step"
+		(offset
+			(xyz 0 0 0.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 0)
+		)
+	)
+)

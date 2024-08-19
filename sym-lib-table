@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Swoon")(type "KiCad")(uri "${KIPRJMOD}/library/Swoon.kicad_sym")(options "")(descr ""))
+)
