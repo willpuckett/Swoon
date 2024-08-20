@@ -6,7 +6,7 @@
 	(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 	(tags "Through hole pin header THT 1x01 1.00mm single row")
 	(property "Reference" "REF**"
-		(at 2.9464 -1.2192 0)
+		(at 0.8 0 0)
 		(layer "F.SilkS")
 		(uuid "ddcb7c2b-9a2e-4ab3-9e06-b70bfd27c99d")
 		(effects
@@ -14,6 +14,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify left)
 		)
 	)
 	(property "Value" "0906-2-15-20-75-14-11-0"
@@ -69,7 +70,7 @@
 	(attr through_hole)
 	(fp_circle
 		(center 0 0)
-		(end 0.9652 -0.0508)
+		(end 0.8 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -169,7 +170,7 @@
 		(uuid "b133ccf9-4850-4b4b-ad0f-dda55b5b8c2e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 90)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(uuid "c62e8eb9-889f-45f7-a7ea-9cc40b50fdac")
 		(effects
@@ -181,7 +182,7 @@
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 1.83 1.83)
+		(size 1.4 1.4)
 		(drill 0.6)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)

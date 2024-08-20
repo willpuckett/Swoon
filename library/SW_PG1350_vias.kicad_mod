@@ -351,7 +351,7 @@
 		(uuid "02f1850d-e5f9-4460-a78a-9bf2d0f84eeb")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 6.604 -2.032 0)
+		(at 4.572 -2.032 0)
 		(layer "B.SilkS")
 		(uuid "abe85ce6-4b4c-4a16-b200-5d01fcf27911")
 		(effects
@@ -359,11 +359,11 @@
 				(size 0.9 0.9)
 				(thickness 0.16)
 			)
-			(justify left mirror)
+			(justify mirror)
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at -6.604 -2.032 0)
+		(at -4.572 -2.032 0)
 		(layer "F.SilkS")
 		(uuid "b541452f-15ce-46d9-8fd3-f89535934f13")
 		(effects
@@ -371,7 +371,6 @@
 				(size 0.9 0.9)
 				(thickness 0.16)
 			)
-			(justify left)
 		)
 	)
 	(fp_text user "${VALUE}"
@@ -399,15 +398,15 @@
 	)
 	(pad "" np_thru_hole circle
 		(at -5.5 0)
-		(size 1.7018 1.7018)
-		(drill 1.7018)
+		(size 1.7 1.7)
+		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
 		(uuid "529ed8d2-7767-47c5-90a2-33a391521c99")
 	)
 	(pad "" np_thru_hole circle
 		(at -5.22 -4.2)
-		(size 0.9906 0.9906)
-		(drill 0.9906)
+		(size 1 1)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(uuid "7666fdc4-6ce0-4ef4-ae47-f0ed70a2c283")
 	)
@@ -420,22 +419,22 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 5.22 -4.2)
-		(size 0.9906 0.9906)
-		(drill 0.9906)
+		(size 1 1)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(uuid "d798d118-e2ec-4375-acaa-af0d95a0b740")
 	)
 	(pad "" np_thru_hole circle
 		(at 5.5 0)
-		(size 1.7018 1.7018)
-		(drill 1.7018)
+		(size 1.7 1.7)
+		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
 		(uuid "41fb91b9-abc2-435b-96c0-8570fe43169d")
 	)
 	(pad "1" thru_hole circle
 		(at 0 5.9)
 		(size 2.262 2.262)
-		(drill 1.5)
+		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "cbc466f8-2413-47c5-8676-9b2e9e769e8c")
@@ -451,7 +450,7 @@
 	(pad "2" thru_hole circle
 		(at -5 3.8)
 		(size 2.262 2.262)
-		(drill 1.5)
+		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "63e288c2-0436-41a9-80af-63b9c8ad1e9c")
@@ -475,7 +474,7 @@
 	(pad "2" thru_hole circle
 		(at 5 3.8)
 		(size 2.262 2.262)
-		(drill 1.5)
+		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "3cc8a519-fbac-4aaf-84a6-160395416cf8")
@@ -487,5 +486,16 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "7ba7907b-1b25-410a-bcfa-f92d50641245")
+	)
+	(model "${KIPRJMOD}/library/keycap_1x1.STEP"
+		(offset
+			(xyz 0 0 5)
+		)
+		(scale
+			(xyz 0.98 1 0.94)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )

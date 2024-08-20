@@ -6,7 +6,7 @@
 	(descr ".105\" LONG RECEPTACLE; ACCEPTS .")
 	(tags "millmax 3305-0 keyboard")
 	(property "Reference" "REF**"
-		(at -0.792047 0.792047 0)
+		(at -0.762 1.016 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a087931f-7314-40dc-828d-ae7739fd5ce2")
@@ -70,6 +70,17 @@
 		)
 	)
 	(attr through_hole allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 1.27 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "86bf7a4f-35cb-419f-8ec4-b48020420e11")
+	)
 	(fp_text user "${REFERENCE}"
 		(at -0.766529 0.779288 0)
 		(unlocked yes)
@@ -86,7 +97,7 @@
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 2.262 2.262)
-		(drill 1.575)
+		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "0174ff5d-5dd3-4dbc-a777-585d797907b5")
