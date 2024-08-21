@@ -4,4 +4,4 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "dust.dtsi"
+#include "swoon.dtsi"

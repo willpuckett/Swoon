@@ -14,8 +14,9 @@
 #define NUM 2
 #define KP 3
 
-#define ENGRAM 1
-#define ENGRAMMER 2
+#define QWERTY 1
+#define ENGRAM 2
+#define ENGRAMMER 3
 
 / {
   behaviors {
@@ -206,16 +207,10 @@
         };
     #endif
 
-
-// ;; I used #(sft /) to release the shift from rolls with <
-// (deflayer navigation
-//   _    _    _    _    _    _    _    _    _    _    _    _    _    _
-//   _    !    @    [    ]    _    _    home pgdn pgup end  _    _    _
-//   _ @clp @arp @mlb @srb  @af    _    @sl  @md  @au  @cr  _    _
-//   < #(sft /) =   >    _    _    M-S-z M-z M-x  M-c  M-v  _    _
-//   _    _    _    _              _              _    _    _    _    _
-// )
-
+//      !    @    [    ]    _    _    home pgdn pgup end 
+//   @clp @arp @mlb @srb  @af    _    @sl  @md  @au  @cr 
+//     < #(sft /)  =   >    _    _    M-S-z M-z M-x  M-c  M-v 
+//                      _   _   _    _   
 
         nav_layer {
             label = "Nav";
