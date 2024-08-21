@@ -1,0 +1,11 @@
+file_format: "1"
+id: swoon
+name: swoon
+type: shield
+url: https://github.com/willpuckett/swoon
+requires: [seeed_xiao_ble]
+features:
+  - keys
+siblings:
+  - swoon_left
+  - swoon_right

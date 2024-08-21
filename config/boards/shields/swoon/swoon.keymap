@@ -1,0 +1,264 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
+
+
+#define NAV 1
+#define NUM 2
+#define KP 3
+
+#define ENGRAM 1
+#define ENGRAMMER 2
+
+/ {
+  behaviors {
+
+    hl: home_row_mod_left {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOME_ROW_MOD_LEFT";
+        #binding-cells = <2>;
+        flavor = "balanced";
+        tapping-term-ms = <HM_TAPPING_TERM>;
+        hold-trigger-key-positions = < KEYS_R THUMBS >;
+        hold-trigger-on-release;
+        bindings = <&kp>, <&kp>;
+        };
+
+    hr: home_row_mod_right {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOME_ROW_MOD_RIGHT";
+        #binding-cells = <2>;
+        flavor = "balanced";
+        tapping-term-ms = <HM_TAPPING_TERM>;
+        hold-trigger-key-positions = < KEYS_L THUMBS >;
+        hold-trigger-on-release;
+        bindings = <&kp>, <&kp>;
+        };
+
+    hls: home_row_mod_left_shift {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOME_ROW_MOD_LEFT_SHIFT";
+        #binding-cells = <2>;
+        flavor = "balanced";
+        tapping-term-ms = <HM_TAPPING_TERM_FAST>;
+        quick_tap_ms = <HM_TAPPING_TERM_QT>;
+        hold-trigger-key-positions = < KEYS_R THUMBS >;
+        bindings = <&kp>, <&kp>;
+        };
+
+    hrs: home_row_mod_right_shift {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOME_ROW_MOD_RIGHT_SHIFT";
+        #binding-cells = <2>;
+        flavor = "balanced";
+        tapping-term-ms = <HM_TAPPING_TERM_FAST>;
+        quick_tap_ms = <HM_TAPPING_TERM_QT>;
+        hold-trigger-key-positions = < KEYS_L THUMBS >;
+        bindings = <&kp>, <&kp>;
+        };
+
+    // conditional_layers {
+    //     compatible = "zmk,conditional-layers";
+    //     tri_layer {
+    //         if-layers = <1 2>;
+    //         then-layer = <3>;
+    //     };
+    // };
+
+    mqt: momentary-quick-tap {
+        compatible = "zmk,behavior-hold-tap";
+        label = "MOMENTARY_QUICK_TAP";
+        #binding-cells = <2>;
+        flavor = "tap-preferred";
+        tapping-term-ms = <200>;
+        quick-tap-ms = <125>;
+        global-quick-tap;
+        bindings = <&mo>, <&kp>;
+        };
+
+    cwe: tap_dance_mod_tap {
+        compatible = "zmk,behavior-tap-dance";
+        label = "CAPS-WORD-DOUBLE_TAP";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <&kp ESC>, <&caps_word>;
+        };
+
+    sqlp: single-quote-left-paren {
+        compatible = "zmk,behavior-mod-morph";
+        label = "SINGLE_QUOTE_LEFT_PAREN";
+        #binding-cells = <0>;
+        bindings = <&kp SQT>, <&kp LPAR>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+        keep-mods = <(MOD_LALT|MOD_LCTL|MOD_LGUI|MOD_RALT|MOD_RGUI|MOD_RCTL)>;
+        };
+
+    dqrp: double-quote-right-paren {
+        compatible = "zmk,behavior-mod-morph";
+        label = "DOUBLE_QUOTE_RIGHT_PAREN";
+        #binding-cells = <0>;
+        bindings = <&kp DQT>, <&kp RPAR>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+        keep-mods = <(MOD_LALT|MOD_LCTL|MOD_LGUI|MOD_RALT|MOD_RGUI|MOD_RCTL)>;
+        };
+
+    cmse: comma-semicolon {
+        compatible = "zmk,behavior-mod-morph";
+        label = "COMMA_SEMICOLON";
+        #binding-cells = <0>;
+        bindings = <&kp COMMA>, <&kp SEMI>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+        keep-mods = <(MOD_LALT|MOD_LCTL|MOD_LGUI|MOD_RALT|MOD_RGUI|MOD_RCTL)>;
+        };
+
+    stco: stop-colon {
+        compatible = "zmk,behavior-mod-morph";
+        label = "stco";
+        #binding-cells = <0>;
+        bindings = <&kp DOT>, <&kp COLON>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+        keep-mods = <(MOD_LALT|MOD_LCTL|MOD_LGUI|MOD_RALT|MOD_RGUI|MOD_RCTL)>;
+        };
+
+    qmex: questionmark-exclamation {
+        compatible = "zmk,behavior-mod-morph";
+        label = "QUESTIONMARK_EXCLAMATION";
+        #binding-cells = <0>;
+        bindings = <&kp QMARK>, <&kp EXCL>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+        keep-mods = <(MOD_LALT|MOD_LCTL|MOD_LGUI|MOD_RALT|MOD_RGUI|MOD_RCTL)>;
+        };
+
+    slsh: forward-and-backslash {
+        compatible = "zmk,behavior-mod-morph";
+        label = "SLASHES";
+        #binding-cells = <0>;
+        bindings = <&kp FSLH>, <&kp BSLH>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+        keep-mods = <(MOD_LALT|MOD_LCTL|MOD_LGUI|MOD_RALT|MOD_RGUI|MOD_RCTL)>;
+        };
+
+    habu: pound-dollar {
+        compatible = "zmk,behavior-mod-morph";
+        label = "habu";
+        #binding-cells = <0>;
+        bindings = <&kp POUND>, <&kp DOLLAR>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+        keep-mods = <(MOD_LALT|MOD_LCTL|MOD_LGUI|MOD_RALT|MOD_RGUI|MOD_RCTL)>;
+        };
+
+    atti: at-tilde {
+        compatible = "zmk,behavior-mod-morph";
+        label = "AT_TILDE";
+        #binding-cells = <0>;
+        bindings = <&kp AT>, <&kp GRAVE>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+        keep-mods = <(MOD_LALT|MOD_LCTL|MOD_LGUI|MOD_RALT|MOD_RGUI|MOD_RCTL)>;
+        };
+
+     ZMK_MACRO(af,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&kp EQUAL &kp GT>;
+    )
+    };
+
+
+    keymap {
+            compatible = "zmk,keymap";
+
+    #if LAYOUT == ENGRAM
+        engram_layer {
+            label = "Engram";
+            bindings = <
+    &kp B    &kp Y    &kp O     &kp U      &sqlp       &dqrp     &kp L      &kp D    &kp W    &kp V
+    &hl LC C &hl LA I &hl LG E  &hls LS A  &cmse       &stco     &hrs RS H  &hr RG T &hr RA S &hr RC N
+    &kp G    &kp X    &kp J     &kp K      &kp MINUS   &qmex     &kp R      &kp M    &kp F    &kp P
+                                &mqt NAV &mqt NUM BSPC &kp SPACE &kp RETURN     
+            >;
+        };
+    #elif LAYOUT == ENGRAMMER
+        engrammer_layer {
+            label = "Engrammer";
+            bindings = <
+    &kp B    &kp Y    &kp O     &kp U      &kp SQT     &kp SEMI   &kp L      &kp D    &kp W    &kp V
+    &hl LC C &hl LA I &hl LG E  &hls LS A  &kp COMMA   &kp DOT    &hrs RS H  &hr RG T &hr RA S &hr RC N
+    &kp G    &kp X    &kp J     &kp K      &kp MINUS   &kp QMARK  &kp R      &kp M    &kp F    &kp P
+                                &mqt NAV &mqt NUM BSPC &kp SPACE  &kp RETURN     
+            >;
+        };
+    #else
+        qwerty_layer {
+            label = "Base";
+            bindings = <
+        &kp Q &kp W &kp F &kp P   &kp B   &kp J     &kp L   &kp U  &kp Y &kp Q
+        &kp A &kp R &kp S &kp T   &kp G   &kp M     &kp N   &kp E  &kp I &kp O
+        &kp Z &kp X &kp C &kp D   &kp V   &kp K     &kp H   &kp CO &kp D &kp SEMI     
+                          &mo NAV &shifty &kp SPACE &mo NUM
+            >
+        };
+    #endif
+
+
+// ;; I used #(sft /) to release the shift from rolls with <
+// (deflayer navigation
+//   _    _    _    _    _    _    _    _    _    _    _    _    _    _
+//   _    !    @    [    ]    _    _    home pgdn pgup end  _    _    _
+//   _ @clp @arp @mlb @srb  @af    _    @sl  @md  @au  @cr  _    _
+//   < #(sft /) =   >    _    _    M-S-z M-z M-x  M-c  M-v  _    _
+//   _    _    _    _              _              _    _    _    _    _
+// )
+
+
+        nav_layer {
+            label = "Nav";
+            bindings = <
+        &kp EXCL   &kp AT     &kp LBKT    &kp RBKT           &bt BT_CLR         &bt BT_NXT         &kp  HOME       &kp PG_DN      &kp PG_UP   &kp END   
+        &hl LCTRL LPAR &hl LALT RPAR &hl LGUI LBRC &hls LSHFT RBRC  &af      &out OUT_TOG      &hrs LSHFT LARW   &hr RGUI DARW &hr RALT UARW &hr RCTRL RARW  
+        &kp LT     &kp SLASH     &kp EQUAL      &kp GT             &trans         &kp LS(LG(Z))        &kp LG(Z)      &kp LG(X)   &kp LG(C)  &kp LG(V)     
+                                &trans             &trans         &trans      &trans 
+            >;
+        };
+
+    #if LAYOUT == ENGRAM
+        num_layer {
+            label = "Num";
+            bindings = <
+       &kp F2      &kp F3      &kp F4          &kp F5       &kp F6        &kp F7         &kp F8    &kp F9     &kp F10     &kp F11    
+       &kp PIPE    &kp EQUAL   &kp TILDE      &kp PLUS      &kp LT        &kp GT     &kp CARET     &kp AMPS   &kp PRCNT   &kp STAR   
+       &kp N1      &kp N2      &kp N3          &kp N4       &kp N5        &kp N6     &kp N7        &kp N8     &kp N9      &kp N0     
+                              &trans          &trans        &trans       &trans 
+            >;
+       
+        };
+
+    #elif LAYOUT == ENGRAMMER
+        num_layer {
+            label = "Num";
+            bindings = <
+       &kp F2      &kp F3      &kp F4          &kp F5       &kp F6        &kp F7         &kp F8    &kp F9     &kp F10     &kp F11   
+       &kp EXCL    &kp AT   &kp POUND      &kp DOLLAR      &kp PERCENT    &kp CARET     &kp AMPS  &kp ASTRK   &kp LPAR   &kp RPAR   
+       &kp N1      &kp N2      &kp N3         &kp N4        &kp N5        &kp N6     &kp N7        &kp N8     &kp N9      &kp N0   
+                              &trans          &trans        &trans        &trans 
+            >;
+        };
+    #endif
+
+        kp_layer {
+            label = "Kp";
+            bindings = <
+        &trans  &trans     &trans      &trans         &trans &kp KP_DIVIDE   &kp  KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS  
+        &trans  &trans     &trans      &trans         &trans &kp KP_MULTIPLY &kp KP_N4  &kp KP_N5 &kp KP_N6 &kp KP_PLUS
+        &trans  &trans     &trans      &trans         &trans &trans          &kp KP_N1  &kp KP_N2 &kp KP_N3 &kp KP_ENTER    
+                                       &trans         &trans &kp KP_N0       &kp KP_DOT
+            >;
+        };
+    };
+};
