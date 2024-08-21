@@ -180,7 +180,7 @@
             label = "Engram";
             bindings = <
     &kp B    &kp Y    &kp O     &kp U      &sqlp       &dqrp     &kp L      &kp D    &kp W    &kp V
-    &hl LC C &hl LA I &hl LG E  &hls LS A  &cmse       &stco     &hrs RS H  &hr RG T &hr RA S &hr RC N
+    &hl LCTRL C &hl LALT I &hl LGUI E  &hls LSHFT A  &cmse       &stco     &hrs RSHFT H  &hr RGUI T &hr RALT S &hr RCTRL N
     &kp G    &kp X    &kp J     &kp K      &kp MINUS   &qmex     &kp R      &kp M    &kp F    &kp P
                                 &mqt NAV TAB &mqt NUM BSPC &kp SPACE &kp RETURN     
             >;
@@ -190,7 +190,7 @@
             label = "Engrammer";
             bindings = <
     &kp B    &kp Y    &kp O     &kp U      &kp SQT     &kp SEMI   &kp L      &kp D    &kp W    &kp V
-    &hl LC C &hl LA I &hl LG E  &hls LS A  &kp COMMA   &kp DOT    &hrs RS H  &hr RG T &hr RA S &hr RC N
+    &hl LCTRL C &hl LALT I &hl LGUI E  &hls LSHFT A  &kp COMMA   &kp DOT    &hrs RSHFT H  &hr RGUI T &hr RALT S &hr RCTRL N
     &kp G    &kp X    &kp J     &kp K      &kp MINUS   &kp QMARK  &kp R      &kp M    &kp F    &kp P
                                 &mqt NAV TAB &mqt NUM BSPC &kp SPACE  &kp RETURN     
             >;
