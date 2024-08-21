@@ -182,7 +182,7 @@
     &kp B    &kp Y    &kp O     &kp U      &sqlp       &dqrp     &kp L      &kp D    &kp W    &kp V
     &hl LC C &hl LA I &hl LG E  &hls LS A  &cmse       &stco     &hrs RS H  &hr RG T &hr RA S &hr RC N
     &kp G    &kp X    &kp J     &kp K      &kp MINUS   &qmex     &kp R      &kp M    &kp F    &kp P
-                                &mqt NAV &mqt NUM BSPC &kp SPACE &kp RETURN     
+                                &mqt NAV TAB &mqt NUM BSPC &kp SPACE &kp RETURN     
             >;
         };
     #elif LAYOUT == ENGRAMMER
@@ -192,17 +192,17 @@
     &kp B    &kp Y    &kp O     &kp U      &kp SQT     &kp SEMI   &kp L      &kp D    &kp W    &kp V
     &hl LC C &hl LA I &hl LG E  &hls LS A  &kp COMMA   &kp DOT    &hrs RS H  &hr RG T &hr RA S &hr RC N
     &kp G    &kp X    &kp J     &kp K      &kp MINUS   &kp QMARK  &kp R      &kp M    &kp F    &kp P
-                                &mqt NAV &mqt NUM BSPC &kp SPACE  &kp RETURN     
+                                &mqt NAV TAB &mqt NUM BSPC &kp SPACE  &kp RETURN     
             >;
         };
     #else
         qwerty_layer {
             label = "Base";
             bindings = <
-        &kp Q &kp W &kp F &kp P   &kp B   &kp J     &kp L   &kp U  &kp Y &kp Q
-        &kp A &kp R &kp S &kp T   &kp G   &kp M     &kp N   &kp E  &kp I &kp O
-        &kp Z &kp X &kp C &kp D   &kp V   &kp K     &kp H   &kp CO &kp D &kp SEMI     
-                          &mo NAV &shifty &kp SPACE &mo NUM
+        &kp Q &kp W &kp E &kp R   &kp T   &kp Y     &kp U   &kp I  &kp O &kp P
+        &kp A &kp S &kp D &kp F   &kp G   &kp H     &kp J   &kp K  &kp L &kp SEMI
+        &kp Z &kp X &kp C &kp V   &kp B   &kp N     &kp M   &kp COMMA &kp DOT &kp SLASH     
+                          &kp TAB &kp BSPC &kp SPACE &kp RETURN
             >
         };
     #endif
