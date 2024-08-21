@@ -2231,6 +2231,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad_MP"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad_MP"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection as pad named MP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_MP_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_MP_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0) hide)
@@ -5604,6 +5706,18 @@
 		(uuid 7c6ab599-f800-47c5-ba62-ec10aa047578)
 	)
 	(rectangle
+		(start 24.892 166.37)
+		(end 172.466 192.278)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 876d2df3-9364-4a16-a00f-eb31e43c80cb)
+	)
+	(rectangle
 		(start 186.182 32.766)
 		(end 264.16 88.138)
 		(stroke
@@ -5626,6 +5740,16 @@
 			(type none)
 		)
 		(uuid caad351b-078c-46b0-8b01-6c7e6ca97b6e)
+	)
+	(text "Mounting Puck\n"
+		(exclude_from_sim no)
+		(at 70.612 178.816 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+		)
+		(uuid "1c4c8aaa-68d3-45a3-bfa8-6bca0caf58f6")
 	)
 	(text "Battery Business"
 		(exclude_from_sim no)
@@ -10980,6 +11104,73 @@
 			(project "half-swept"
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(at 104.14 179.07 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "725cfffd-e542-49f0-b3c7-79f1fc304db8")
+		(property "Reference" "H1"
+			(at 106.68 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Puck_Mounting_Pad"
+			(at 106.68 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Swoon:Tenting_Puck2"
+			(at 104.14 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 104.14 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "ccd6145d-2cdc-4a4a-b199-5c49149049fe")
+		)
+		(instances
+			(project ""
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "H1")
 					(unit 1)
 				)
 			)
