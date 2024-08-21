@@ -4,25 +4,25 @@
 include:
   - board:  seeeduino_xiao_ble
     shield: swoon_left
-    artifact-name: swoon_left_qwerty
+    artifact-name: swoon_qwerty_left
   - board:  seeeduino_xiao_ble
     shield: swoon_right
-    artifact-name: swoon_right_qwerty
+    artifact-name: swoon_qwerty_right
 
   - board:  seeeduino_xiao_ble
     shield: swoon_left
     cmake-args: -DDTS_EXTRA_CPPFLAGS=-DLAYOUT=2
-    artifact-name: swoon_left_engram
+    artifact-name: swoon_engram_left
   - board:  seeeduino_xiao_ble
     shield: swoon_right
     cmake-args: -DDTS_EXTRA_CPPFLAGS=-DLAYOUT=2
-    artifact-name: swoon_right_engram
+    artifact-name: swoon_engram_right
     
   - board:  seeeduino_xiao_ble
     shield: swoon_left
     cmake-args: -DDTS_EXTRA_CPPFLAGS=-DLAYOUT=3
-    artifact-name: swoon_left_engrammer
+    artifact-name: swoon_engrammer_left
   - board:  seeeduino_xiao_ble
     shield: swoon_right
     cmake-args: -DDTS_EXTRA_CPPFLAGS=-DLAYOUT=3
-    artifact-name: swoon_right_engrammer
+    artifact-name: swoon_engrammer_right
