@@ -7,13 +7,13 @@ on:
       - '*.kicad_sch'
       - '*.kicad_pcb'
       - '*.kibot.yaml'
-      - '.github/workflows/kibot_action.yml'
+      - '.github/workflows/kibot.yml'
   pull_request:
     paths:
       - '*.kicad_sch'
       - '*.kicad_pcb'
       - '*.kibot.yaml'
-      - '.github/workflows/kibot_action.yml'
+      - '.github/workflows/kibot.yml'
   repository_dispatch:
     types: [run_gha]
 
