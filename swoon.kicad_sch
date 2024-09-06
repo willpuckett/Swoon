@@ -2916,7 +2916,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 17.78 5.08 180)
 					(length 5.08)
 					(name "GND"
@@ -3916,6 +3916,10 @@
 	(no_connect
 		(at 242.57 67.31)
 		(uuid "38635fdf-feeb-4359-b6ea-e141060280c5")
+	)
+	(no_connect
+		(at 104.14 181.61)
+		(uuid "3e039c1e-d0b2-4c92-abba-5db61f21bbd8")
 	)
 	(no_connect
 		(at 210.82 120.65)
@@ -6743,7 +6747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 142.24 82.55 0)
 			(effects
 				(font
@@ -6898,7 +6902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 77.47 123.19 0)
 			(effects
 				(font
@@ -6986,7 +6990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 97.79 82.55 0)
 			(effects
 				(font
@@ -7074,7 +7078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 142.24 102.87 0)
 			(effects
 				(font
@@ -7434,7 +7438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 57.15 62.23 0)
 			(effects
 				(font
@@ -7663,7 +7667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 81.28 102.87 0)
 			(effects
 				(font
@@ -7825,7 +7829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 60.96 123.19 0)
 			(effects
 				(font
@@ -8342,7 +8346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 97.79 62.23 0)
 			(effects
 				(font
@@ -8430,7 +8434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 81.28 123.19 0)
 			(effects
 				(font
@@ -8719,7 +8723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 77.47 82.55 0)
 			(effects
 				(font
@@ -8875,7 +8879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 60.96 62.23 0)
 			(effects
 				(font
@@ -8963,7 +8967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 77.47 62.23 0)
 			(effects
 				(font
@@ -9186,7 +9190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 57.15 102.87 0)
 			(effects
 				(font
@@ -9358,6 +9362,15 @@
 		)
 		(property "Description" ""
 			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 224.79 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9813,7 +9826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 101.6 82.55 0)
 			(effects
 				(font
@@ -9968,7 +9981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 138.43 62.23 0)
 			(effects
 				(font
@@ -10191,7 +10204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 101.6 62.23 0)
 			(effects
 				(font
@@ -10615,7 +10628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 121.92 82.55 0)
 			(effects
 				(font
@@ -11049,7 +11062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 60.96 102.87 0)
 			(effects
 				(font
@@ -11480,7 +11493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 121.92 62.23 0)
 			(effects
 				(font
@@ -11568,7 +11581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 101.6 102.87 0)
 			(effects
 				(font
@@ -11859,7 +11872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 118.11 62.23 0)
 			(effects
 				(font
@@ -12575,7 +12588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 60.96 82.55 0)
 			(effects
 				(font
@@ -12731,7 +12744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 77.47 102.87 0)
 			(effects
 				(font
@@ -12886,7 +12899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 81.28 82.55 0)
 			(effects
 				(font
@@ -13854,7 +13867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 81.28 62.23 0)
 			(effects
 				(font
@@ -14367,7 +14380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 57.15 123.19 0)
 			(effects
 				(font
@@ -14529,7 +14542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 57.15 82.55 0)
 			(effects
 				(font
@@ -14617,7 +14630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 138.43 82.55 0)
 			(effects
 				(font
@@ -14705,7 +14718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 97.79 102.87 0)
 			(effects
 				(font
@@ -14793,7 +14806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 118.11 102.87 0)
 			(effects
 				(font
@@ -15097,7 +15110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 121.92 102.87 0)
 			(effects
 				(font
@@ -15185,7 +15198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 142.24 62.23 0)
 			(effects
 				(font
@@ -15618,7 +15631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 118.11 82.55 0)
 			(effects
 				(font
@@ -15845,7 +15858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 138.43 102.87 0)
 			(effects
 				(font
