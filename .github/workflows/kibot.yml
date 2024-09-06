@@ -30,7 +30,7 @@ jobs:
       with:
         dir: Generated
         skip: run_drc
-        targets: __NONE__
+        # targets: __NONE__
 
     - name: Retrieve results
       uses: actions/upload-artifact@v4
@@ -51,7 +51,7 @@ jobs:
       with:
         dir: Generated
         skip: run_erc
-        targets: __NONE__
+        # targets: __NONE__
 
     - name: Retrieve results
       uses: actions/upload-artifact@v4
@@ -71,7 +71,7 @@ jobs:
     - uses: INTI-CMNB/KiBot@v2_k8
       with:
         dir: default
-        variant: default
+        # variant: default
         skip: run_erc,run_drc
 
     - name: upload results
