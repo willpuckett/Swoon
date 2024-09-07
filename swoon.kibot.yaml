@@ -11,6 +11,26 @@ preflight:
     ignore_unconnected: false
   fill_zones: true
 
+
+variants:
+  - name: 'Flippable'
+    comment: 'For Hand Soldering'
+    type: kibom
+    variant: flip
+
+  - name: 'Left'
+    comment: 'Left for PCBA'
+    type: kibom
+    file_id: _LEFT
+    variant: left
+
+  - name: 'Right'
+    comment: 'Right for PCBA'
+    type: kibom
+    file_id: _RIGHT
+    variant: right
+
+
 filters:
   - name: fix_rotation
     comment: 'Adjust rotation for JLC'
@@ -52,13 +72,13 @@ filters:
       - column: 'FP'
         regex: 'fiducial'
 
-variants:
-  - name: rotated
-    comment: 'Just a place holder for the rotation filter'
-    type: kibom
-    variant: rotated
-    pre_transform: fix_rotation
-    exclude_filter: mechanical_fixed
+# variants:
+#   - name: rotated
+#     comment: 'Just a place holder for the rotation filter'
+#     type: kibom
+#     variant: rotated
+#     pre_transform: fix_rotation
+#     exclude_filter: mechanical_fixed
 
 outputs:
   - name: CaseFoam_DXF
