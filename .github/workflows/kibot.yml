@@ -30,7 +30,7 @@ jobs:
       with:
         dir: Generated
         skip: run_drc
-        targets: NONE
+        # targets: __NONE__
 
     - name: Retrieve results
       uses: actions/upload-artifact@v4
@@ -51,7 +51,7 @@ jobs:
       with:
         dir: Generated
         skip: run_erc
-        targets: NONE
+        # targets: __NONE__
 
     - name: Retrieve results
       uses: actions/upload-artifact@v4
