@@ -71,7 +71,7 @@ jobs:
       with:
         dir: default
         variant: flip
-        skip: run_erc,run_drc
+        skip: erc,drc
         # config: swoon.kibot.yaml
 
     - name: upload results
