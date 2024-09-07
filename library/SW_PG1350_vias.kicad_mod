@@ -67,6 +67,36 @@
 	)
 	(attr through_hole exclude_from_pos_files)
 	(fp_line
+		(start -9.000406 8.135669)
+		(end -8.994011 -8.099594)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "077bc9e8-b516-4e92-b617-dc47e0fbb6bf")
+	)
+	(fp_line
+		(start -8.63 -8.5)
+		(end 8.599915 -8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "7d95453b-6780-4b9a-90d7-16ff0b2c53cd")
+	)
+	(fp_line
+		(start -8.6 8.49968)
+		(end 8.635989 8.500406)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "389cbd93-0c8b-428c-b66a-90c3949ccdf6")
+	)
+	(fp_line
 		(start -2.6 -3.1)
 		(end -2.6 -6.3)
 		(stroke
@@ -107,43 +137,13 @@
 		(uuid "09903d85-bfee-4761-8ada-421fe61376d2")
 	)
 	(fp_line
-		(start -9.000406 8.135669)
-		(end -8.994011 -8.099594)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "077bc9e8-b516-4e92-b617-dc47e0fbb6bf")
-	)
-	(fp_line
-		(start -8.63 -8.5)
-		(end 8.599915 -8.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "7d95453b-6780-4b9a-90d7-16ff0b2c53cd")
-	)
-	(fp_line
-		(start -8.6 8.49968)
-		(end 8.635989 8.500406)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "389cbd93-0c8b-428c-b66a-90c3949ccdf6")
-	)
-	(fp_line
 		(start 9 8.1)
 		(end 9.000321 -8.135989)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.CrtYd")
+		(layer "Eco1.User")
 		(uuid "41c76849-2221-4e3f-82d7-f66e4b2c9f28")
 	)
 	(fp_arc
@@ -154,7 +154,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.CrtYd")
+		(layer "Eco1.User")
 		(uuid "ef6a685f-d5cf-4941-87ae-21189aa50779")
 	)
 	(fp_arc
@@ -165,7 +165,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.CrtYd")
+		(layer "Eco1.User")
 		(uuid "d85656dc-ef68-4f81-b292-04f0a1a6fc9b")
 	)
 	(fp_arc
@@ -176,7 +176,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.CrtYd")
+		(layer "Eco1.User")
 		(uuid "2e1425fe-59da-43f4-89ca-012a70b2a8e7")
 	)
 	(fp_arc
@@ -187,7 +187,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.CrtYd")
+		(layer "Eco1.User")
 		(uuid "cee6422d-ef5e-4562-8b66-58f8b9e81d2d")
 	)
 	(fp_line
@@ -496,6 +496,17 @@
 		)
 		(rotate
 			(xyz -90 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/library/Kailh Choc Low Profile Switch.step"
+		(offset
+			(xyz 0 0 2.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
 		)
 	)
 )

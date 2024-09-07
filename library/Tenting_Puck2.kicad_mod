@@ -61,7 +61,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr through_hole exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(fp_arc
 		(start -20.32 -2.8575)
 		(mid -19.91151 -4.959784)
@@ -567,7 +567,7 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "MP" thru_hole circle
 		(at -19.05 0)
 		(size 4.4 4.4)
 		(drill 2.2)
@@ -575,7 +575,7 @@
 		(remove_unused_layers no)
 		(uuid "bc95e234-1424-4bf3-af53-83b09a843cdd")
 	)
-	(pad "1" thru_hole circle
+	(pad "MP" thru_hole circle
 		(at 0 -19.05)
 		(size 4.4 4.4)
 		(drill 2.2)
@@ -583,7 +583,7 @@
 		(remove_unused_layers no)
 		(uuid "fcda7e38-298a-4fcc-9237-7ce2499fd171")
 	)
-	(pad "1" thru_hole circle
+	(pad "MP" thru_hole circle
 		(at 0 19.05)
 		(size 4.4 4.4)
 		(drill 2.2)
@@ -591,7 +591,7 @@
 		(remove_unused_layers no)
 		(uuid "49b2e05d-ceb2-4268-a91c-ab4a0f543bac")
 	)
-	(pad "1" thru_hole circle
+	(pad "MP" thru_hole circle
 		(at 19.05 0)
 		(size 4.4 4.4)
 		(drill 2.2)

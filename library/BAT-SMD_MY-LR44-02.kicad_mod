@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -3.3 -10.55 0)
+		(at 0 -4.318 0)
 		(layer "F.SilkS")
 		(uuid "5e756ce1-51c5-49eb-a415-205d4155b024")
 		(effects
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "BAT-SMD_MY-LR44-02"
-		(at -3.3 10.45 0)
+		(at 0 2.794 0)
 		(layer "F.Fab")
 		(uuid "ec4764c5-754d-490f-8fe4-e404c74d9545")
 		(effects
@@ -26,7 +26,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at -3.3 -0.05 0)
+		(at -3.299998 -0.049998 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "3fdf6841-9796-4b33-8ece-b9c0262e6938")
@@ -38,7 +38,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at -3.3 -0.05 0)
+		(at -3.299998 -0.049998 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "e0754020-7ae6-4643-aba2-025e329f4e20")
@@ -50,7 +50,7 @@
 		)
 	)
 	(property "Description" ""
-		(at -3.3 -0.05 0)
+		(at -3.299998 -0.049998 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "12a9cc89-28f4-484c-a1a3-49ac68cbcefc")
@@ -63,58 +63,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -6.3 -1.55)
-		(end -5.05 -1.55)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b02bafd8-f3cc-408a-9023-d1485667cc9a")
-	)
-	(fp_line
-		(start -6.3 1.45)
-		(end -5.55 1.45)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "03f58fc6-21f6-4ee3-8abf-551ac22f359c")
-	)
-	(fp_line
-		(start -1 -5.55)
-		(end -1 -5.05)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "da97e0c6-4e16-4bdd-9206-0e309e9aea0d")
-	)
-	(fp_line
-		(start 0.9 4.95)
-		(end 0.9 5.45)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "eb0d9a8c-a212-4a68-a696-a541a1c3dd2b")
-	)
-	(fp_line
-		(start 5.45 -1.05)
-		(end 6.5 -1.05)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "bcfda1bc-f89d-48bb-b988-2a08560dd1bc")
-	)
-	(fp_line
-		(start 6.5 -1.05)
-		(end 6.5 0.95)
+		(start 6.25 -1)
+		(end 6.25 1)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -122,63 +72,20 @@
 		(layer "F.SilkS")
 		(uuid "7aa43ca7-727b-4385-8666-45be275e3716")
 	)
-	(fp_line
-		(start 6.5 0.95)
-		(end 4.95 0.95)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
 		(stroke
-			(width 0.25)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
+		(fill none)
 		(layer "F.SilkS")
-		(uuid "d8505642-46b9-42f3-b0b6-b7ac4ce71988")
-	)
-	(fp_arc
-		(start -5.05119 -1.543104)
-		(mid -3.525353 -3.818716)
-		(end -1.03 -4.95)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "70f8d14d-e98e-4fcd-9b26-6caae79ff95d")
-	)
-	(fp_arc
-		(start -0.944168 5.392351)
-		(mid -3.780692 4.088199)
-		(end -5.45 1.45)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "da59f9e7-3d61-4f6c-a95a-b24a2247afce")
-	)
-	(fp_arc
-		(start 0.930634 -5.463544)
-		(mid 3.833284 -3.947205)
-		(end 5.36 -1.05)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a80d4cd2-ddf6-4f2c-ae49-268cbf34e0e9")
-	)
-	(fp_arc
-		(start 4.909767 0.941215)
-		(mid 3.534509 3.535384)
-		(end 0.94 4.91)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4cadd07f-8fca-4593-a44f-f5b54e1d7261")
+		(uuid "bee8c238-bc31-4d0c-907f-85593b06d4a7")
 	)
 	(fp_circle
-		(center 6.5 -6.5)
-		(end 6.53 -6.5)
+		(center 6.500002 -6.499998)
+		(end 6.530002 -6.499998)
 		(stroke
 			(width 0.06)
 			(type solid)
@@ -188,7 +95,7 @@
 		(uuid "460afe66-f1f7-4acc-a8cc-a87a1dfc8df9")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -3.3 -0.05 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "00f3faf8-e7f1-4868-a2b2-96627dc0c016")
 		(effects
@@ -198,29 +105,29 @@
 			)
 		)
 	)
-	(pad "1" smd rect
-		(at -6.55 -0.05)
-		(size 1.5 2.3)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 7 7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "d9fb3f3f-8148-4a1e-b5ab-2462dc16420b")
+		(uuid "0eed1d0f-ba33-4b27-9751-a4bb1338fe3e")
 	)
-	(pad "1" smd rect
-		(at -0.05 -6.55)
+	(pad "2" smd rect
+		(at 0 -6.5)
 		(size 2.3 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "5b07a4d5-ebfc-417c-b6f2-5d5c5356afec")
 	)
-	(pad "1" smd rect
-		(at -0.05 6.45)
+	(pad "3" smd rect
+		(at -6.5 0)
+		(size 1.5 2.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d9fb3f3f-8148-4a1e-b5ab-2462dc16420b")
+	)
+	(pad "4" smd rect
+		(at 0 6.5)
 		(size 2.3 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "4f9c6da9-adc8-4193-a05a-0fd6e089a893")
-	)
-	(pad "2" smd circle
-		(at -0.05 -0.05)
-		(size 6 6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "0eed1d0f-ba33-4b27-9751-a4bb1338fe3e")
 	)
 	(model "/library/Swoon.3dshapes/BAT-SMD_MY-LR44-02.wrl"
 		(offset

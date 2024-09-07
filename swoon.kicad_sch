@@ -5,10 +5,10 @@
 	(uuid "1418ad6a-8a4d-429d-b07e-469b1ffa21a0")
 	(paper "A4")
 	(title_block
-		(title "Sweep V2")
-		(date "2021-03-10")
+		(title "Swoon")
+		(date "2024-09-07")
 		(rev "0.1")
-		(company "broomlabs")
+		(company "Octule")
 	)
 	(lib_symbols
 		(symbol "CD4148W_1"
@@ -7353,6 +7353,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Diode:CD4148W"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -7605,7 +7707,7 @@
 				)
 			)
 			(symbol "MountingHole_Pad_MP_1_1"
-				(pin input line
+				(pin no_connect line
 					(at 0 -2.54 90)
 					(length 2.54)
 					(name "MP"
@@ -8245,7 +8347,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 7.62 270)
 					(length 2.54)
 					(name "1"
@@ -8263,7 +8365,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 7.62 270)
 					(length 2.54)
 					(name "2"
@@ -8281,7 +8383,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 7.62 270)
 					(length 2.54)
 					(name "3"
@@ -8299,7 +8401,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -7.62 90)
 					(length 2.54)
 					(name "4"
@@ -8317,7 +8419,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "5"
@@ -8335,7 +8437,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 -7.62 90)
 					(length 2.54)
 					(name "6"
@@ -8455,7 +8557,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -8465,6 +8567,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8637,7 +8775,7 @@
 				)
 			)
 		)
-		(symbol "Swoon:xiao_nRF52840"
+		(symbol "Swoon:xiao_nRF52840_extra"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -8685,7 +8823,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "xiao_nRF52840_0_1"
+			(symbol "xiao_nRF52840_extra_0_1"
 				(rectangle
 					(start -12.7 10.16)
 					(end 12.7 -10.16)
@@ -8698,7 +8836,7 @@
 					)
 				)
 			)
-			(symbol "xiao_nRF52840_1_1"
+			(symbol "xiao_nRF52840_extra_1_1"
 				(pin bidirectional line
 					(at -17.78 7.62 0)
 					(length 5.08)
@@ -8728,24 +8866,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "D10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8807,7 +8927,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -15.24 90)
 					(length 5.08)
 					(name "BAT+"
@@ -8818,6 +8938,78 @@
 						)
 					)
 					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 7.62 180)
+					(length 1.27) hide
+					(name "hole"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 5.08 180)
+					(length 1.27) hide
+					(name "hole"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 2.54 180)
+					(length 1.27) hide
+					(name "hole"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 0 180)
+					(length 1.27) hide
+					(name "hole"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8843,6 +9035,186 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -11.43 -2.54 180)
+					(length 1.27) hide
+					(name "hole"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -5.08 180)
+					(length 1.27) hide
+					(name "hole"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -7.62 180)
+					(length 1.27) hide
+					(name "hole"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -7.62 0)
+					(length 1.27) hide
+					(name "hole"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -5.08 0)
+					(length 1.27) hide
+					(name "hole"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -2.54 0)
+					(length 1.27) hide
+					(name "hole"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 0)
+					(length 1.27) hide
+					(name "hole"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 2.54 0)
+					(length 1.27) hide
+					(name "hole"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 5.08 0)
+					(length 1.27) hide
+					(name "hole"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 7.62 0)
+					(length 1.27) hide
+					(name "hole"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at -17.78 2.54 0)
 					(length 5.08)
@@ -8854,24 +9226,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "D3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9111,6 +9465,12 @@
 		(uuid "0e2fa86f-a3c1-4e9e-ad16-75314e50a10c")
 	)
 	(junction
+		(at 213.36 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e5cec9f-65f3-4f4b-9f04-28aab70057f5")
+	)
+	(junction
 		(at 96.52 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9165,22 +9525,16 @@
 		(uuid "19b56835-e0fb-43e1-856d-00964e436952")
 	)
 	(junction
-		(at 201.93 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19ce3376-d631-48ba-aebb-8c0219ac41b2")
-	)
-	(junction
 		(at 76.2 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1af8c5b0-fae1-49c6-91c3-a94f7056717c")
 	)
 	(junction
-		(at 217.17 142.24)
+		(at 236.22 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "20456bf4-282d-4933-8e71-d6ccdb66492b")
+		(uuid "1ed25811-cdeb-4c5a-9c45-4814d2767978")
 	)
 	(junction
 		(at 96.52 106.68)
@@ -9213,10 +9567,22 @@
 		(uuid "28fc8337-267e-4d25-b3f4-6ae84ee4c321")
 	)
 	(junction
+		(at 213.36 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a5097ca-1ab1-4451-b139-7e5f734f235f")
+	)
+	(junction
 		(at 52.07 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a6a06a7-e0ed-4a48-ad5d-3617c57e02ca")
+	)
+	(junction
+		(at 236.22 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e021bbb-68f0-4693-8e54-35d6cd8d73c5")
 	)
 	(junction
 		(at 52.07 129.54)
@@ -9225,10 +9591,10 @@
 		(uuid "2f85b7e8-9bf0-471d-b991-da30acef3cf3")
 	)
 	(junction
-		(at 232.41 129.54)
+		(at 217.17 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "315a94af-8c4a-4ff2-8b49-830ca3ea669e")
+		(uuid "33799d4e-ddc1-4882-9fdc-77c35dc5812a")
 	)
 	(junction
 		(at 137.16 66.04)
@@ -9259,6 +9625,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d485000-d99a-4838-98fc-e50461118e75")
+	)
+	(junction
+		(at 245.11 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e69e524-031e-4300-b73a-5ef5c48bd646")
 	)
 	(junction
 		(at 72.39 86.36)
@@ -9315,12 +9687,6 @@
 		(uuid "4938dfeb-bcc8-4669-86a2-eaf69cafbce3")
 	)
 	(junction
-		(at 201.93 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a0889f2-4c5e-4c07-8cfb-af4801233132")
-	)
-	(junction
 		(at 147.32 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9339,12 +9705,6 @@
 		(uuid "4b8bc851-ca21-4b5b-b99b-ce2dfc82fb5d")
 	)
 	(junction
-		(at 217.17 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ff8673b-0723-49ec-a846-4402c656d36c")
-	)
-	(junction
 		(at 96.52 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9355,6 +9715,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52b9d563-5bc8-4f1a-b5c3-0bc168c68025")
+	)
+	(junction
+		(at 236.22 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52e618fd-54f5-4ea4-bf52-8492fa90604c")
 	)
 	(junction
 		(at 72.39 106.68)
@@ -9417,6 +9783,12 @@
 		(uuid "67701884-a3cc-4807-a42f-ebccdaf810a0")
 	)
 	(junction
+		(at 201.93 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "681744c9-fa46-4d21-915c-593ef7793493")
+	)
+	(junction
 		(at 127 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9441,12 +9813,6 @@
 		(uuid "74f0881c-71a9-489e-bb1b-78ea26e53909")
 	)
 	(junction
-		(at 201.93 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "752ca67b-08b9-46d1-8ed5-0dcff164fa78")
-	)
-	(junction
 		(at 127 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9463,6 +9829,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a8796e5-8c7b-4f43-a0f4-08240a80b6b9")
+	)
+	(junction
+		(at 213.36 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ca768b3-b9df-4a8b-8172-82a9556d0f3b")
+	)
+	(junction
+		(at 213.36 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d3e0392-05be-4f0b-9f10-2931f15483e0")
 	)
 	(junction
 		(at 52.07 109.22)
@@ -9489,6 +9867,12 @@
 		(uuid "830c772d-efa3-4803-b253-a147ccc59ced")
 	)
 	(junction
+		(at 236.22 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83d36ff0-9d41-43fe-bb40-cac98a5bb2cd")
+	)
+	(junction
 		(at 72.39 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9507,6 +9891,12 @@
 		(uuid "853793fe-d897-4f76-9bf2-1946b3220f6e")
 	)
 	(junction
+		(at 217.17 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "860d38ff-5d7d-4b7d-9375-b9e2285782f2")
+	)
+	(junction
 		(at 55.88 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9519,22 +9909,10 @@
 		(uuid "8aa3c7cf-a04a-4a36-a182-b63ecfe9a388")
 	)
 	(junction
-		(at 243.84 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8dad5e68-79a4-4c2d-8845-985308d4eb71")
-	)
-	(junction
 		(at 55.88 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91ea7f98-647d-4e96-a18b-733a572e50b5")
-	)
-	(junction
-		(at 201.93 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92af173a-4250-4ec6-bb8f-2054a2181b43")
 	)
 	(junction
 		(at 133.35 86.36)
@@ -9585,6 +9963,12 @@
 		(uuid "a1cc3f46-417b-4e4b-b473-24d5045cf14f")
 	)
 	(junction
+		(at 217.17 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3c714b3-b847-4c77-8366-5dd6b4a2aab9")
+	)
+	(junction
 		(at 133.35 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9633,28 +10017,22 @@
 		(uuid "b213bcb2-458c-4ead-ab51-44a4e6fd7a74")
 	)
 	(junction
-		(at 217.17 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2afc7da-710d-41c8-ac0b-107f2e33aa37")
-	)
-	(junction
 		(at 72.39 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b78d64d2-6dd0-44d5-8a23-5edc1cb7ffdf")
 	)
 	(junction
-		(at 201.93 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7c89377-3962-4ffa-91cd-caac6f30654e")
-	)
-	(junction
 		(at 86.36 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba2fb569-f0ae-449c-b0b6-fea7886916ab")
+	)
+	(junction
+		(at 236.22 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba3293cf-70c1-4733-ac49-d74da2822a83")
 	)
 	(junction
 		(at 86.36 71.12)
@@ -9669,10 +10047,22 @@
 		(uuid "c00a1c93-b7b0-494b-83f6-3bbabd6bf32a")
 	)
 	(junction
-		(at 223.52 129.54)
+		(at 213.36 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "caedacb2-4b9d-47cb-ab4a-40ced8bfe74a")
+		(uuid "c242ed33-585b-4827-a0c9-02c240880e4e")
+	)
+	(junction
+		(at 236.22 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5f21f4c-bce2-41b1-beb6-4a5e91d656a9")
+	)
+	(junction
+		(at 236.22 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cac160fa-92ba-4f92-8422-fa2322d02984")
 	)
 	(junction
 		(at 147.32 71.12)
@@ -9693,16 +10083,16 @@
 		(uuid "d34f0a0f-fc25-44cd-b611-ed3c0e40a957")
 	)
 	(junction
+		(at 201.93 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d36761db-ab36-450e-bc8e-cb2965e81815")
+	)
+	(junction
 		(at 92.71 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3847595-3f30-4ce0-bc54-bb3b27352305")
-	)
-	(junction
-		(at 201.93 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5767269-4f22-4aab-b95f-eba51560cab2")
 	)
 	(junction
 		(at 127 72.39)
@@ -9721,6 +10111,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da3b8e2e-76b9-40c5-817f-a41015dab2e9")
+	)
+	(junction
+		(at 213.36 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da4583f4-8202-47a0-838d-c66e0ffcc217")
 	)
 	(junction
 		(at 86.36 91.44)
@@ -9747,12 +10143,6 @@
 		(uuid "dddefb32-b45e-427e-affa-665d52d14af2")
 	)
 	(junction
-		(at 196.85 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8210cce-3db2-4c75-bbb1-53341ad8656e")
-	)
-	(junction
 		(at 52.07 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9769,6 +10159,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec6afa35-28a2-4329-819b-42db5a9bf192")
+	)
+	(junction
+		(at 213.36 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eeaa6384-119c-4e99-baf1-4113249f47a4")
 	)
 	(junction
 		(at 52.07 66.04)
@@ -9819,24 +10215,36 @@
 		(uuid "fedb286c-2744-47e3-96e4-d5794d3c5c66")
 	)
 	(no_connect
+		(at 245.11 115.57)
+		(uuid "1747abd0-2c21-4c78-b1c3-c147f71cf75c")
+	)
+	(no_connect
 		(at 242.57 64.77)
 		(uuid "1b484edb-c4c2-4ff7-b454-f53a12ca73bd")
 	)
 	(no_connect
-		(at 242.57 67.31)
-		(uuid "38635fdf-feeb-4359-b6ea-e141060280c5")
+		(at 245.11 137.16)
+		(uuid "862950fa-5a02-4d0e-935b-6bdc93a24a2c")
 	)
 	(no_connect
-		(at 104.14 181.61)
-		(uuid "3e039c1e-d0b2-4c92-abba-5db61f21bbd8")
+		(at 245.11 118.11)
+		(uuid "88ef7568-1ce8-48f0-8df8-091bf99e0008")
+	)
+	(no_connect
+		(at 245.11 134.62)
+		(uuid "99e2c6f3-b727-46b8-8af0-bcc64e499007")
+	)
+	(no_connect
+		(at 201.93 128.27)
+		(uuid "ab1db217-c0fc-4355-b3d2-1511da9e6f46")
 	)
 	(no_connect
 		(at 242.57 59.69)
 		(uuid "bb4e27d9-25bd-4282-837c-3e5eed9c6307")
 	)
 	(no_connect
-		(at 207.01 67.31)
-		(uuid "ed4d5fb1-1488-48b5-a600-71328caf9062")
+		(at 201.93 124.46)
+		(uuid "eb61e165-b3f5-4eae-adc4-99a3128e32a3")
 	)
 	(wire
 		(pts
@@ -9970,6 +10378,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 128.27) (xy 227.33 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6db4e5-41c7-45d4-9f9e-15747157e1ce")
+	)
+	(wire
+		(pts
 			(xy 147.32 109.22) (xy 147.32 111.76)
 		)
 		(stroke
@@ -9997,16 +10415,6 @@
 			(type default)
 		)
 		(uuid "1501eb62-2cb1-4f42-98d7-0c15058778a8")
-	)
-	(wire
-		(pts
-			(xy 200.66 67.31) (xy 205.74 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fcf6b36-ca21-474d-8683-a5dee1aad9fe")
 	)
 	(wire
 		(pts
@@ -10120,26 +10528,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 144.78) (xy 217.17 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3affa016-5bd2-455d-8e1e-73a05410e29e")
-	)
-	(wire
-		(pts
-			(xy 201.93 142.24) (xy 201.93 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bb3492b-22f0-41e6-92f0-be6c797deecc")
-	)
-	(wire
-		(pts
 			(xy 52.07 88.9) (xy 52.07 91.44)
 		)
 		(stroke
@@ -10170,33 +10558,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 118.11) (xy 201.93 123.19)
+			(xy 227.33 128.27) (xy 233.68 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f13b1cc-2c46-446c-9456-5fa709b3595d")
+	)
+	(wire
+		(pts
+			(xy 217.17 114.3) (xy 217.17 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f383ad6-1050-4161-95d8-44cfea0bed1b")
-	)
-	(wire
-		(pts
-			(xy 251.46 59.69) (xy 246.38 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42258b99-f631-4319-8520-54a7f0b632b3")
-	)
-	(wire
-		(pts
-			(xy 243.84 138.43) (xy 243.84 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "424ee9bf-9354-4bd8-a659-0fb205ab89c5")
 	)
 	(wire
 		(pts
@@ -10280,26 +10658,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 128.27) (xy 223.52 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f4baf05-7ac3-4223-ad2b-ebbff4a8a776")
-	)
-	(wire
-		(pts
-			(xy 200.66 64.77) (xy 205.74 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f8089f1-74dd-4b40-873f-1268096e3c41")
-	)
-	(wire
-		(pts
 			(xy 66.04 71.12) (xy 66.04 72.39)
 		)
 		(stroke
@@ -10340,7 +10698,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 137.16) (xy 217.17 142.24)
+			(xy 217.17 133.35) (xy 217.17 138.43)
 		)
 		(stroke
 			(width 0)
@@ -10360,13 +10718,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 137.16) (xy 201.93 137.16)
+			(xy 251.46 125.73) (xy 245.11 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56f9ac2d-48bb-41dd-8372-c72dde4a7898")
+		(uuid "57f75810-9833-443d-95d0-5d8758a8fd18")
 	)
 	(wire
 		(pts
@@ -10377,16 +10735,6 @@
 			(type default)
 		)
 		(uuid "5a3fea77-55c5-4383-907d-014b8f43aa76")
-	)
-	(wire
-		(pts
-			(xy 251.46 74.93) (xy 246.38 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b093683-478b-4c1b-8b8e-5b852319b28e")
 	)
 	(wire
 		(pts
@@ -10440,16 +10788,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 64.77) (xy 246.38 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e5472e5-2320-4efd-9672-f022ffeb12af")
-	)
-	(wire
-		(pts
 			(xy 113.03 78.74) (xy 116.84 78.74)
 		)
 		(stroke
@@ -10460,7 +10798,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 118.11) (xy 217.17 123.19)
+			(xy 201.93 114.3) (xy 201.93 119.38)
 		)
 		(stroke
 			(width 0)
@@ -10487,16 +10825,6 @@
 			(type default)
 		)
 		(uuid "601ac502-e6f4-456d-936e-28beda093d1c")
-	)
-	(wire
-		(pts
-			(xy 200.66 72.39) (xy 205.74 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60724025-21f0-4758-b319-b5f0586d5d5c")
 	)
 	(wire
 		(pts
@@ -10530,26 +10858,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 67.31) (xy 246.38 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64da3248-fb5e-482b-bfbe-e849abce2b49")
-	)
-	(wire
-		(pts
-			(xy 193.04 129.54) (xy 196.85 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "671e51d0-2a1b-4a19-abf1-cce55e3ca48f")
-	)
-	(wire
-		(pts
 			(xy 133.35 106.68) (xy 137.16 106.68)
 		)
 		(stroke
@@ -10557,16 +10865,6 @@
 			(type default)
 		)
 		(uuid "684bd449-4b30-40cc-a55e-912ac32fad9f")
-	)
-	(wire
-		(pts
-			(xy 232.41 121.92) (xy 232.41 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68fb4675-6649-45ef-b17a-c6cc6d977d54")
 	)
 	(wire
 		(pts
@@ -10610,16 +10908,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 121.92) (xy 243.84 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71b8b52f-6a17-4128-9904-3a585e3fbe32")
-	)
-	(wire
-		(pts
 			(xy 92.71 86.36) (xy 96.52 86.36)
 		)
 		(stroke
@@ -10630,16 +10918,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 129.54) (xy 196.85 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72628c4c-3c08-42c2-85a6-aef4b6b5833c")
-	)
-	(wire
-		(pts
 			(xy 127 92.71) (xy 147.32 92.71)
 		)
 		(stroke
@@ -10647,16 +10925,6 @@
 			(type default)
 		)
 		(uuid "75e9de58-47e6-4b23-8513-1ac38c866ab7")
-	)
-	(wire
-		(pts
-			(xy 223.52 129.54) (xy 223.52 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7979cffa-5d9f-4f7e-a6e6-03475e0b64fd")
 	)
 	(wire
 		(pts
@@ -10700,16 +10968,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 123.19) (xy 196.85 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "814bcff8-b16d-4c04-a42f-9142766cf0d4")
-	)
-	(wire
-		(pts
 			(xy 106.68 72.39) (xy 127 72.39)
 		)
 		(stroke
@@ -10747,26 +11005,6 @@
 			(type default)
 		)
 		(uuid "855edbbe-8845-4f48-99d6-3a3461e540b9")
-	)
-	(wire
-		(pts
-			(xy 251.46 72.39) (xy 246.38 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87230142-4dd7-4693-b7e8-e00a67c801f7")
-	)
-	(wire
-		(pts
-			(xy 201.93 128.27) (xy 201.93 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a469b75-f05e-477e-b43e-1ce018e224ba")
 	)
 	(wire
 		(pts
@@ -10830,16 +11068,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 132.08) (xy 217.17 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "919d3198-2c85-4cb4-a213-d02642c612a2")
-	)
-	(wire
-		(pts
 			(xy 133.35 99.06) (xy 137.16 99.06)
 		)
 		(stroke
@@ -10867,16 +11095,6 @@
 			(type default)
 		)
 		(uuid "972e3890-032d-48fe-a0b5-85e7764e92a5")
-	)
-	(wire
-		(pts
-			(xy 201.93 129.54) (xy 201.93 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97a6d715-a53f-49de-bbab-c778ddfeaf45")
 	)
 	(wire
 		(pts
@@ -11000,16 +11218,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 118.11) (xy 217.17 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a01acf84-1b3c-4fb3-a0b0-1c59ce089f09")
-	)
-	(wire
-		(pts
 			(xy 72.39 106.68) (xy 76.2 106.68)
 		)
 		(stroke
@@ -11060,16 +11268,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 129.54) (xy 232.41 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a48e86f4-87d0-47e6-b15c-0318513a2361")
-	)
-	(wire
-		(pts
 			(xy 113.03 86.36) (xy 116.84 86.36)
 		)
 		(stroke
@@ -11087,16 +11285,6 @@
 			(type default)
 		)
 		(uuid "adda0285-2054-4044-8ed1-f7068a161062")
-	)
-	(wire
-		(pts
-			(xy 201.93 144.78) (xy 217.17 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3127717-5daf-4a3b-bed2-a1179917796c")
 	)
 	(wire
 		(pts
@@ -11190,6 +11378,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 125.73) (xy 245.11 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bddb3611-fbeb-4f54-a7c7-6f9fb735a6ab")
+	)
+	(wire
+		(pts
 			(xy 86.36 127) (xy 86.36 129.54)
 		)
 		(stroke
@@ -11217,6 +11415,16 @@
 			(type default)
 		)
 		(uuid "bfae5dac-d89a-4cb7-83e4-4e8de94fcd0a")
+	)
+	(wire
+		(pts
+			(xy 217.17 124.46) (xy 204.47 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1889633-8be4-4f7d-8b69-724caa21d1cd")
 	)
 	(wire
 		(pts
@@ -11310,16 +11518,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 115.57) (xy 201.93 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d113f5c2-1410-4d65-bd92-b873c786c0d0")
-	)
-	(wire
-		(pts
 			(xy 113.03 88.9) (xy 113.03 91.44)
 		)
 		(stroke
@@ -11347,6 +11545,16 @@
 			(type default)
 		)
 		(uuid "d6edf328-3465-4cec-bb64-ac8a4a0c7064")
+	)
+	(wire
+		(pts
+			(xy 217.17 124.46) (xy 227.33 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d729a3c3-beef-42ca-949c-4efaf7a3fd04")
 	)
 	(wire
 		(pts
@@ -11400,6 +11608,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 120.65) (xy 245.11 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc392b7b-f408-414d-9273-68037aef60b9")
+	)
+	(wire
+		(pts
 			(xy 113.03 109.22) (xy 113.03 111.76)
 		)
 		(stroke
@@ -11417,16 +11635,6 @@
 			(type default)
 		)
 		(uuid "df647888-c20c-4e1d-86e3-397507bd19d7")
-	)
-	(wire
-		(pts
-			(xy 223.52 129.54) (xy 232.41 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfa311c1-73d9-4865-bf4f-c58b28440758")
 	)
 	(wire
 		(pts
@@ -11450,16 +11658,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 62.23) (xy 205.74 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e559aeed-7df3-41d7-83db-8f2ec97ffd36")
-	)
-	(wire
-		(pts
 			(xy 127 71.12) (xy 127 72.39)
 		)
 		(stroke
@@ -11480,16 +11678,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 69.85) (xy 246.38 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ead93c40-10b9-404a-9747-46215ebdbf49")
-	)
-	(wire
-		(pts
 			(xy 86.36 132.08) (xy 86.36 133.35)
 		)
 		(stroke
@@ -11500,7 +11688,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 137.16) (xy 201.93 142.24)
+			(xy 201.93 133.35) (xy 201.93 138.43)
 		)
 		(stroke
 			(width 0)
@@ -11530,16 +11718,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 62.23) (xy 246.38 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f06f4f97-db61-42e8-a416-f28d56f49711")
-	)
-	(wire
-		(pts
 			(xy 92.71 66.04) (xy 96.52 66.04)
 		)
 		(stroke
@@ -11560,16 +11738,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 132.08) (xy 223.52 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f238fe53-31ee-4978-8962-048c79cc2cd3")
-	)
-	(wire
-		(pts
 			(xy 133.35 78.74) (xy 137.16 78.74)
 		)
 		(stroke
@@ -11577,26 +11745,6 @@
 			(type default)
 		)
 		(uuid "f35261f9-11b5-4485-9887-d5fb20188034")
-	)
-	(wire
-		(pts
-			(xy 200.66 59.69) (xy 205.74 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f38e6b6d-b5a2-468d-abb1-24b2cab98827")
-	)
-	(wire
-		(pts
-			(xy 201.93 115.57) (xy 201.93 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f45590c2-ee6c-4cb6-ae09-4d3368b83e26")
 	)
 	(wire
 		(pts
@@ -11620,16 +11768,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 69.85) (xy 205.74 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6870ea8-93aa-4ea5-8bdc-e6171b5ffa51")
-	)
-	(wire
-		(pts
 			(xy 147.32 68.58) (xy 147.32 71.12)
 		)
 		(stroke
@@ -11637,26 +11775,6 @@
 			(type default)
 		)
 		(uuid "f6ae32f2-f264-4c11-a390-c3bb850566bd")
-	)
-	(wire
-		(pts
-			(xy 201.93 129.54) (xy 223.52 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f836f3ad-ec1e-4a7a-9b32-02fa7e4e0d63")
-	)
-	(wire
-		(pts
-			(xy 200.66 74.93) (xy 205.74 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa3575ff-a536-44be-871e-df205731f7a5")
 	)
 	(wire
 		(pts
@@ -11700,16 +11818,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 128.27) (xy 223.52 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc051fbc-8d72-4feb-83a9-7918b1b8a6bf")
-	)
-	(wire
-		(pts
 			(xy 52.07 78.74) (xy 55.88 78.74)
 		)
 		(stroke
@@ -11740,16 +11848,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 123.19) (xy 201.93 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdfe17a4-0940-4a2c-845b-b81cbe4ecc0d")
-	)
-	(wire
-		(pts
 			(xy 147.32 66.04) (xy 147.32 68.58)
 		)
 		(stroke
@@ -11757,6 +11855,16 @@
 			(type default)
 		)
 		(uuid "fe68ee18-99df-4745-8b6f-ab577a7220bb")
+	)
+	(wire
+		(pts
+			(xy 227.33 124.46) (xy 233.68 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed688a0-6d2a-4d32-a033-09d023e651a4")
 	)
 	(wire
 		(pts
@@ -11828,7 +11936,7 @@
 	)
 	(text "Battery Business"
 		(exclude_from_sim no)
-		(at 227.33 108.712 0)
+		(at 226.568 101.6 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -11966,6 +12074,17 @@
 		)
 		(uuid "42f080d7-1c18-4203-aeff-ab6947653003")
 	)
+	(label "row3"
+		(at 242.57 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4755e588-2ecb-4541-b68e-d4e6144735f3")
+	)
 	(label "col2"
 		(at 81.28 119.38 90)
 		(fields_autoplaced yes)
@@ -11976,28 +12095,6 @@
 			(justify left bottom)
 		)
 		(uuid "4bfe0923-21f3-48f1-872f-9f7674776afd")
-	)
-	(label "BAT+"
-		(at 193.04 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "58e1f9a2-e6be-44cd-a653-defe76b53b77")
-	)
-	(label "col4"
-		(at 242.57 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5ff589ed-c7fd-4519-9241-8d564c516360")
 	)
 	(label "col1"
 		(at 60.96 99.06 90)
@@ -12043,7 +12140,7 @@
 		)
 		(uuid "70d4ec43-8c00-4fc7-83aa-e5fc4d5479d5")
 	)
-	(label "row3"
+	(label "col4"
 		(at 207.01 69.85 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12208,6 +12305,17 @@
 		)
 		(uuid "e1f38d2d-8dbe-4313-8a93-6c62b46309b8")
 	)
+	(label "BAT+"
+		(at 251.46 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe8523b8-c07c-42f3-9561-5f4a59f51eaa")
+	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
 		(at 121.92 91.44 0)
@@ -12256,6 +12364,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
 			(at 121.92 91.44 0)
 			(effects
 				(font
@@ -12325,6 +12451,15 @@
 		)
 		(property "Description" ""
 			(at 60.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 60.96 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12406,6 +12541,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "89d47802-d002-46f2-ab8a-d5fcd3f52a05")
 		)
@@ -12480,6 +12624,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14f3393b-1b75-498e-9743-08461cde62bb")
 		)
@@ -12495,8 +12657,7 @@
 	(symbol
 		(lib_name "Conn_01x07_Socket_1")
 		(lib_id "Connector:Conn_01x07_Socket")
-		(at 200.66 67.31 0)
-		(mirror y)
+		(at 218.44 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12504,7 +12665,7 @@
 		(dnp no)
 		(uuid "0690cbb1-d099-4f98-a491-28e00a2102bc")
 		(property "Reference" "J70"
-			(at 202.438 56.896 0)
+			(at 218.948 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12512,8 +12673,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MF254V-11-07-0743"
-			(at 199.39 68.5799 0)
+		(property "Value" "310-13-107-41-001000"
+			(at 219.71 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12523,7 +12684,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:MF254V-11-07-0743"
-			(at 200.66 67.31 0)
+			(at 218.44 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12532,7 +12693,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 67.31 0)
+			(at 218.44 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12541,7 +12702,25 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 200.66 67.31 0)
+			(at 218.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5504401"
+			(at 218.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 218.44 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12574,6 +12753,82 @@
 			(project "half-swept"
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "J70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 236.22 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0890ef9c-c2e5-4f31-9723-0640f421655e")
+		(property "Reference" "TP13"
+			(at 236.22 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 236.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 236.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left"
+			(at 236.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a980a70-912e-40a5-9054-f30ee2ecdbf0")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -12635,6 +12890,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb41f7a7-8189-4429-abf0-e068e8b8682a")
 		)
@@ -12648,6 +12912,158 @@
 			(project "half-swept"
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 213.36 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c0f9f9d-7fa9-4534-a27a-9f40b0ae79a2")
+		(property "Reference" "TP7"
+			(at 213.36 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left"
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15ebd8c0-5d00-4095-99ef-e41118d5e019")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 213.36 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d2223c6-735d-409b-893e-9d4bdb9215ce")
+		(property "Reference" "TP5"
+			(at 213.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 213.36 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right"
+			(at 213.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3a43738-2b9b-43d4-8d49-4c76521a1e1e")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -12708,6 +13124,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 77.47 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 77.47 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c85e89b7-de6c-4eb8-9c22-7e25d48fe17d")
 		)
@@ -12739,7 +13173,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 139.7 83.8199 90)
 			(effects
 				(font
@@ -12749,7 +13183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 142.24 82.55 0)
 			(effects
 				(font
@@ -12794,12 +13228,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 137.16 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12872,6 +13316,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 57.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 57.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0088e2cb-5922-476e-aa2a-0f542b871b4e")
 		)
@@ -12903,7 +13365,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 74.93 124.4599 90)
 			(effects
 				(font
@@ -12913,7 +13375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 77.47 123.19 0)
 			(effects
 				(font
@@ -12958,12 +13420,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 72.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13000,7 +13472,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 95.25 83.8199 90)
 			(effects
 				(font
@@ -13010,7 +13482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 97.79 82.55 0)
 			(effects
 				(font
@@ -13055,12 +13527,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 92.71 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 92.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13097,7 +13579,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 139.7 104.1399 90)
 			(effects
 				(font
@@ -13107,7 +13589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 142.24 102.87 0)
 			(effects
 				(font
@@ -13152,12 +13634,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 137.16 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13223,6 +13715,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
 			(at 101.6 88.9 0)
 			(effects
 				(font
@@ -13299,6 +13809,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b6ec6b5-18c1-46a9-a695-5c3dfe533e3e")
 		)
@@ -13313,16 +13841,16 @@
 	)
 	(symbol
 		(lib_id "Swoon:MY-LR44-02")
-		(at 238.76 121.92 0)
+		(at 240.03 118.11 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1932a607-51ab-4d16-8ccf-1e78e8bdc56f")
 		(property "Reference" "U2"
-			(at 238.125 111.76 0)
+			(at 240.03 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13330,15 +13858,16 @@
 			)
 		)
 		(property "Value" "MY-LR44-02"
-			(at 238.125 114.3 0)
+			(at 239.395 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Swoon:BAT-SMD_MY-LR44-02"
-			(at 238.76 132.08 0)
+			(at 240.03 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13347,7 +13876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 121.92 0)
+			(at 240.03 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13356,7 +13885,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 121.92 0)
+			(at 240.03 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13364,8 +13893,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2902345"
-			(at 238.76 134.62 0)
+		(property "LCSC" "C2902345"
+			(at 240.03 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13373,8 +13902,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 238.76 121.92 0)
+		(property "Config" "+left,+flip"
+			(at 240.03 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13388,10 +13917,92 @@
 		(pin "1"
 			(uuid "0e8a8241-9bd2-4f97-8913-639b989b990f")
 		)
+		(pin "3"
+			(uuid "47de2747-47d5-4a36-9657-d9f59c052e72")
+		)
+		(pin "4"
+			(uuid "b540177e-ba06-4c59-b187-35655e6984e2")
+		)
 		(instances
 			(project ""
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 236.22 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "195067e0-478d-4bc7-aac6-5bf667aba5a4")
+		(property "Reference" "TP19"
+			(at 236.22 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 236.22 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 236.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 236.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left"
+			(at 236.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "344424c8-1150-4c57-b03c-7faf8101e3df")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -13445,6 +14056,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 229.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C5261048"
+			(at 229.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
 			(at 229.87 82.55 0)
 			(effects
 				(font
@@ -13521,6 +14150,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94faa467-73b5-4ec8-b98b-fb6e825687ee")
 		)
@@ -13551,7 +14198,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 54.61 63.4999 90)
 			(effects
 				(font
@@ -13561,7 +14208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 57.15 62.23 0)
 			(effects
 				(font
@@ -13606,7 +14253,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
+			(at 52.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
 			(at 52.07 62.23 0)
 			(effects
 				(font
@@ -13685,6 +14341,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c234ddc1-9245-47ce-a38a-6e49bb37171e")
 		)
@@ -13753,6 +14427,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 81.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1e6e8bc6-3d01-48df-b98a-63454e03dbf3")
 		)
@@ -13790,7 +14473,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 78.74 104.1399 90)
 			(effects
 				(font
@@ -13800,7 +14483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 81.28 102.87 0)
 			(effects
 				(font
@@ -13845,12 +14528,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 76.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 76.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13924,6 +14617,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 142.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b850d2bd-79fa-4259-969b-6243f988ddc3")
 		)
@@ -13961,7 +14663,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 58.42 124.4599 90)
 			(effects
 				(font
@@ -13971,7 +14673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 60.96 123.19 0)
 			(effects
 				(font
@@ -14016,12 +14718,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 55.88 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 55.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14094,6 +14806,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6209246-f800-40d6-a393-ba3aa5953798")
 		)
@@ -14108,7 +14838,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x07_Socket")
-		(at 251.46 67.31 0)
+		(at 231.14 67.31 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14116,7 +14847,7 @@
 		(dnp no)
 		(uuid "2d0e559c-48f3-4cbe-8eca-112d60a679a1")
 		(property "Reference" "J71"
-			(at 246.634 57.912 0)
+			(at 230.378 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14124,8 +14855,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MF254V-11-07-0743"
-			(at 252.73 68.5799 0)
+		(property "Value" "310-13-107-41-001000"
+			(at 229.87 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14135,7 +14866,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:MF254V-11-07-0743"
-			(at 251.46 67.31 0)
+			(at 231.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14144,7 +14875,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 67.31 0)
+			(at 231.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14153,7 +14884,25 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 251.46 67.31 0)
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5504401"
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 231.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14186,6 +14935,82 @@
 			(project ""
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "J71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 236.22 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f058959-9d6f-4564-813c-3be1843e1239")
+		(property "Reference" "TP15"
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 236.22 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 236.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right"
+			(at 236.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "205fc6ab-302f-4e73-9cd4-a119b5df5fab")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -14239,6 +15064,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
 			(at 142.24 68.58 0)
 			(effects
 				(font
@@ -14315,6 +15158,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 142.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e71e6913-7ca3-4628-86ef-7095838141d3")
 		)
@@ -14328,6 +15180,82 @@
 			(project "half-swept"
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 236.22 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30e098d4-f848-441f-a489-8d5232aece6c")
+		(property "Reference" "TP20"
+			(at 236.22 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 236.22 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 236.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 236.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right"
+			(at 236.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e1d3621-c8ba-4554-a38f-17c05d08bab9")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -14381,6 +15309,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 81.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 81.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
 			(at 81.28 71.12 0)
 			(effects
 				(font
@@ -14456,6 +15402,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 138.43 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 138.43 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34efc994-cbb5-4083-94c6-b0519bbe01a9")
 		)
@@ -14487,7 +15451,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 95.25 63.4999 90)
 			(effects
 				(font
@@ -14497,7 +15461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 97.79 62.23 0)
 			(effects
 				(font
@@ -14542,12 +15506,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 92.71 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 92.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14584,7 +15558,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 78.74 124.4599 90)
 			(effects
 				(font
@@ -14594,7 +15568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 81.28 123.19 0)
 			(effects
 				(font
@@ -14639,12 +15613,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 76.2 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 76.2 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14709,6 +15693,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 118.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 118.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
 			(at 118.11 111.76 0)
 			(effects
 				(font
@@ -14784,6 +15786,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 97.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 97.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e369f3e5-f2da-413d-8b11-b1d48a67726f")
 		)
@@ -14851,6 +15871,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21b09585-3f40-4f3c-895a-9f266aa61f22")
 		)
@@ -14882,7 +15920,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 74.93 83.8199 90)
 			(effects
 				(font
@@ -14892,7 +15930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 77.47 82.55 0)
 			(effects
 				(font
@@ -14937,12 +15975,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 72.39 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15016,6 +16064,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18defbb6-e62a-4714-a14a-844112eb5161")
 		)
@@ -15047,7 +16113,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 58.42 63.4999 90)
 			(effects
 				(font
@@ -15057,7 +16123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 60.96 62.23 0)
 			(effects
 				(font
@@ -15102,7 +16168,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
+			(at 55.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
 			(at 55.88 62.23 0)
 			(effects
 				(font
@@ -15145,7 +16220,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 74.93 63.4999 90)
 			(effects
 				(font
@@ -15155,7 +16230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 77.47 62.23 0)
 			(effects
 				(font
@@ -15200,12 +16275,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 69.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 72.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15270,6 +16355,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 118.11 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 118.11 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -15346,6 +16449,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d95ef04-ed0b-4e80-821a-4b85844c14a8")
 		)
@@ -15377,7 +16498,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 54.61 104.1399 90)
 			(effects
 				(font
@@ -15387,7 +16508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 57.15 102.87 0)
 			(effects
 				(font
@@ -15432,12 +16553,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 52.07 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 52.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15450,6 +16581,82 @@
 			(project "half-swept"
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 236.22 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "441d3531-b96f-422b-90dd-aefec4f8e44c")
+		(property "Reference" "TP17"
+			(at 236.22 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 236.22 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 236.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 236.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right"
+			(at 236.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3e360e2-7422-4eee-b8a5-99d3c18c9663")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -15511,6 +16718,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "646fcc76-30c7-45cd-9960-8a16f9a4d200")
 		)
@@ -15524,11 +16749,11 @@
 		)
 	)
 	(symbol
-		(lib_id "Swoon:xiao_nRF52840")
+		(lib_id "Swoon:xiao_nRF52840_extra")
 		(at 224.79 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15549,7 +16774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swoon:xiao_nRF52840"
+		(property "Footprint" "Swoon:xiao_nRF52840_extra"
 			(at 224.79 54.61 0)
 			(effects
 				(font
@@ -15583,8 +16808,14 @@
 				(hide yes)
 			)
 		)
-		(pin "11"
-			(uuid "0d53a6c5-6b7b-40ff-a4e6-1ebb89d1e29f")
+		(property "Config" ""
+			(at 224.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "12"
 			(uuid "e1d84f5e-37ed-4a8d-a13a-9798c4a246f3")
@@ -15610,9 +16841,6 @@
 		(pin "3"
 			(uuid "2eae671e-590b-42c3-8f79-045caf0e0a82")
 		)
-		(pin "4"
-			(uuid "bde521df-7b2f-42c0-89a8-9d25e05db906")
-		)
 		(pin "5"
 			(uuid "1be4c420-5ba8-4119-863c-44553f844d5a")
 		)
@@ -15628,6 +16856,48 @@
 		(pin "9"
 			(uuid "4dc8f4e3-62e0-4e25-82d3-1d7ba9355579")
 		)
+		(pin "16"
+			(uuid "3a34dd1d-14e1-40b1-9e4e-6f14bc256b3a")
+		)
+		(pin "17"
+			(uuid "33edd437-1016-4bf6-9819-c20e0435ad8a")
+		)
+		(pin "18"
+			(uuid "c2a9720b-f4dd-4bb7-bf44-54f07fe4e642")
+		)
+		(pin "22"
+			(uuid "2f42aac1-ca4c-4dee-818b-ff5819c2e2d6")
+		)
+		(pin "23"
+			(uuid "1846499a-2a6e-4d56-8e1a-0356a6ea092e")
+		)
+		(pin "24"
+			(uuid "3278d5a0-ca47-44e5-b64f-4e2f1eb2bd65")
+		)
+		(pin "25"
+			(uuid "445b572f-ff10-467d-83b0-cccbf3e24f2c")
+		)
+		(pin "26"
+			(uuid "7d4b1c02-53d5-4afc-87ad-c266420adae7")
+		)
+		(pin "27"
+			(uuid "52c8bf42-3d71-4415-9c25-edb895683f98")
+		)
+		(pin "28"
+			(uuid "74bb2056-2e4c-41b9-8c24-dcf0631f7e9e")
+		)
+		(pin "29"
+			(uuid "0273da76-5b4b-45b1-9bde-d7ac850b99b3")
+		)
+		(pin "19"
+			(uuid "671593db-a0d4-43d2-82f7-7e8cd4f55341")
+		)
+		(pin "20"
+			(uuid "d175070d-e1de-4e08-90d2-1ca87eaa200d")
+		)
+		(pin "21"
+			(uuid "0a86b525-662f-4702-a420-9e89c605c00e")
+		)
 		(instances
 			(project ""
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
@@ -15640,7 +16910,8 @@
 	(symbol
 		(lib_name "Conn_01x07_Socket_3")
 		(lib_id "Connector:Conn_01x07_Socket")
-		(at 256.54 67.31 0)
+		(at 231.14 67.31 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15648,7 +16919,7 @@
 		(dnp no)
 		(uuid "4817a7f1-325e-4db5-a7c4-a521aebf15f7")
 		(property "Reference" "J72"
-			(at 251.968 57.912 0)
+			(at 230.378 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15656,8 +16927,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MF254V-11-07-0743"
-			(at 257.81 68.5799 0)
+		(property "Value" "310-13-107-41-001000"
+			(at 229.87 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15667,7 +16938,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:MF254V-11-07-0743"
-			(at 256.54 67.31 0)
+			(at 231.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15676,7 +16947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 67.31 0)
+			(at 231.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15685,7 +16956,25 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 256.54 67.31 0)
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5504401"
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 231.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15778,6 +17067,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 57.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 57.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6d0af03-7820-4507-8e29-52a3892bfa9c")
 		)
@@ -15838,6 +17145,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
 			(at 121.92 68.58 0)
 			(effects
 				(font
@@ -15914,6 +17239,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "27965547-c776-481b-816e-2d7e694001e8")
 		)
@@ -15951,7 +17285,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 99.06 83.8199 90)
 			(effects
 				(font
@@ -15961,7 +17295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 101.6 82.55 0)
 			(effects
 				(font
@@ -16006,12 +17340,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 96.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 96.52 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16084,6 +17428,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 138.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 138.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcad234c-b72f-4cab-ace1-9eb37020f76a")
 		)
@@ -16091,6 +17453,82 @@
 			(project "half-swept"
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 213.36 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54e2cc2d-1084-4953-a7d4-ab84dd49de28")
+		(property "Reference" "TP9"
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 213.36 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right"
+			(at 213.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bc6f9ae-37a7-4a5b-a229-f53a809b77ac")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -16115,7 +17553,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 135.89 63.4999 90)
 			(effects
 				(font
@@ -16125,7 +17563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 138.43 62.23 0)
 			(effects
 				(font
@@ -16170,12 +17608,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 133.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 133.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16188,6 +17636,149 @@
 			(project "half-swept"
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 236.22 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55232f45-d3fb-4764-a413-e173f5880565")
+		(property "Reference" "TP16"
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 236.22 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 236.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left"
+			(at 236.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00966dad-1f9a-436f-8f4b-3a4a52a014c8")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 138.43 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55246cae-73b2-457a-9fd4-481c92944c6d")
+		(property "Reference" "#PWR05"
+			(at 217.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c19658b-9aa1-45e1-a26c-a1a623d408c3")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -16241,6 +17832,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
 			(at 81.28 68.58 0)
 			(effects
 				(font
@@ -16316,6 +17925,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f58e2768-26b6-42b3-bcd0-63bddcd8c785")
 		)
@@ -16347,7 +17974,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 99.06 63.4999 90)
 			(effects
 				(font
@@ -16357,7 +17984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 101.6 62.23 0)
 			(effects
 				(font
@@ -16402,12 +18029,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 96.52 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16480,6 +18117,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 57.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 57.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dca3e5f7-a71c-4b88-bfaf-2f8ebea8ff8c")
 		)
@@ -16487,6 +18142,82 @@
 			(project ""
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 213.36 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ca60462-91c9-41b8-8235-280929b97d9e")
+		(property "Reference" "TP3"
+			(at 213.36 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 213.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left"
+			(at 213.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b1a943e-0cef-4f7f-8020-969893ef1d1c")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -16540,6 +18271,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 121.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 121.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
 			(at 121.92 71.12 0)
 			(effects
 				(font
@@ -16615,6 +18364,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 57.15 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 57.15 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b00ea0e4-3627-4ec6-9a5e-c82198031493")
 		)
@@ -16674,6 +18441,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 77.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 77.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
 			(at 77.47 88.9 0)
 			(effects
 				(font
@@ -16749,6 +18534,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 97.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 97.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac25a5a8-e72d-43df-ac01-a41fd8660d48")
 		)
@@ -16756,6 +18559,82 @@
 			(project "half-swept"
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "J31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 213.36 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60bbd4a8-8e6c-4047-b077-7f176d1e0840")
+		(property "Reference" "TP11"
+			(at 213.36 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 213.36 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left"
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f55e3e72-78ec-4445-bb0d-0a0206f5397c")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -16780,7 +18659,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 119.38 83.8199 90)
 			(effects
 				(font
@@ -16790,7 +18669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 121.92 82.55 0)
 			(effects
 				(font
@@ -16835,12 +18714,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 116.84 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 116.84 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16907,6 +18796,15 @@
 		)
 		(property "Description" ""
 			(at 81.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 81.28 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16988,6 +18886,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 121.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 121.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6c56998-e868-49e0-a573-2b44d52f1f49")
 		)
@@ -17048,6 +18964,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
 			(at 81.28 109.22 0)
 			(effects
 				(font
@@ -17124,6 +19058,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 60.96 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 60.96 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cb8d4e4-6657-4651-a7f2-1cc83ac5a1b0")
 		)
@@ -17131,6 +19083,148 @@
 			(project "half-swept"
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "J44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e0908d4-faec-441b-a4ef-dc01ea8ef249")
+		(property "Reference" "#PWR01"
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90ffef3e-04d0-459f-ba28-91ca6566bdfa")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 213.36 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70258c64-2659-4b22-a9c2-7abfff97bb7c")
+		(property "Reference" "TP10"
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 213.36 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left"
+			(at 213.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36485868-e435-4f65-8584-3e9ab5739172")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -17192,6 +19286,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 60.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 60.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b336cfb-ccd0-4e4b-86fb-12e4e37e34d6")
 		)
@@ -17223,7 +19335,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 58.42 104.1399 90)
 			(effects
 				(font
@@ -17233,7 +19345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 60.96 102.87 0)
 			(effects
 				(font
@@ -17278,12 +19390,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 55.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 55.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17356,6 +19478,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 104.14 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "MP"
 			(uuid "ccd6145d-2cdc-4a4a-b199-5c49149049fe")
 		)
@@ -17417,6 +19548,15 @@
 		)
 		(property "Description" ""
 			(at 60.96 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 60.96 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17497,6 +19637,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32066c15-bf3b-4258-8b7f-ca98c8c82150")
 		)
@@ -17565,6 +19723,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8b9dec0-8e1d-41e6-bdcf-86eaf2b1dc5f")
 		)
@@ -17572,6 +19748,148 @@
 			(project "half-swept"
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "755bc917-6094-4c1f-84cb-5aa4c8227775")
+		(property "Reference" "#PWR03"
+			(at 201.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d989b9f-e214-4348-8191-317ef5d25cc0")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 213.36 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77b79c3a-f3cf-4a55-b808-e9161616d88e")
+		(property "Reference" "TP1"
+			(at 213.36 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 213.36 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1dc94fc-180c-4edf-a14b-a1d424c88d5b")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -17632,6 +19950,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 57.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 57.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c0c0060-0104-4bc0-b1b0-ed26ab2bf618")
 		)
@@ -17663,7 +19999,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 119.38 63.4999 90)
 			(effects
 				(font
@@ -17673,7 +20009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 121.92 62.23 0)
 			(effects
 				(font
@@ -17718,12 +20054,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 116.84 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 116.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17736,6 +20082,82 @@
 			(project "half-swept"
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 213.36 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7af07fdb-5619-45d0-a545-cbb8eb533f2d")
+		(property "Reference" "TP6"
+			(at 213.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 213.36 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left"
+			(at 213.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a23da257-3883-43f5-b963-4e92f785e0ac")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -17760,7 +20182,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 99.06 104.1399 90)
 			(effects
 				(font
@@ -17770,7 +20192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 101.6 102.87 0)
 			(effects
 				(font
@@ -17815,12 +20237,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 96.52 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17886,6 +20318,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
 			(at 60.96 68.58 0)
 			(effects
 				(font
@@ -17962,6 +20412,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efa004c6-5a11-4a8c-8335-d72abe047dc4")
 		)
@@ -18029,6 +20497,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8da44d67-9d90-492d-b5b3-ee4d03047460")
 		)
@@ -18060,7 +20546,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 115.57 63.4999 90)
 			(effects
 				(font
@@ -18070,7 +20556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 118.11 62.23 0)
 			(effects
 				(font
@@ -18115,12 +20601,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 113.03 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18186,6 +20682,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 60.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 60.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
 			(at 60.96 88.9 0)
 			(effects
 				(font
@@ -18262,6 +20776,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 81.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 81.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d1a9a30-405e-4eef-b7e3-4992cc22752b")
 		)
@@ -18323,6 +20855,15 @@
 		)
 		(property "Description" ""
 			(at 101.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 101.6 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18404,6 +20945,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 142.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8a8cc670-d460-4f52-b8c8-215e7cc71b44")
 		)
@@ -18477,6 +21027,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 97.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 97.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4588690-d809-4404-a7da-ff18443274d5")
 		)
@@ -18536,6 +21104,15 @@
 		)
 		(property "Description" ""
 			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 60.96 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18616,6 +21193,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" " C5261048"
+			(at 219.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 219.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b1bf697-02b0-4df4-9921-bae11ccf7fa9")
 		)
@@ -18683,6 +21278,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 77.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 77.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9bccf16d-1029-41fc-ad5d-940eec79fa74")
 		)
@@ -18714,7 +21327,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 58.42 83.8199 90)
 			(effects
 				(font
@@ -18724,7 +21337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 60.96 82.55 0)
 			(effects
 				(font
@@ -18769,12 +21382,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 55.88 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 55.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18848,6 +21471,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1eb13e6-934b-4ec4-b189-bbe759125e6c")
 		)
@@ -18855,6 +21496,82 @@
 			(project "half-swept"
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "J48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 213.36 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e0b4e7c-ccce-42a8-a8d3-a299276fc6ec")
+		(property "Reference" "TP8"
+			(at 213.36 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right"
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f8d21dd-5d24-4708-b64d-0c2b76d2cb7d")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -18879,7 +21596,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 74.93 104.1399 90)
 			(effects
 				(font
@@ -18889,7 +21606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 77.47 102.87 0)
 			(effects
 				(font
@@ -18934,12 +21651,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 72.39 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19012,6 +21739,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 138.43 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 138.43 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86b91def-b346-44ee-8170-479c58a198da")
 		)
@@ -19043,7 +21788,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 78.74 83.8199 90)
 			(effects
 				(font
@@ -19053,7 +21798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 81.28 82.55 0)
 			(effects
 				(font
@@ -19098,12 +21843,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19168,6 +21923,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 77.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 77.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
 			(at 77.47 129.54 0)
 			(effects
 				(font
@@ -19244,6 +22017,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1fa57208-942f-4f70-88c7-5f10ed4b0355")
 		)
@@ -19303,6 +22094,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 57.15 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 57.15 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
 			(at 57.15 129.54 0)
 			(effects
 				(font
@@ -19378,6 +22187,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 97.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 97.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09b6e9a3-6968-4e69-88b1-c235dd4eeebf")
 		)
@@ -19437,6 +22264,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
 			(at 77.47 111.76 0)
 			(effects
 				(font
@@ -19512,6 +22357,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 138.43 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 138.43 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62a674a0-a9e8-4c14-886d-35e454feb09c")
 		)
@@ -19571,6 +22434,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
 			(at 118.11 91.44 0)
 			(effects
 				(font
@@ -19647,6 +22528,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 60.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 60.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0500b14e-072f-44bd-a4a6-2f4ae2ea34af")
 		)
@@ -19706,6 +22605,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 57.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 57.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
 			(at 57.15 111.76 0)
 			(effects
 				(font
@@ -19781,6 +22698,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae81ccba-ce74-4472-b085-65615fc29913")
 		)
@@ -19788,72 +22723,6 @@
 			(project "half-swept"
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "J53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 243.84 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5fbb28a-7297-45e8-b33c-9b3a1f6c6ae0")
-		(property "Reference" "#PWR01"
-			(at 243.84 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 243.84 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1360e321-9fb8-482c-89e1-dff8ddf09c2c")
-		)
-		(instances
-			(project ""
-				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -19915,6 +22784,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 121.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cfee1108-29cb-43aa-90e3-f87995f1bce1")
 		)
@@ -19934,17 +22812,93 @@
 		)
 	)
 	(symbol
-		(lib_id "Swoon:MY-LR44-02")
-		(at 238.76 138.43 0)
+		(lib_id "Connector:TestPoint_Small")
+		(at 236.22 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "b86bd2ff-41c0-432b-b8cb-28326b459a31")
+		(property "Reference" "TP14"
+			(at 236.22 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 236.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 236.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right"
+			(at 236.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f20eb2f4-eaf9-4f72-90e0-19ae22c74050")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swoon:MY-LR44-02")
+		(at 240.03 134.62 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "bae69879-5adf-44aa-bcd0-a20636b9cae3")
 		(property "Reference" "U3"
-			(at 238.125 128.27 0)
+			(at 240.03 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19952,15 +22906,16 @@
 			)
 		)
 		(property "Value" "MY-LR44-02"
-			(at 238.125 130.81 0)
+			(at 239.395 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Swoon:BAT-SMD_MY-LR44-02"
-			(at 238.76 148.59 0)
+			(at 240.03 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19969,7 +22924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 138.43 0)
+			(at 240.03 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19978,7 +22933,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 138.43 0)
+			(at 240.03 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19986,8 +22941,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2902345"
-			(at 238.76 151.13 0)
+		(property "LCSC" "C2902345"
+			(at 240.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 240.03 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20000,6 +22964,12 @@
 		)
 		(pin "1"
 			(uuid "a88bb089-7a69-4084-b6ed-16192ac59c1d")
+		)
+		(pin "3"
+			(uuid "2cb13757-5a9a-44ef-aaf5-6a3b837e516c")
+		)
+		(pin "4"
+			(uuid "50fa9093-4180-45e3-bda4-f359f11abed3")
 		)
 		(instances
 			(project "swoon"
@@ -20066,6 +23036,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2871cadf-c684-4f18-ac90-0b114a78d42e")
 		)
@@ -20097,7 +23085,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 78.74 63.4999 90)
 			(effects
 				(font
@@ -20107,7 +23095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 81.28 62.23 0)
 			(effects
 				(font
@@ -20152,12 +23140,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 76.2 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 76.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20170,6 +23168,82 @@
 			(project "half-swept"
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 213.36 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4813314-d5da-498a-bcf0-59b72429c6e3")
+		(property "Reference" "TP12"
+			(at 213.36 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 213.36 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right"
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6ae89f0-e869-4aba-97a3-8e8b08671d31")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -20223,6 +23297,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 81.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 81.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
 			(at 81.28 91.44 0)
 			(effects
 				(font
@@ -20299,6 +23391,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "502a3390-db62-4fff-afd0-4c760d9a3c10")
 		)
@@ -20312,18 +23422,92 @@
 		)
 	)
 	(symbol
-		(lib_id "Swoon:MST22D18G2125")
-		(at 209.55 123.19 90)
-		(mirror x)
+		(lib_id "Connector:TestPoint_Small")
+		(at 236.22 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "cbeb65d9-e23d-4b12-96d6-7b487a827a2c")
+		(property "Reference" "TP18"
+			(at 236.22 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 236.22 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 236.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 236.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left"
+			(at 236.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c226241f-5ebc-4d9b-a1f7-c6f1107713c2")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swoon:MST22D18G2125")
+		(at 209.55 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "cd1b8e14-c09e-46fb-9496-d39c956eb551")
 		(property "Reference" "SW18"
-			(at 209.55 111.76 90)
+			(at 209.55 110.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20331,15 +23515,16 @@
 			)
 		)
 		(property "Value" "MST22D18G2 125"
-			(at 209.55 114.3 90)
+			(at 209.55 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Swoon:SW-SMD_MST22D18G2"
-			(at 224.79 123.19 0)
+			(at 194.31 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20348,7 +23533,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 123.19 0)
+			(at 209.55 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20357,7 +23542,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 123.19 0)
+			(at 209.55 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20365,8 +23550,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2906280"
-			(at 227.33 123.19 0)
+		(property "LCSC" "C2906280"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 209.55 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20456,6 +23650,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 77.47 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 77.47 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c8f75cf-fe06-4550-b7e7-73a9ff2cd9d6")
 		)
@@ -20516,6 +23728,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
 			(at 101.6 111.76 0)
 			(effects
 				(font
@@ -20591,6 +23821,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 57.15 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 57.15 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2baf83e8-33a2-4a90-b6bc-9a62c381890f")
 		)
@@ -20606,8 +23854,7 @@
 	(symbol
 		(lib_name "Conn_01x07_Socket_2")
 		(lib_id "Connector:Conn_01x07_Socket")
-		(at 195.58 67.31 0)
-		(mirror y)
+		(at 218.44 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20615,7 +23862,7 @@
 		(dnp no)
 		(uuid "d50e6fc9-5e1d-46ab-94c8-ba3f07c769a4")
 		(property "Reference" "J69"
-			(at 197.612 57.15 0)
+			(at 218.948 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20623,8 +23870,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MF254V-11-07-0743"
-			(at 194.31 68.5799 0)
+		(property "Value" "310-13-107-41-001000"
+			(at 219.71 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20634,7 +23881,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:MF254V-11-07-0743"
-			(at 195.58 67.31 0)
+			(at 218.44 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20643,7 +23890,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 67.31 0)
+			(at 218.44 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20652,7 +23899,25 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 195.58 67.31 0)
+			(at 218.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5504401"
+			(at 218.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 218.44 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20709,7 +23974,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 54.61 124.4599 90)
 			(effects
 				(font
@@ -20719,7 +23984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 57.15 123.19 0)
 			(effects
 				(font
@@ -20764,12 +24029,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 52.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 52.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20843,6 +24118,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "19193c30-1881-4d72-ba16-af3cc1f18d75")
 		)
@@ -20856,6 +24140,82 @@
 			(project "half-swept"
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 213.36 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d65770e7-1a05-4092-bbbc-299d4647d637")
+		(property "Reference" "TP4"
+			(at 213.36 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 213.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right"
+			(at 213.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87f0f35b-2bb2-4a9c-af2a-a523bfe96960")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -20880,7 +24240,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 54.61 83.8199 90)
 			(effects
 				(font
@@ -20890,7 +24250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 57.15 82.55 0)
 			(effects
 				(font
@@ -20935,12 +24295,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 52.07 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 52.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20977,7 +24347,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 135.89 83.8199 90)
 			(effects
 				(font
@@ -20987,7 +24357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 138.43 82.55 0)
 			(effects
 				(font
@@ -21032,12 +24402,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 133.35 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21074,7 +24454,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 95.25 104.1399 90)
 			(effects
 				(font
@@ -21084,7 +24464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 97.79 102.87 0)
 			(effects
 				(font
@@ -21129,12 +24509,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 92.71 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 92.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21147,6 +24537,82 @@
 			(project "half-swept"
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 213.36 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7e69277-85eb-4160-83d0-887d8bf8de40")
+		(property "Reference" "TP2"
+			(at 213.36 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 213.36 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d91db34-43c9-4960-a175-335170fc3bd2")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -21171,7 +24637,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 115.57 104.1399 90)
 			(effects
 				(font
@@ -21181,7 +24647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 118.11 102.87 0)
 			(effects
 				(font
@@ -21226,12 +24692,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 113.03 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 113.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21298,6 +24774,15 @@
 		)
 		(property "Description" ""
 			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 101.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21379,6 +24864,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 121.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9ccbb4cf-d302-4ef9-9048-3f8f672f0803")
 		)
@@ -21453,6 +24947,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7aba47f-fad8-459d-961c-a72ecd82c546")
 		)
@@ -21484,7 +24996,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 119.38 104.1399 90)
 			(effects
 				(font
@@ -21494,7 +25006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 121.92 102.87 0)
 			(effects
 				(font
@@ -21539,12 +25051,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 116.84 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21581,7 +25103,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 139.7 63.4999 90)
 			(effects
 				(font
@@ -21591,7 +25113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 142.24 62.23 0)
 			(effects
 				(font
@@ -21636,12 +25158,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 137.16 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21714,6 +25246,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "068a7f5e-85d2-4550-8cab-ad7b9c30f47e")
 		)
@@ -21775,6 +25325,15 @@
 		)
 		(property "Description" ""
 			(at 60.96 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 60.96 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21856,6 +25415,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 60.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 60.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a607ffc-39a0-4718-b1eb-4074e3d10c99")
 		)
@@ -21916,6 +25493,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
 			(at 142.24 71.12 0)
 			(effects
 				(font
@@ -21992,6 +25587,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 60.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 60.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51612b89-e90c-445f-96ae-f00e5f589b53")
 		)
@@ -22023,7 +25636,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 115.57 83.8199 90)
 			(effects
 				(font
@@ -22033,7 +25646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 118.11 82.55 0)
 			(effects
 				(font
@@ -22078,12 +25691,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 113.03 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22156,6 +25779,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 97.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 97.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cbe8a134-e796-4d05-86e8-844623b5f68b")
 		)
@@ -22163,6 +25804,73 @@
 			(project "half-swept"
 				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
 					(reference "J51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 138.43 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f19a781e-518e-4625-81bd-c09288645643")
+		(property "Reference" "#PWR04"
+			(at 201.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8523bf4-ee0b-4e61-8188-6a62f66557d8")
+		)
+		(instances
+			(project "swoon"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -22187,7 +25895,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CD4148W"
+		(property "Value" "CD4148WS"
 			(at 135.89 104.1399 90)
 			(effects
 				(font
@@ -22197,7 +25905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Swoon:D_0805_2012Metric"
 			(at 138.43 102.87 0)
 			(effects
 				(font
@@ -22242,12 +25950,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109001"
+		(property "LCSC" "C38587762"
 			(at 133.35 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left,+flip"
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22321,6 +26039,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17370797"
+			(at 81.28 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 81.28 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94aece7a-6c2e-4381-9756-010e78ea2d2d")
 		)
@@ -22335,7 +26071,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:MST22D18G2125")
-		(at 209.55 137.16 90)
+		(at 209.55 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22343,7 +26079,7 @@
 		(dnp no)
 		(uuid "fc2fef96-34bf-4bf3-87f0-44b671944a9e")
 		(property "Reference" "SW19"
-			(at 209.55 148.59 90)
+			(at 209.55 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22351,15 +26087,16 @@
 			)
 		)
 		(property "Value" "MST22D18G2 125"
-			(at 209.55 146.05 90)
+			(at 209.55 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Swoon:SW-SMD_MST22D18G2"
-			(at 224.79 137.16 0)
+			(at 224.79 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22368,7 +26105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 137.16 0)
+			(at 209.55 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22377,7 +26114,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 137.16 0)
+			(at 209.55 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22385,8 +26122,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2906280"
-			(at 227.33 137.16 0)
+		(property "LCSC" "C2906280"
+			(at 209.55 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+right,+flip"
+			(at 209.55 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
