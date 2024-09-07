@@ -7,8 +7,8 @@ kibot:
 preflight:
   erc: true
   drc: 
-    - enabled: true
-    - ignore_unconnected: false
+    enabled: true
+    ignore_unconnected: false
   fill_zones: true
 
 filters:
