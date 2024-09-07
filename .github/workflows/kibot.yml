@@ -70,7 +70,7 @@ jobs:
     - uses: INTI-CMNB/KiBot@v2_k8
       with:
         dir: default
-        variant: flip
+        variant: Flip
         skip: erc,drc
         # config: swoon.kibot.yaml
 

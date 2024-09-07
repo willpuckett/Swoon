@@ -13,7 +13,7 @@ preflight:
 
 
 variants:
-  - name: 'Flippable'
+  - name: 'Flip'
     comment: 'For Hand Soldering'
     type: kibom
     variant: flip
