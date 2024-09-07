@@ -5,11 +5,11 @@ kibot:
   version: 1
 
 preflight:
-  run_erc: true
-  update_xml: true
-  run_drc: true
-  check_zone_fills: true
-  ignore_unconnected: false
+  erc: true
+  drc: 
+    - enabled: true
+    - ignore_unconnected: false
+  fill_zones: true
 
 filters:
   - name: fix_rotation
