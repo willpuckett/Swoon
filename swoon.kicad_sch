@@ -12354,7 +12354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 121.92 91.44 0)
 			(effects
 				(font
@@ -12382,6 +12382,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 121.92 91.44 0)
 			(effects
 				(font
@@ -12440,7 +12449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
 			(at 60.96 121.92 0)
 			(effects
 				(font
@@ -12459,6 +12468,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 60.96 125.73 0)
 			(effects
 				(font
@@ -12523,7 +12541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
 			(at 81.28 101.6 0)
 			(effects
 				(font
@@ -12542,6 +12560,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 81.28 105.41 0)
 			(effects
 				(font
@@ -12606,7 +12633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 121.92 88.9 0)
 			(effects
 				(font
@@ -12634,6 +12661,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 121.92 88.9 0)
 			(effects
 				(font
@@ -12692,7 +12728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/sockets/310-13-107-41-001000"
 			(at 218.44 67.31 0)
 			(effects
 				(font
@@ -12720,6 +12756,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 218.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "310-13-107-41-001000"
 			(at 218.44 67.31 0)
 			(effects
 				(font
@@ -12822,6 +12867,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 236.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a980a70-912e-40a5-9054-f30ee2ecdbf0")
 		)
@@ -12872,7 +12926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
 			(at 121.92 81.28 0)
 			(effects
 				(font
@@ -12891,6 +12945,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 121.92 85.09 0)
 			(effects
 				(font
@@ -12981,6 +13044,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15ebd8c0-5d00-4095-99ef-e41118d5e019")
 		)
@@ -13057,6 +13129,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 213.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3a43738-2b9b-43d4-8d49-4c76521a1e1e")
 		)
@@ -13106,7 +13187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 77.47 132.08 0)
 			(effects
 				(font
@@ -13134,6 +13215,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 77.47 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 77.47 132.08 0)
 			(effects
 				(font
@@ -13192,7 +13282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 137.16 82.55 0)
 			(effects
 				(font
@@ -13238,6 +13328,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 137.16 82.55 0)
 			(effects
 				(font
@@ -13298,7 +13397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 57.15 71.12 0)
 			(effects
 				(font
@@ -13326,6 +13425,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 57.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 57.15 71.12 0)
 			(effects
 				(font
@@ -13384,7 +13492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 72.39 123.19 0)
 			(effects
 				(font
@@ -13430,6 +13538,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 72.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 72.39 123.19 0)
 			(effects
 				(font
@@ -13491,7 +13608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 92.71 82.55 0)
 			(effects
 				(font
@@ -13537,6 +13654,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 92.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 92.71 82.55 0)
 			(effects
 				(font
@@ -13598,7 +13724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 137.16 102.87 0)
 			(effects
 				(font
@@ -13644,6 +13770,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 137.16 102.87 0)
 			(effects
 				(font
@@ -13705,7 +13840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 101.6 88.9 0)
 			(effects
 				(font
@@ -13733,6 +13868,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 101.6 88.9 0)
 			(effects
 				(font
@@ -13791,7 +13935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 81.28 88.9 0)
 			(effects
 				(font
@@ -13819,6 +13963,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 81.28 88.9 0)
 			(effects
 				(font
@@ -13875,7 +14028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2111120930_MYOUNG-MY-LR44-02_C2902345.pdf"
 			(at 240.03 118.11 0)
 			(effects
 				(font
@@ -13903,6 +14056,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 240.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MY-LR44-02"
 			(at 240.03 118.11 0)
 			(effects
 				(font
@@ -13996,6 +14158,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 236.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "344424c8-1150-4c57-b03c-7faf8101e3df")
 		)
@@ -14046,7 +14217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/0906-2-15-20-75-14-11-0"
 			(at 229.87 82.55 0)
 			(effects
 				(font
@@ -14074,6 +14245,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 229.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0906-2-15-20-75-14-11-0"
 			(at 229.87 82.55 0)
 			(effects
 				(font
@@ -14132,7 +14312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 60.96 132.08 0)
 			(effects
 				(font
@@ -14160,6 +14340,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 60.96 132.08 0)
 			(effects
 				(font
@@ -14217,7 +14406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 52.07 62.23 0)
 			(effects
 				(font
@@ -14263,6 +14452,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 52.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 52.07 62.23 0)
 			(effects
 				(font
@@ -14323,7 +14521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 118.11 88.9 0)
 			(effects
 				(font
@@ -14351,6 +14549,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 118.11 88.9 0)
 			(effects
 				(font
@@ -14409,7 +14616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
 			(at 81.28 121.92 0)
 			(effects
 				(font
@@ -14428,6 +14635,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 81.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 81.28 125.73 0)
 			(effects
 				(font
@@ -14492,7 +14708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 76.2 102.87 0)
 			(effects
 				(font
@@ -14538,6 +14754,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 76.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 76.2 102.87 0)
 			(effects
 				(font
@@ -14599,7 +14824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
 			(at 142.24 81.28 0)
 			(effects
 				(font
@@ -14618,6 +14843,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 142.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 142.24 85.09 0)
 			(effects
 				(font
@@ -14682,7 +14916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 55.88 123.19 0)
 			(effects
 				(font
@@ -14728,6 +14962,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 55.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 55.88 123.19 0)
 			(effects
 				(font
@@ -14788,7 +15031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 138.43 71.12 0)
 			(effects
 				(font
@@ -14816,6 +15059,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 138.43 71.12 0)
 			(effects
 				(font
@@ -14874,7 +15126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/sockets/310-13-107-41-001000"
 			(at 231.14 67.31 0)
 			(effects
 				(font
@@ -14902,6 +15154,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "310-13-107-41-001000"
 			(at 231.14 67.31 0)
 			(effects
 				(font
@@ -15004,6 +15265,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 236.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "205fc6ab-302f-4e73-9cd4-a119b5df5fab")
 		)
@@ -15054,7 +15324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 142.24 68.58 0)
 			(effects
 				(font
@@ -15082,6 +15352,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 142.24 68.58 0)
 			(effects
 				(font
@@ -15140,7 +15419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
 			(at 142.24 60.96 0)
 			(effects
 				(font
@@ -15159,6 +15438,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 142.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 142.24 64.77 0)
 			(effects
 				(font
@@ -15249,6 +15537,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 236.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e1d3621-c8ba-4554-a38f-17c05d08bab9")
 		)
@@ -15299,7 +15596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 81.28 71.12 0)
 			(effects
 				(font
@@ -15327,6 +15624,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 81.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 81.28 71.12 0)
 			(effects
 				(font
@@ -15384,7 +15690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 138.43 109.22 0)
 			(effects
 				(font
@@ -15412,6 +15718,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 138.43 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 138.43 109.22 0)
 			(effects
 				(font
@@ -15470,7 +15785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -15516,6 +15831,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 92.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -15577,7 +15901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 76.2 123.19 0)
 			(effects
 				(font
@@ -15623,6 +15947,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 76.2 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 76.2 123.19 0)
 			(effects
 				(font
@@ -15683,7 +16016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 118.11 111.76 0)
 			(effects
 				(font
@@ -15711,6 +16044,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 118.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 118.11 111.76 0)
 			(effects
 				(font
@@ -15768,7 +16110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 97.79 109.22 0)
 			(effects
 				(font
@@ -15796,6 +16138,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 97.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 97.79 109.22 0)
 			(effects
 				(font
@@ -15853,7 +16204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 77.47 91.44 0)
 			(effects
 				(font
@@ -15881,6 +16232,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 77.47 91.44 0)
 			(effects
 				(font
@@ -15939,7 +16299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 72.39 82.55 0)
 			(effects
 				(font
@@ -15985,6 +16345,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 72.39 82.55 0)
 			(effects
 				(font
@@ -16046,7 +16415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 101.6 71.12 0)
 			(effects
 				(font
@@ -16074,6 +16443,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 101.6 71.12 0)
 			(effects
 				(font
@@ -16132,7 +16510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 55.88 62.23 0)
 			(effects
 				(font
@@ -16178,6 +16556,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 55.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 55.88 62.23 0)
 			(effects
 				(font
@@ -16239,7 +16626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 72.39 62.23 0)
 			(effects
 				(font
@@ -16285,6 +16672,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 72.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 72.39 62.23 0)
 			(effects
 				(font
@@ -16345,7 +16741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -16373,6 +16769,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 118.11 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -16431,7 +16836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 142.24 88.9 0)
 			(effects
 				(font
@@ -16459,6 +16864,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 142.24 88.9 0)
 			(effects
 				(font
@@ -16517,7 +16931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 52.07 102.87 0)
 			(effects
 				(font
@@ -16563,6 +16977,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 52.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 52.07 102.87 0)
 			(effects
 				(font
@@ -16650,6 +17073,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 236.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3e360e2-7422-4eee-b8a5-99d3c18c9663")
 		)
@@ -16700,7 +17132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 101.6 109.22 0)
 			(effects
 				(font
@@ -16728,6 +17160,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 101.6 109.22 0)
 			(effects
 				(font
@@ -16809,6 +17250,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 224.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 224.79 67.31 0)
 			(effects
 				(font
@@ -16946,7 +17396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/sockets/310-13-107-41-001000"
 			(at 231.14 67.31 0)
 			(effects
 				(font
@@ -16974,6 +17424,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "310-13-107-41-001000"
 			(at 231.14 67.31 0)
 			(effects
 				(font
@@ -17049,7 +17508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 57.15 91.44 0)
 			(effects
 				(font
@@ -17077,6 +17536,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 57.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 57.15 91.44 0)
 			(effects
 				(font
@@ -17135,7 +17603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 121.92 68.58 0)
 			(effects
 				(font
@@ -17163,6 +17631,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 121.92 68.58 0)
 			(effects
 				(font
@@ -17221,7 +17698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
 			(at 101.6 81.28 0)
 			(effects
 				(font
@@ -17240,6 +17717,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 101.6 85.09 0)
 			(effects
 				(font
@@ -17304,7 +17790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 96.52 82.55 0)
 			(effects
 				(font
@@ -17350,6 +17836,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 96.52 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 96.52 82.55 0)
 			(effects
 				(font
@@ -17410,7 +17905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -17438,6 +17933,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 138.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -17522,6 +18026,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 213.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6bc6f9ae-37a7-4a5b-a229-f53a809b77ac")
 		)
@@ -17572,7 +18085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 133.35 62.23 0)
 			(effects
 				(font
@@ -17618,6 +18131,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 133.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 133.35 62.23 0)
 			(effects
 				(font
@@ -17697,6 +18219,15 @@
 			)
 		)
 		(property "Config" "+left"
+			(at 236.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 236.22 72.39 0)
 			(effects
 				(font
@@ -17822,7 +18353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 81.28 68.58 0)
 			(effects
 				(font
@@ -17850,6 +18381,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 81.28 68.58 0)
 			(effects
 				(font
@@ -17907,7 +18447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 97.79 88.9 0)
 			(effects
 				(font
@@ -17935,6 +18475,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 97.79 88.9 0)
 			(effects
 				(font
@@ -17993,7 +18542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 96.52 62.23 0)
 			(effects
 				(font
@@ -18039,6 +18588,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 96.52 62.23 0)
 			(effects
 				(font
@@ -18099,7 +18657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 57.15 68.58 0)
 			(effects
 				(font
@@ -18127,6 +18685,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 57.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 57.15 68.58 0)
 			(effects
 				(font
@@ -18211,6 +18778,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 213.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b1a943e-0cef-4f7f-8020-969893ef1d1c")
 		)
@@ -18261,7 +18837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 121.92 71.12 0)
 			(effects
 				(font
@@ -18289,6 +18865,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 121.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 121.92 71.12 0)
 			(effects
 				(font
@@ -18346,7 +18931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 57.15 109.22 0)
 			(effects
 				(font
@@ -18374,6 +18959,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 57.15 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 57.15 109.22 0)
 			(effects
 				(font
@@ -18431,7 +19025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 77.47 88.9 0)
 			(effects
 				(font
@@ -18459,6 +19053,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 77.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 77.47 88.9 0)
 			(effects
 				(font
@@ -18516,7 +19119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 97.79 91.44 0)
 			(effects
 				(font
@@ -18544,6 +19147,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 97.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 97.79 91.44 0)
 			(effects
 				(font
@@ -18628,6 +19240,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f55e3e72-78ec-4445-bb0d-0a0206f5397c")
 		)
@@ -18678,7 +19299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 116.84 82.55 0)
 			(effects
 				(font
@@ -18724,6 +19345,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 116.84 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 116.84 82.55 0)
 			(effects
 				(font
@@ -18785,7 +19415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
 			(at 81.28 81.28 0)
 			(effects
 				(font
@@ -18804,6 +19434,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 81.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 81.28 85.09 0)
 			(effects
 				(font
@@ -18868,7 +19507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 121.92 111.76 0)
 			(effects
 				(font
@@ -18896,6 +19535,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 121.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 121.92 111.76 0)
 			(effects
 				(font
@@ -18954,7 +19602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 81.28 109.22 0)
 			(effects
 				(font
@@ -18982,6 +19630,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 81.28 109.22 0)
 			(effects
 				(font
@@ -19040,7 +19697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 60.96 111.76 0)
 			(effects
 				(font
@@ -19068,6 +19725,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 60.96 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 60.96 111.76 0)
 			(effects
 				(font
@@ -19218,6 +19884,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 213.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36485868-e435-4f65-8584-3e9ab5739172")
 		)
@@ -19268,7 +19943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 60.96 109.22 0)
 			(effects
 				(font
@@ -19296,6 +19971,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 60.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 60.96 109.22 0)
 			(effects
 				(font
@@ -19354,7 +20038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 55.88 102.87 0)
 			(effects
 				(font
@@ -19400,6 +20084,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 55.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 55.88 102.87 0)
 			(effects
 				(font
@@ -19487,6 +20180,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 104.14 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "MP"
 			(uuid "ccd6145d-2cdc-4a4a-b199-5c49149049fe")
 		)
@@ -19537,7 +20239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
 			(at 60.96 101.6 0)
 			(effects
 				(font
@@ -19556,6 +20258,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 60.96 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 60.96 105.41 0)
 			(effects
 				(font
@@ -19619,7 +20330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 77.47 71.12 0)
 			(effects
 				(font
@@ -19647,6 +20358,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 77.47 71.12 0)
 			(effects
 				(font
@@ -19705,7 +20425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 101.6 91.44 0)
 			(effects
 				(font
@@ -19733,6 +20453,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 101.6 91.44 0)
 			(effects
 				(font
@@ -19883,6 +20612,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1dc94fc-180c-4edf-a14b-a1d424c88d5b")
 		)
@@ -19932,7 +20670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 57.15 88.9 0)
 			(effects
 				(font
@@ -19960,6 +20698,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 57.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 57.15 88.9 0)
 			(effects
 				(font
@@ -20018,7 +20765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 116.84 62.23 0)
 			(effects
 				(font
@@ -20064,6 +20811,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 116.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 116.84 62.23 0)
 			(effects
 				(font
@@ -20151,6 +20907,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 213.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a23da257-3883-43f5-b963-4e92f785e0ac")
 		)
@@ -20201,7 +20966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 96.52 102.87 0)
 			(effects
 				(font
@@ -20247,6 +21012,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 96.52 102.87 0)
 			(effects
 				(font
@@ -20308,7 +21082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 60.96 68.58 0)
 			(effects
 				(font
@@ -20336,6 +21110,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 60.96 68.58 0)
 			(effects
 				(font
@@ -20394,7 +21177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 121.92 109.22 0)
 			(effects
 				(font
@@ -20422,6 +21205,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 121.92 109.22 0)
 			(effects
 				(font
@@ -20479,7 +21271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 118.11 71.12 0)
 			(effects
 				(font
@@ -20507,6 +21299,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 118.11 71.12 0)
 			(effects
 				(font
@@ -20565,7 +21366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 113.03 62.23 0)
 			(effects
 				(font
@@ -20611,6 +21412,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 113.03 62.23 0)
 			(effects
 				(font
@@ -20672,7 +21482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 60.96 88.9 0)
 			(effects
 				(font
@@ -20700,6 +21510,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 60.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 60.96 88.9 0)
 			(effects
 				(font
@@ -20758,7 +21577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 81.28 129.54 0)
 			(effects
 				(font
@@ -20786,6 +21605,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 81.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 81.28 129.54 0)
 			(effects
 				(font
@@ -20844,7 +21672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
 			(at 101.6 60.96 0)
 			(effects
 				(font
@@ -20863,6 +21691,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 101.6 64.77 0)
 			(effects
 				(font
@@ -20927,7 +21764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
 			(at 142.24 101.6 0)
 			(effects
 				(font
@@ -20946,6 +21783,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 142.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 142.24 105.41 0)
 			(effects
 				(font
@@ -21009,7 +21855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 97.79 71.12 0)
 			(effects
 				(font
@@ -21037,6 +21883,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 97.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 97.79 71.12 0)
 			(effects
 				(font
@@ -21093,7 +21948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
 			(at 60.96 60.96 0)
 			(effects
 				(font
@@ -21112,6 +21967,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 60.96 64.77 0)
 			(effects
 				(font
@@ -21175,7 +22039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/0906-2-15-20-75-14-11-0"
 			(at 219.71 82.55 0)
 			(effects
 				(font
@@ -21203,6 +22067,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 219.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0906-2-15-20-75-14-11-0"
 			(at 219.71 82.55 0)
 			(effects
 				(font
@@ -21260,7 +22133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -21288,6 +22161,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 77.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -21346,7 +22228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 55.88 82.55 0)
 			(effects
 				(font
@@ -21392,6 +22274,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 55.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 55.88 82.55 0)
 			(effects
 				(font
@@ -21453,7 +22344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 81.28 111.76 0)
 			(effects
 				(font
@@ -21481,6 +22372,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 81.28 111.76 0)
 			(effects
 				(font
@@ -21565,6 +22465,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f8d21dd-5d24-4708-b64d-0c2b76d2cb7d")
 		)
@@ -21615,7 +22524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 72.39 102.87 0)
 			(effects
 				(font
@@ -21661,6 +22570,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 72.39 102.87 0)
 			(effects
 				(font
@@ -21721,7 +22639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 138.43 111.76 0)
 			(effects
 				(font
@@ -21749,6 +22667,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 138.43 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 138.43 111.76 0)
 			(effects
 				(font
@@ -21807,7 +22734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 76.2 82.55 0)
 			(effects
 				(font
@@ -21853,6 +22780,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 76.2 82.55 0)
 			(effects
 				(font
@@ -21913,7 +22849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 77.47 129.54 0)
 			(effects
 				(font
@@ -21941,6 +22877,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 77.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 77.47 129.54 0)
 			(effects
 				(font
@@ -21999,7 +22944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 101.6 68.58 0)
 			(effects
 				(font
@@ -22027,6 +22972,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 101.6 68.58 0)
 			(effects
 				(font
@@ -22084,7 +23038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 57.15 129.54 0)
 			(effects
 				(font
@@ -22112,6 +23066,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 57.15 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 57.15 129.54 0)
 			(effects
 				(font
@@ -22169,7 +23132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 97.79 68.58 0)
 			(effects
 				(font
@@ -22197,6 +23160,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 97.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 97.79 68.58 0)
 			(effects
 				(font
@@ -22254,7 +23226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 77.47 111.76 0)
 			(effects
 				(font
@@ -22282,6 +23254,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 77.47 111.76 0)
 			(effects
 				(font
@@ -22339,7 +23320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 138.43 91.44 0)
 			(effects
 				(font
@@ -22367,6 +23348,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 138.43 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 138.43 91.44 0)
 			(effects
 				(font
@@ -22424,7 +23414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 118.11 91.44 0)
 			(effects
 				(font
@@ -22452,6 +23442,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 118.11 91.44 0)
 			(effects
 				(font
@@ -22510,7 +23509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 60.96 129.54 0)
 			(effects
 				(font
@@ -22538,6 +23537,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 60.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 60.96 129.54 0)
 			(effects
 				(font
@@ -22595,7 +23603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 57.15 111.76 0)
 			(effects
 				(font
@@ -22623,6 +23631,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 57.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 57.15 111.76 0)
 			(effects
 				(font
@@ -22680,7 +23697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 118.11 109.22 0)
 			(effects
 				(font
@@ -22708,6 +23725,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 118.11 109.22 0)
 			(effects
 				(font
@@ -22766,7 +23792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
 			(at 121.92 101.6 0)
 			(effects
 				(font
@@ -22785,6 +23811,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 121.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 121.92 105.41 0)
 			(effects
 				(font
@@ -22875,6 +23910,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 236.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f20eb2f4-eaf9-4f72-90e0-19ae22c74050")
 		)
@@ -22923,7 +23967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2111120930_MYOUNG-MY-LR44-02_C2902345.pdf"
 			(at 240.03 134.62 0)
 			(effects
 				(font
@@ -22951,6 +23995,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 240.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MY-LR44-02"
 			(at 240.03 134.62 0)
 			(effects
 				(font
@@ -23018,7 +24071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 142.24 91.44 0)
 			(effects
 				(font
@@ -23046,6 +24099,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 142.24 91.44 0)
 			(effects
 				(font
@@ -23104,7 +24166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 76.2 62.23 0)
 			(effects
 				(font
@@ -23150,6 +24212,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 76.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 76.2 62.23 0)
 			(effects
 				(font
@@ -23237,6 +24308,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6ae89f0-e869-4aba-97a3-8e8b08671d31")
 		)
@@ -23287,7 +24367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 81.28 91.44 0)
 			(effects
 				(font
@@ -23315,6 +24395,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 81.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 81.28 91.44 0)
 			(effects
 				(font
@@ -23373,7 +24462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -23401,6 +24490,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -23485,6 +24583,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 236.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c226241f-5ebc-4d9b-a1f7-c6f1107713c2")
 		)
@@ -23532,7 +24639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2110190930_SHOU-HAN-MST22D18G2-125_C2906280.pdf"
 			(at 209.55 119.38 0)
 			(effects
 				(font
@@ -23560,6 +24667,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MST22D18G2 125"
 			(at 209.55 119.38 0)
 			(effects
 				(font
@@ -23632,7 +24748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 77.47 68.58 0)
 			(effects
 				(font
@@ -23660,6 +24776,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 77.47 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 77.47 68.58 0)
 			(effects
 				(font
@@ -23718,7 +24843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 101.6 111.76 0)
 			(effects
 				(font
@@ -23746,6 +24871,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 101.6 111.76 0)
 			(effects
 				(font
@@ -23803,7 +24937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 57.15 132.08 0)
 			(effects
 				(font
@@ -23831,6 +24965,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 57.15 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 57.15 132.08 0)
 			(effects
 				(font
@@ -23889,7 +25032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/sockets/310-13-107-41-001000"
 			(at 218.44 67.31 0)
 			(effects
 				(font
@@ -23917,6 +25060,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 218.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "310-13-107-41-001000"
 			(at 218.44 67.31 0)
 			(effects
 				(font
@@ -23993,7 +25145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 52.07 123.19 0)
 			(effects
 				(font
@@ -24039,6 +25191,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 52.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 52.07 123.19 0)
 			(effects
 				(font
@@ -24100,7 +25261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
 			(at 81.28 60.96 0)
 			(effects
 				(font
@@ -24119,6 +25280,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 81.28 64.77 0)
 			(effects
 				(font
@@ -24209,6 +25379,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 213.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87f0f35b-2bb2-4a9c-af2a-a523bfe96960")
 		)
@@ -24259,7 +25438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 52.07 82.55 0)
 			(effects
 				(font
@@ -24305,6 +25484,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 52.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 52.07 82.55 0)
 			(effects
 				(font
@@ -24366,7 +25554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 133.35 82.55 0)
 			(effects
 				(font
@@ -24412,6 +25600,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 133.35 82.55 0)
 			(effects
 				(font
@@ -24473,7 +25670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 92.71 102.87 0)
 			(effects
 				(font
@@ -24519,6 +25716,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 92.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 92.71 102.87 0)
 			(effects
 				(font
@@ -24606,6 +25812,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d91db34-43c9-4960-a175-335170fc3bd2")
 		)
@@ -24656,7 +25871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 113.03 102.87 0)
 			(effects
 				(font
@@ -24702,6 +25917,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 113.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 113.03 102.87 0)
 			(effects
 				(font
@@ -24763,7 +25987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
 			(at 101.6 101.6 0)
 			(effects
 				(font
@@ -24782,6 +26006,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 101.6 105.41 0)
 			(effects
 				(font
@@ -24846,7 +26079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
 			(at 121.92 60.96 0)
 			(effects
 				(font
@@ -24865,6 +26098,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 121.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 121.92 64.77 0)
 			(effects
 				(font
@@ -24929,7 +26171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 142.24 109.22 0)
 			(effects
 				(font
@@ -24957,6 +26199,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 142.24 109.22 0)
 			(effects
 				(font
@@ -25015,7 +26266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 116.84 102.87 0)
 			(effects
 				(font
@@ -25061,6 +26312,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 116.84 102.87 0)
 			(effects
 				(font
@@ -25122,7 +26382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 137.16 62.23 0)
 			(effects
 				(font
@@ -25168,6 +26428,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 137.16 62.23 0)
 			(effects
 				(font
@@ -25228,7 +26497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -25256,6 +26525,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -25314,7 +26592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
 			(at 60.96 81.28 0)
 			(effects
 				(font
@@ -25333,6 +26611,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 60.96 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 60.96 85.09 0)
 			(effects
 				(font
@@ -25397,7 +26684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 60.96 71.12 0)
 			(effects
 				(font
@@ -25425,6 +26712,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 60.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 60.96 71.12 0)
 			(effects
 				(font
@@ -25483,7 +26779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 142.24 71.12 0)
 			(effects
 				(font
@@ -25511,6 +26807,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 142.24 71.12 0)
 			(effects
 				(font
@@ -25569,7 +26874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 60.96 91.44 0)
 			(effects
 				(font
@@ -25597,6 +26902,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 60.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 60.96 91.44 0)
 			(effects
 				(font
@@ -25655,7 +26969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 113.03 82.55 0)
 			(effects
 				(font
@@ -25701,6 +27015,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 113.03 82.55 0)
 			(effects
 				(font
@@ -25761,7 +27084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 97.79 111.76 0)
 			(effects
 				(font
@@ -25789,6 +27112,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 97.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 97.79 111.76 0)
 			(effects
 				(font
@@ -25914,7 +27246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+		(property "Datasheet" ""
 			(at 133.35 102.87 0)
 			(effects
 				(font
@@ -25960,6 +27292,15 @@
 			)
 		)
 		(property "Config" "+left,+flip"
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4148WS(0805C)"
 			(at 133.35 102.87 0)
 			(effects
 				(font
@@ -26021,7 +27362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
 			(at 81.28 132.08 0)
 			(effects
 				(font
@@ -26049,6 +27390,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 81.28 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
 			(at 81.28 132.08 0)
 			(effects
 				(font
@@ -26104,7 +27454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2110190930_SHOU-HAN-MST22D18G2-125_C2906280.pdf"
 			(at 209.55 133.35 0)
 			(effects
 				(font
@@ -26132,6 +27482,15 @@
 			)
 		)
 		(property "Config" "+right,+flip"
+			(at 209.55 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MST22D18G2 125"
 			(at 209.55 133.35 0)
 			(effects
 				(font
