@@ -1830,6 +1830,7 @@
 		(drill 0.4)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
 		(uuid "89e9bb2b-1b52-49fe-b555-5fab77207d15")
 	)
 	(pad "13" smd custom

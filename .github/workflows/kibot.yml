@@ -62,7 +62,7 @@ jobs:
   pcbs:
     name: "pcbs"
     runs-on: ubuntu-latest
-    needs: [ERC]
+    needs: [ERC, DRC]
 
     steps:
     - uses: actions/checkout@v4
