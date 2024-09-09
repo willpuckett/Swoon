@@ -12,18 +12,18 @@ preflight:
   fill_zones: true
 
 variants:
-  - name: 'Flip'
+  - name: Flip
     comment: 'For Hand Soldering'
     type: kibom
     variant: flip
 
-  - name: 'Left'
+  - name: Left
     comment: 'Left for PCBA'
     type: kibom
     file_id: _LEFT
     variant: left
 
-  - name: 'Right'
+  - name: Right
     comment: 'Right for PCBA'
     type: kibom
     file_id: _RIGHT
@@ -78,7 +78,6 @@ filters:
       - column: 'FP'
         regex: 'fiducial'
 
-
 outputs:
   - name: CaseFoam_DXF
     comment: Edge Cut DXF used for case foam generation
@@ -88,7 +87,7 @@ outputs:
       polygon_mode: false
       use_aux_axis_as_origin: true
     layers:
-       - User.Eco1
+       - Edge.Cuts
 
   - name: JLCPCB_gerbers
     comment: Gerbers compatible with JLCPCB

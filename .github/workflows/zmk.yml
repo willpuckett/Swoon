@@ -1,3 +1,5 @@
+name: ZMK Build
+
 on:
   push:
     paths:
