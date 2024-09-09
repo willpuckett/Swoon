@@ -15,6 +15,7 @@ variants:
   - name: Flip
     comment: 'For Hand Soldering'
     type: kibom
+    file_id: _FLIP
     variant: flip
 
   - name: Left
@@ -29,27 +30,27 @@ variants:
     file_id: _RIGHT
     variant: right
 
-  - name: rotated
-    comment: 'Just a place holder for the rotation filter'
-    type: kibom
-    variant: rotated
-    pre_transform: fix_rotation
-    exclude_filter: mechanical_fixed
+  # - name: rotated
+  #   comment: 'Just a place holder for the rotation filter'
+  #   type: kibom
+  #   variant: rotated
+  #   pre_transform: fix_rotation
+  #   exclude_filter: mechanical_fixed
 
 
 filters:
-  - name: fix_rotation
-    comment: 'Adjust rotation for JLC'
-    type: rot_footprint
-    negative_bottom: false
-    invert_bottom: true
-    rotations:
-      - ["^SOIC-16*", 270.0]
-      - ["^SOT-23", 0.0]
-      - ["^SW_SPDT_PCM12", 180.0]
-      - ["^Panasonic_EVQPUL_.*", 90.0]
-      - ["^D_.*", 180.0]
-      - ["^R_.*", 180.0]
+  # - name: fix_rotation
+  #   comment: 'Adjust rotation for JLC'
+  #   type: rot_footprint
+  #   negative_bottom: false
+  #   invert_bottom: true
+  #   rotations:
+  #     - ["^SOIC-16*", 270.0]
+  #     - ["^SOT-23", 0.0]
+  #     - ["^SW_SPDT_PCM12", 180.0]
+  #     - ["^Panasonic_EVQPUL_.*", 90.0]
+  #     - ["^D_.*", 180.0]
+  #     - ["^R_.*", 180.0]
 
   - name: only_jlc_parts
     comment: 'Only parts with JLC code'
@@ -58,25 +59,25 @@ filters:
       - column: 'LCSC'
         regex: '^C\d+'
 
-  - name: mechanical_fixed
-    comment: 'Exclude mechanical, but fix for reverse mount LED'
-    type: generic
-    exclude_virtual: true
-    exclude_any:
-      - column: 'Ref'
-        regex: '^TP[0-9]*'
-      - column: 'Ref'
-        regex: '^FID'
-      - column: 'Part'
-        regex: 'solder.*bridge'
-      - column: 'Part'
-        regex: 'solder.*jump'
-      - column: 'Part'
-        regex: 'test.*point'
-      - column: 'FP'
-        regex: 'test.*point'
-      - column: 'FP'
-        regex: 'fiducial'
+  # - name: mechanical_fixed
+  #   comment: 'Exclude mechanical, but fix for reverse mount LED'
+  #   type: generic
+  #   exclude_virtual: true
+  #   exclude_any:
+  #     - column: 'Ref'
+  #       regex: '^TP[0-9]*'
+  #     - column: 'Ref'
+  #       regex: '^FID'
+  #     - column: 'Part'
+  #       regex: 'solder.*bridge'
+  #     - column: 'Part'
+  #       regex: 'solder.*jump'
+  #     - column: 'Part'
+  #       regex: 'test.*point'
+  #     - column: 'FP'
+  #       regex: 'test.*point'
+  #     - column: 'FP'
+  #       regex: 'fiducial'
 
 outputs:
   - name: CaseFoam_DXF
@@ -151,35 +152,35 @@ outputs:
         - from_output: JLCPCB_drill
           dest: /
 
-  - name: generic_position
-    comment: Pick and place position file compatible
-    type: position
-    options:
-      variant: rotated
-      output: '%f_cpl.%x'
-      format: CSV
-      units: millimeters
-      separate_files_for_front_and_back: false
-      only_smd: true
-      columns:
-        - id: Ref
-          name: Designator
-        - Val
-        - Package
-        - id: PosX
-          name: "Mid X"
-        - id: PosY
-          name: "Mid Y"
-        - id: Rot
-          name: Rotation
-        - id: Side
-          name: Layer
+  # - name: generic_position
+  #   comment: Pick and place position file compatible
+  #   type: position
+  #   options:
+  #     variant: rotated
+  #     output: '%f_cpl.%x'
+  #     format: CSV
+  #     units: millimeters
+  #     separate_files_for_front_and_back: false
+  #     only_smd: true
+  #     columns:
+  #       - id: Ref
+  #         name: Designator
+  #       - Val
+  #       - Package
+  #       - id: PosX
+  #         name: "Mid X"
+  #       - id: PosY
+  #         name: "Mid Y"
+  #       - id: Rot
+  #         name: Rotation
+  #       - id: Side
+  #         name: Layer
 
   - name: JLCPCB_position
     comment: Pick and place position file compatible with JLCPCB
     type: position
     options:
-      variant: rotated
+      # variant: rotated
       output: '%f_cpl_jlc.%x'
       format: CSV
       units: millimeters
@@ -199,26 +200,26 @@ outputs:
         - id: Side
           name: Layer
 
-  - name: 'bom_generic'
-    comment: "Generic BoM"
-    type: bom
-    options:
-      output: '%f_%i.%x'
-      ref_separator: ','
-      group_fields: ['Value', 'Footprint', 'MPN']
-      columns:
-        - field: Value
-          name: Comment
-        - field: References
-          name: Designator
-        - field: Footprint
-          name: Footprint
-        - field: 'MPN'
-          name: 'Manufacturer Part Number'
-      csv:
-        hide_pcb_info: true
-        hide_stats_info: true
-        quote_all: true
+  # - name: 'bom_generic'
+  #   comment: "Generic BoM"
+  #   type: bom
+  #   options:
+  #     output: '%f_%i.%x'
+  #     ref_separator: ','
+  #     group_fields: ['Value', 'Footprint', 'MPN']
+  #     columns:
+  #       - field: Value
+  #         name: Comment
+  #       - field: References
+  #         name: Designator
+  #       - field: Footprint
+  #         name: Footprint
+  #       - field: 'MPN'
+  #         name: 'Manufacturer Part Number'
+  #     csv:
+  #       hide_pcb_info: true
+  #       hide_stats_info: true
+  #       quote_all: true
 
   - name: 'bom'
     comment: "BoM for JLC"
@@ -245,6 +246,6 @@ outputs:
   - name: 'step'
     comment: "STEP file for case design testing"
     type: step
-    run_by_default: false
+    run_by_default: true
     options:
       min_distance: 0.1

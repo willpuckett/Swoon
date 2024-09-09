@@ -19,50 +19,50 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  ERC:
-    runs-on: ubuntu-latest
+  # ERC:
+  #   runs-on: ubuntu-latest
 
-    steps:
-    - uses: actions/checkout@v4
+  #   steps:
+  #   - uses: actions/checkout@v4
 
-    - name: Run ERC
-      uses: INTI-CMNB/KiBot@v2_k8
-      with:
-        dir: Generated
-        skip: drc
-        targets: __NONE__
+  #   - name: Run ERC
+  #     uses: INTI-CMNB/KiBot@v2_k8
+  #     with:
+  #       dir: Generated
+  #       skip: drc
+  #       targets: __NONE__
 
-    - name: Retrieve results
-      uses: actions/upload-artifact@v4
-      with:
-        name: ERC_Output
-        path: Generated
+  #   - name: Retrieve results
+  #     uses: actions/upload-artifact@v4
+  #     with:
+  #       name: ERC_Output
+  #       path: Generated
 
   DRC:
-    runs-on: ubuntu-latest
-    needs: ERC
+    # runs-on: ubuntu-latest
+    # needs: ERC
 
-    steps:
-    - uses: actions/checkout@v4
+    # steps:
+    # - uses: actions/checkout@v4
 
-    - name: Run DRC
-      uses: INTI-CMNB/KiBot@v2_k8
-      with:
-        dir: Generated
-        skip: erc
-        targets: __NONE__
+    # - name: Run DRC
+    #   uses: INTI-CMNB/KiBot@v2_k8
+    #   with:
+    #     dir: Generated
+    #     skip: erc
+    #     targets: __NONE__
 
-    - name: Retrieve results
-      uses: actions/upload-artifact@v4
-      with:
-        name: DRC_Output
-        path: Generated
+    # - name: Retrieve results
+    #   uses: actions/upload-artifact@v4
+    #   with:
+    #     name: DRC_Output
+    #     path: Generated
 
 
   pcbs:
     name: "pcbs"
     runs-on: ubuntu-latest
-    needs: [ERC, DRC]
+    # needs: [ERC, DRC]
 
     steps:
     - uses: actions/checkout@v4
@@ -71,14 +71,14 @@ jobs:
       with:
         dir: default
         variant: Flip
-        skip: erc,drc
+        # skip: erc,drc
         # config: swoon.kibot.yaml
 
     - name: upload results
       uses: actions/upload-artifact@v4
       with:
-        name: pcbs
-        path:  ./*.zip, ./*.csv
+        name: JLCPCB
+        path:  ./JLCPCB/*.zip, ./*_jlc.csv *.dxf
 
 
 
