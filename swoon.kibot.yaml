@@ -292,4 +292,4 @@ outputs:
         - from_output: step
         - from_output: CaseFoam_DXF
         - from_output: Schematic
-    output: '%f_%i.zip'
+      output: '%f_%i.zip'
