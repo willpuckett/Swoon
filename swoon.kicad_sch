@@ -12530,7 +12530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 121.92 91.44 0)
 			(effects
 				(font
@@ -12809,7 +12809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 121.92 88.9 0)
 			(effects
 				(font
@@ -12904,7 +12904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 218.44 67.31 0)
 			(effects
 				(font
@@ -13269,7 +13269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right"
+		(property "Config" "+left"
 			(at 213.36 64.77 0)
 			(effects
 				(font
@@ -13363,7 +13363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 77.47 132.08 0)
 			(effects
 				(font
@@ -13573,7 +13573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 57.15 71.12 0)
 			(effects
 				(font
@@ -14016,7 +14016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 101.6 88.9 0)
 			(effects
 				(font
@@ -14111,7 +14111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 81.28 88.9 0)
 			(effects
 				(font
@@ -14393,7 +14393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 229.87 82.55 0)
 			(effects
 				(font
@@ -14488,7 +14488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 60.96 132.08 0)
 			(effects
 				(font
@@ -14697,7 +14697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 118.11 88.9 0)
 			(effects
 				(font
@@ -15207,7 +15207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 138.43 71.12 0)
 			(effects
 				(font
@@ -15302,7 +15302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 231.14 67.31 0)
 			(effects
 				(font
@@ -15405,7 +15405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right"
+		(property "Config" "+left"
 			(at 236.22 72.39 0)
 			(effects
 				(font
@@ -15500,7 +15500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 142.24 68.58 0)
 			(effects
 				(font
@@ -15772,7 +15772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 81.28 71.12 0)
 			(effects
 				(font
@@ -15866,7 +15866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 138.43 109.22 0)
 			(effects
 				(font
@@ -16192,7 +16192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 118.11 111.76 0)
 			(effects
 				(font
@@ -16286,7 +16286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 97.79 109.22 0)
 			(effects
 				(font
@@ -16380,7 +16380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 77.47 91.44 0)
 			(effects
 				(font
@@ -16591,7 +16591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 101.6 71.12 0)
 			(effects
 				(font
@@ -16917,7 +16917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -17012,7 +17012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 142.24 88.9 0)
 			(effects
 				(font
@@ -17213,7 +17213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right"
+		(property "Config" "+left"
 			(at 236.22 74.93 0)
 			(effects
 				(font
@@ -17308,7 +17308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 101.6 109.22 0)
 			(effects
 				(font
@@ -17572,7 +17572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 231.14 67.31 0)
 			(effects
 				(font
@@ -17684,7 +17684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 57.15 91.44 0)
 			(effects
 				(font
@@ -17779,7 +17779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 121.92 68.58 0)
 			(effects
 				(font
@@ -18081,7 +18081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -18166,7 +18166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right"
+		(property "Config" "+left"
 			(at 213.36 72.39 0)
 			(effects
 				(font
@@ -18367,7 +18367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left"
+		(property "Config" "+right"
 			(at 236.22 72.39 0)
 			(effects
 				(font
@@ -18529,7 +18529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 81.28 68.58 0)
 			(effects
 				(font
@@ -18623,7 +18623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 97.79 88.9 0)
 			(effects
 				(font
@@ -18833,7 +18833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 57.15 68.58 0)
 			(effects
 				(font
@@ -19013,7 +19013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 121.92 71.12 0)
 			(effects
 				(font
@@ -19107,7 +19107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 57.15 109.22 0)
 			(effects
 				(font
@@ -19201,7 +19201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 77.47 88.9 0)
 			(effects
 				(font
@@ -19295,7 +19295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 97.79 91.44 0)
 			(effects
 				(font
@@ -19683,7 +19683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 121.92 111.76 0)
 			(effects
 				(font
@@ -19778,7 +19778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 81.28 109.22 0)
 			(effects
 				(font
@@ -19873,7 +19873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 60.96 111.76 0)
 			(effects
 				(font
@@ -20024,7 +20024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left"
+		(property "Config" "+right"
 			(at 213.36 72.39 0)
 			(effects
 				(font
@@ -20119,7 +20119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 60.96 109.22 0)
 			(effects
 				(font
@@ -20513,7 +20513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 77.47 71.12 0)
 			(effects
 				(font
@@ -20608,7 +20608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 101.6 91.44 0)
 			(effects
 				(font
@@ -20759,7 +20759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right"
+		(property "Config" "+left"
 			(at 213.36 59.69 0)
 			(effects
 				(font
@@ -20853,7 +20853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 57.15 88.9 0)
 			(effects
 				(font
@@ -21054,7 +21054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left"
+		(property "Config" "+right"
 			(at 213.36 64.77 0)
 			(effects
 				(font
@@ -21265,7 +21265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 60.96 68.58 0)
 			(effects
 				(font
@@ -21360,7 +21360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 121.92 109.22 0)
 			(effects
 				(font
@@ -21454,7 +21454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 118.11 71.12 0)
 			(effects
 				(font
@@ -21665,7 +21665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 60.96 88.9 0)
 			(effects
 				(font
@@ -21760,7 +21760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 81.28 129.54 0)
 			(effects
 				(font
@@ -22038,7 +22038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 97.79 71.12 0)
 			(effects
 				(font
@@ -22222,7 +22222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 219.71 82.55 0)
 			(effects
 				(font
@@ -22316,7 +22316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -22527,7 +22527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 81.28 111.76 0)
 			(effects
 				(font
@@ -22822,7 +22822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 138.43 111.76 0)
 			(effects
 				(font
@@ -23032,7 +23032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 77.47 129.54 0)
 			(effects
 				(font
@@ -23127,7 +23127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 101.6 68.58 0)
 			(effects
 				(font
@@ -23221,7 +23221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 57.15 129.54 0)
 			(effects
 				(font
@@ -23315,7 +23315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 97.79 68.58 0)
 			(effects
 				(font
@@ -23409,7 +23409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 77.47 111.76 0)
 			(effects
 				(font
@@ -23503,7 +23503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 138.43 91.44 0)
 			(effects
 				(font
@@ -23597,7 +23597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 118.11 91.44 0)
 			(effects
 				(font
@@ -23692,7 +23692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 60.96 129.54 0)
 			(effects
 				(font
@@ -23786,7 +23786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 57.15 111.76 0)
 			(effects
 				(font
@@ -23880,7 +23880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 118.11 109.22 0)
 			(effects
 				(font
@@ -24254,7 +24254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 142.24 91.44 0)
 			(effects
 				(font
@@ -24550,7 +24550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 81.28 91.44 0)
 			(effects
 				(font
@@ -24645,7 +24645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -24730,7 +24730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left"
+		(property "Config" "+right"
 			(at 236.22 74.93 0)
 			(effects
 				(font
@@ -24931,7 +24931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 77.47 68.58 0)
 			(effects
 				(font
@@ -25026,7 +25026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 101.6 111.76 0)
 			(effects
 				(font
@@ -25120,7 +25120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 57.15 132.08 0)
 			(effects
 				(font
@@ -25215,7 +25215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 218.44 67.31 0)
 			(effects
 				(font
@@ -25959,7 +25959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left"
+		(property "Config" "+right"
 			(at 213.36 59.69 0)
 			(effects
 				(font
@@ -26354,7 +26354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 142.24 109.22 0)
 			(effects
 				(font
@@ -26680,7 +26680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+left,+flip"
+		(property "Config" "+left"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -26867,7 +26867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 60.96 71.12 0)
 			(effects
 				(font
@@ -26962,7 +26962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 142.24 71.12 0)
 			(effects
 				(font
@@ -27057,7 +27057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 60.96 91.44 0)
 			(effects
 				(font
@@ -27267,7 +27267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 97.79 111.76 0)
 			(effects
 				(font
@@ -27545,7 +27545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+right,+flip"
+		(property "Config" "+right"
 			(at 81.28 132.08 0)
 			(effects
 				(font
