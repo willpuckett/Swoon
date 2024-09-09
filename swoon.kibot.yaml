@@ -283,7 +283,6 @@ outputs:
   - name: Pack
     comment: ZIP for Artifact
     type: compress
-    dir: default
     options:
       files:
         - from_output: JLCPCB
