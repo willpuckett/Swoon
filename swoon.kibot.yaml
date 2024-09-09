@@ -1,6 +1,6 @@
 # Gerber and drill files for JLCPCB, without stencil
 # URL: https://jlcpcb.com/
-# Based on setting used by Gerber Zipper (https://github.com/g200kg/kicad-gerberzipper)
+# Based on setting used by revxlp (https://gitlab.com/lpgalaxy/revxlp)
 kibot:
   version: 1
 
@@ -17,18 +17,25 @@ variants:
     type: kibom
     file_id: _FLIP
     variant: flip
+    pre_transform: 
+      - fix_rotation
+      - tp
 
   - name: Left
     comment: 'Left for PCBA'
     type: kibom
     file_id: _LEFT
     variant: left
+    pre_transform: fix_rotation
+    # exclude_filter: mechanical_fixed
 
   - name: Right
     comment: 'Right for PCBA'
     type: kibom
     file_id: _RIGHT
     variant: right
+    pre_transform: fix_rotation
+    # exclude_filter: mechanical_fixed
 
   # - name: rotated
   #   comment: 'Just a place holder for the rotation filter'
@@ -39,18 +46,18 @@ variants:
 
 
 filters:
-  # - name: fix_rotation
-  #   comment: 'Adjust rotation for JLC'
-  #   type: rot_footprint
-  #   negative_bottom: false
-  #   invert_bottom: true
-  #   rotations:
-  #     - ["^SOIC-16*", 270.0]
-  #     - ["^SOT-23", 0.0]
-  #     - ["^SW_SPDT_PCM12", 180.0]
-  #     - ["^Panasonic_EVQPUL_.*", 90.0]
-  #     - ["^D_.*", 180.0]
-  #     - ["^R_.*", 180.0]
+  - name: fix_rotation
+    comment: 'Adjust rotation for JLC'
+    type: rot_footprint
+    negative_bottom: false
+    invert_bottom: true
+    rotations:
+      - ["^SOIC-16*", 270.0]
+      - ["^SOT-23", 0.0]
+      - ["^SW_SPDT_PCM12", 180.0]
+      - ["^Panasonic_EVQPUL_.*", 90.0]
+      - ["^D_.*", 180.0]
+      - ["^R_.*", 180.0]
 
   - name: only_jlc_parts
     comment: 'Only parts with JLC code'
@@ -58,6 +65,21 @@ filters:
     include_only:
       - column: 'LCSC'
         regex: '^C\d+'
+
+  - name: match_tp
+    comment: 'A filter to select Test Points'
+    type: generic
+    include_only:
+      - column: 'Reference'
+        regex: '^TP[0-9]*'
+
+  - name: tp
+    comment: 'Exclude Test Points'
+    type: field_modify
+    fields: ${EXCLUDE_FROM_BOARD}
+    include: match_tp
+    regex: 'no'
+    replace: 'yes'
 
   # - name: mechanical_fixed
   #   comment: 'Exclude mechanical, but fix for reverse mount LED'
@@ -80,6 +102,14 @@ filters:
   #       regex: 'fiducial'
 
 outputs:
+
+  - name: Schematic
+    comment: Schematic in SVG format
+    type: svg_sch_print
+    # dir: default
+    options:
+      output: '%f_%i.%x'
+
   - name: CaseFoam_DXF
     comment: Edge Cut DXF used for case foam generation
     type: dxf

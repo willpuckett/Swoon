@@ -756,7 +756,6 @@
 		(at -7.62 4.826 180)
 		(size 1.2 0.5)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -864,7 +863,6 @@
 		(at -5.08 4.826 180)
 		(size 1.2 0.5)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -972,7 +970,6 @@
 		(at -2.54 4.826 180)
 		(size 1.2 0.5)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -1080,7 +1077,6 @@
 		(at 2.54 4.826 180)
 		(size 1.2 0.5)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -1188,7 +1184,6 @@
 		(at 5.08 4.826 180)
 		(size 1.2 0.5)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -1296,7 +1291,6 @@
 		(at 7.62 4.826 180)
 		(size 1.2 0.5)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -1317,7 +1311,6 @@
 		(at 7.62 -4.826)
 		(size 1.2 0.5)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -1425,7 +1418,6 @@
 		(at 5.08 -4.826)
 		(size 1.2 0.5)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -1533,7 +1525,6 @@
 		(at 2.54 -4.826)
 		(size 1.2 0.5)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -1641,7 +1632,6 @@
 		(at -2.54 -4.826)
 		(size 1.2 0.5)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -1749,7 +1739,6 @@
 		(at -5.08 -4.826)
 		(size 1.2 0.5)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -1858,7 +1847,6 @@
 		(at -7.62 -4.826)
 		(size 1.2 0.5)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -1982,7 +1970,6 @@
 		(at -7.62 5.842 180)
 		(size 0.1 0.1)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -2057,7 +2044,6 @@
 		(at -5.08 5.842 180)
 		(size 0.1 0.1)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -2131,7 +2117,6 @@
 		(at -2.54 5.842 180)
 		(size 0.1 0.1)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -2213,7 +2198,6 @@
 		(at 2.54 5.842 180)
 		(size 0.1 0.1)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -2287,7 +2271,6 @@
 		(at 5.08 5.842 180)
 		(size 0.1 0.1)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -2361,7 +2344,6 @@
 		(at 7.62 5.842 180)
 		(size 0.1 0.1)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -2467,7 +2449,6 @@
 		(at 7.62 -5.842)
 		(size 0.1 0.1)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -2541,7 +2522,6 @@
 		(at 5.08 -5.842)
 		(size 0.1 0.1)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -2615,7 +2595,6 @@
 		(at 2.54 -5.842)
 		(size 0.1 0.1)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -2697,7 +2676,6 @@
 		(at -2.54 -5.842)
 		(size 0.1 0.1)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -2771,7 +2749,6 @@
 		(at -5.08 -5.842)
 		(size 0.1 0.1)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)
@@ -2847,7 +2824,6 @@
 		(at -7.62 -5.842)
 		(size 0.1 0.1)
 		(layers "F.Cu" "F.Mask")
-		(clearance 0.1)
 		(zone_connect 0)
 		(options
 			(clearance outline)

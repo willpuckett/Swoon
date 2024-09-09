@@ -15624,7 +15624,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 236.22 62.23 90)
+		(at 213.36 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15633,7 +15633,7 @@
 		(fields_autoplaced yes)
 		(uuid "30e098d4-f848-441f-a489-8d5232aece6c")
 		(property "Reference" "TP20"
-			(at 236.22 57.15 90)
+			(at 213.36 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15642,7 +15642,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 236.22 59.69 90)
+			(at 213.36 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15651,7 +15651,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 236.22 57.15 0)
+			(at 213.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15660,7 +15660,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 57.15 0)
+			(at 213.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15669,7 +15669,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 236.22 62.23 0)
+			(at 213.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15678,7 +15678,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 236.22 62.23 0)
+			(at 213.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15687,7 +15687,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 236.22 62.23 0)
+			(at 213.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18314,7 +18314,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 236.22 72.39 90)
+		(at 213.36 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18323,7 +18323,7 @@
 		(fields_autoplaced yes)
 		(uuid "55232f45-d3fb-4764-a413-e173f5880565")
 		(property "Reference" "TP16"
-			(at 236.22 67.31 90)
+			(at 213.36 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18332,7 +18332,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 236.22 69.85 90)
+			(at 213.36 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18341,7 +18341,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 236.22 67.31 0)
+			(at 213.36 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18350,7 +18350,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 67.31 0)
+			(at 213.36 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18359,7 +18359,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 236.22 72.39 0)
+			(at 213.36 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18368,7 +18368,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 236.22 72.39 0)
+			(at 213.36 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18377,7 +18377,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 236.22 72.39 0)
+			(at 213.36 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19971,7 +19971,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 213.36 72.39 90)
+		(at 236.22 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19980,7 +19980,7 @@
 		(fields_autoplaced yes)
 		(uuid "70258c64-2659-4b22-a9c2-7abfff97bb7c")
 		(property "Reference" "TP10"
-			(at 213.36 67.31 90)
+			(at 236.22 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19989,7 +19989,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 213.36 69.85 90)
+			(at 236.22 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19998,7 +19998,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 213.36 67.31 0)
+			(at 236.22 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20007,7 +20007,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 67.31 0)
+			(at 236.22 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20016,7 +20016,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 213.36 72.39 0)
+			(at 236.22 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20025,7 +20025,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 213.36 72.39 0)
+			(at 236.22 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20034,7 +20034,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 213.36 72.39 0)
+			(at 236.22 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21001,7 +21001,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 213.36 64.77 90)
+		(at 236.22 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21010,7 +21010,7 @@
 		(fields_autoplaced yes)
 		(uuid "7af07fdb-5619-45d0-a545-cbb8eb533f2d")
 		(property "Reference" "TP6"
-			(at 213.36 59.69 90)
+			(at 236.22 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21019,7 +21019,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 213.36 62.23 90)
+			(at 236.22 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21028,7 +21028,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 213.36 59.69 0)
+			(at 236.22 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21037,7 +21037,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 59.69 0)
+			(at 236.22 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21046,7 +21046,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 213.36 64.77 0)
+			(at 236.22 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21055,7 +21055,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 213.36 64.77 0)
+			(at 236.22 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21064,7 +21064,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 213.36 64.77 0)
+			(at 236.22 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22559,7 +22559,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 213.36 69.85 90)
+		(at 236.22 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22568,7 +22568,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e0b4e7c-ccce-42a8-a8d3-a299276fc6ec")
 		(property "Reference" "TP8"
-			(at 213.36 64.77 90)
+			(at 236.22 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22577,7 +22577,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 213.36 67.31 90)
+			(at 236.22 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22586,7 +22586,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 213.36 64.77 0)
+			(at 236.22 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22595,7 +22595,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 64.77 0)
+			(at 236.22 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22604,7 +22604,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 213.36 69.85 0)
+			(at 236.22 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22613,7 +22613,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 213.36 69.85 0)
+			(at 236.22 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22622,7 +22622,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 213.36 69.85 0)
+			(at 236.22 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24004,7 +24004,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 236.22 69.85 90)
+		(at 213.36 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24013,7 +24013,7 @@
 		(fields_autoplaced yes)
 		(uuid "b86bd2ff-41c0-432b-b8cb-28326b459a31")
 		(property "Reference" "TP14"
-			(at 236.22 64.77 90)
+			(at 213.36 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24022,7 +24022,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 236.22 67.31 90)
+			(at 213.36 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24031,7 +24031,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 236.22 64.77 0)
+			(at 213.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24040,7 +24040,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 64.77 0)
+			(at 213.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24049,7 +24049,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 236.22 69.85 0)
+			(at 213.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24058,7 +24058,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 236.22 69.85 0)
+			(at 213.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24067,7 +24067,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 236.22 69.85 0)
+			(at 213.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24402,7 +24402,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 213.36 74.93 90)
+		(at 236.22 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24411,7 +24411,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4813314-d5da-498a-bcf0-59b72429c6e3")
 		(property "Reference" "TP12"
-			(at 213.36 69.85 90)
+			(at 236.22 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24420,7 +24420,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 213.36 72.39 90)
+			(at 236.22 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24429,7 +24429,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 213.36 69.85 0)
+			(at 236.22 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24438,7 +24438,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 69.85 0)
+			(at 236.22 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24447,7 +24447,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 213.36 74.93 0)
+			(at 236.22 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24456,7 +24456,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 213.36 74.93 0)
+			(at 236.22 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24465,7 +24465,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 213.36 74.93 0)
+			(at 236.22 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24677,7 +24677,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 236.22 74.93 90)
+		(at 213.36 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24686,7 +24686,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbeb65d9-e23d-4b12-96d6-7b487a827a2c")
 		(property "Reference" "TP18"
-			(at 236.22 69.85 90)
+			(at 213.36 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24695,7 +24695,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 236.22 72.39 90)
+			(at 213.36 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24704,7 +24704,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 236.22 69.85 0)
+			(at 213.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24713,7 +24713,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 69.85 0)
+			(at 213.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24722,7 +24722,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 236.22 74.93 0)
+			(at 213.36 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24731,7 +24731,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 236.22 74.93 0)
+			(at 213.36 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24740,7 +24740,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 236.22 74.93 0)
+			(at 213.36 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25473,7 +25473,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 213.36 62.23 90)
+		(at 236.22 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25482,7 +25482,7 @@
 		(fields_autoplaced yes)
 		(uuid "d65770e7-1a05-4092-bbbc-299d4647d637")
 		(property "Reference" "TP4"
-			(at 213.36 57.15 90)
+			(at 236.22 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25491,7 +25491,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 213.36 59.69 90)
+			(at 236.22 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25500,7 +25500,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 213.36 57.15 0)
+			(at 236.22 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25509,7 +25509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 57.15 0)
+			(at 236.22 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25518,7 +25518,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 213.36 62.23 0)
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25527,7 +25527,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 213.36 62.23 0)
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25536,7 +25536,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 213.36 62.23 0)
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25906,7 +25906,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 213.36 59.69 90)
+		(at 236.22 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25915,7 +25915,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7e69277-85eb-4160-83d0-887d8bf8de40")
 		(property "Reference" "TP2"
-			(at 213.36 54.61 90)
+			(at 236.22 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25924,7 +25924,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 213.36 57.15 90)
+			(at 236.22 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25933,7 +25933,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 213.36 54.61 0)
+			(at 236.22 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25942,7 +25942,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 54.61 0)
+			(at 236.22 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25951,7 +25951,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 213.36 59.69 0)
+			(at 236.22 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25960,7 +25960,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 213.36 59.69 0)
+			(at 236.22 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25969,7 +25969,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 213.36 59.69 0)
+			(at 236.22 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
