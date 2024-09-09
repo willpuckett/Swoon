@@ -286,9 +286,10 @@ outputs:
     dir: default
     options:
       files:
-        - source: JLCPCB/*.zip
-        - source: *_jlc.csv
-        - source: *.dxf
-        - source: *.step 
-        - source: *.svg
+        - from_output: JLCPCB
+        - from_output: JLCPCB_position
+        - from_output: bom
+        - from_output: step
+        - from_output: CaseFoam_DXF
+        - from_output: Schematic
     output: '%f_%i.zip'
