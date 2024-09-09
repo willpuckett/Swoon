@@ -279,3 +279,16 @@ outputs:
     run_by_default: true
     options:
       min_distance: 0.1
+
+  - name: Pack
+    comment: ZIP for Artifact
+    type: compress
+    dir: default
+    options:
+      files:
+        - source: JLCPCB/*.zip
+        - source: *_jlc.csv
+        - source: *.dxf
+        - source: *.step 
+        - source: *.svg
+    output: '%f_%i.zip'
