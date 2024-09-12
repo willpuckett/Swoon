@@ -490,7 +490,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "./images",
       "vrml": ""
     },
     "page_layout_descr_file": ""

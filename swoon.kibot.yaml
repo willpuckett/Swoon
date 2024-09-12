@@ -110,15 +110,27 @@ outputs:
     options:
       output: '%f_%i.%x'
 
-  - name: CaseFoam_DXF
-    comment: Edge Cut DXF used for case foam generation
-    type: dxf
-    options:
-      metric_units: true
-      polygon_mode: false
-      use_aux_axis_as_origin: true
+  # - name: CaseFoam_DXF
+  #   comment: Edge Cut DXF used for case foam generation
+  #   type: dxf
+  #   options:
+  #     metric_units: true
+  #     polygon_mode: false
+  #     use_aux_axis_as_origin: true
+  #   layers:
+  #      - Edge.Cuts
+
+  - name: CaseFoam_SVG
+    comment: Edge Cut SVG used for case foam generation
+    type: svg
+    # options:
+    #   metric_units: true
+    #   polygon_mode: false
+    #   use_aux_axis_as_origin: true
     layers:
        - Edge.Cuts
+
+
 
   - name: JLCPCB_gerbers
     comment: Gerbers compatible with JLCPCB
@@ -290,6 +302,6 @@ outputs:
         - from_output: JLCPCB_position
         - from_output: bom
         - from_output: step
-        - from_output: CaseFoam_DXF
+        - from_output: CaseFoam_SVG
         - from_output: Schematic
       output: '%f_%i.zip'
