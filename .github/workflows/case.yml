@@ -1,0 +1,24 @@
+name: Case Generator
+
+on:
+  workflow_run:
+    workflows: ["KiBot Check & Generate"]
+    types:
+      - completed
+
+jobs:
+  Case:
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip' # caching pip dependencies
+      - run: pip install -r requirements.txt
+      # - run: vpype read default/swoon-Edge_Cuts_LEFT.svg linemerge --tolerance 3mm linesort reloop linesimplify write default/swoon-Edge_Cuts_LEFT_vpype.svg
+      - run: python case.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Case
+          path: "*.step"
