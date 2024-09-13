@@ -1,0 +1,78 @@
+(footprint "TestPoint_Pad_Empty"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD rectangular pad as test Point, square 1.0mm side length")
+	(tags "test point SMD pad rectangle square")
+	(property "Reference" "REF**"
+		(at 0 -0.762 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "57854389-d614-41bc-badd-9e50c042f000")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.01)
+			)
+		)
+	)
+	(property "Value" "TestPoint_Pad_Empty"
+		(at 0 0.762 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffbacf47-0bca-42da-9556-58707a172b94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5103f804-4771-4736-96cc-ed727ec8fac7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60705c60-ce89-4d2e-9646-ced329925477")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35b5fc35-3c5a-44e3-b9ea-03dcdfe1cc53")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard dnp)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.001 0.001)
+		(layers "F.Cu")
+		(uuid "a413cabe-a6bc-48ba-9db6-dd56cfa92311")
+	)
+)

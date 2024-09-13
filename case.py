@@ -8,12 +8,12 @@ from build123d import *
 # set_port(3939)
 
 with BuildPart() as void:
-    with BuildSketch(Plane.XY.offset(3 * MM)) as edge_cuts:
+    with BuildSketch(Plane.XY.offset(2 * MM)) as edge_cuts:
         with BuildLine() as line:
             svg = import_svg("swoon-Edge_Cuts_LEFT_vpype.svg")
             add(svg)
         make_face()
-    extrude(amount = 3 * MM)
+    extrude(amount = 4 * MM)
 
 with BuildPart() as case:
     with BuildSketch() as outline:

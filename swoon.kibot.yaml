@@ -12,29 +12,33 @@ preflight:
   fill_zones: true
 
 variants:
-  - name: Flip
+  - name: flip
     comment: 'For Hand Soldering'
     type: kibom
     file_id: _FLIP
     variant: flip
     pre_transform: 
       - fix_rotation
-      - tp
+      # - variant_rename
 
-  - name: Left
+  - name: left
     comment: 'Left for PCBA'
     type: kibom
     file_id: _LEFT
     variant: left
-    pre_transform: fix_rotation
+    pre_transform: 
+      - variant_rename
+      - fix_rotation
     # exclude_filter: mechanical_fixed
 
-  - name: Right
+  - name: right
     comment: 'Right for PCBA'
     type: kibom
     file_id: _RIGHT
     variant: right
-    pre_transform: fix_rotation
+    pre_transform: 
+      - variant_rename
+      - fix_rotation
     # exclude_filter: mechanical_fixed
 
   # - name: rotated
@@ -46,6 +50,12 @@ variants:
 
 
 filters:
+  - name: 'variant_rename'
+    comment: 'Add TPs and 3305s to board'
+    type: var_rename
+    separator: ':'
+    variant_to_value: false
+
   - name: fix_rotation
     comment: 'Adjust rotation for JLC'
     type: rot_footprint
@@ -66,20 +76,20 @@ filters:
       - column: 'LCSC'
         regex: '^C\d+'
 
-  - name: match_tp
-    comment: 'A filter to select Test Points'
-    type: generic
-    include_only:
-      - column: 'Reference'
-        regex: '^TP[0-9]*'
+  # - name: match_tp
+  #   comment: 'A filter to select Test Points'
+  #   type: generic
+  #   include_only:
+  #     - column: 'Reference'
+  #       regex: '^TP[0-9]*'
 
-  - name: tp
-    comment: 'Exclude Test Points'
-    type: field_modify
-    fields: ${EXCLUDE_FROM_BOARD}
-    include: match_tp
-    regex: 'no'
-    replace: 'yes'
+  # - name: tp
+  #   comment: 'Exclude Test Points'
+  #   type: field_modify
+  #   fields: Footprint
+  #   include: match_tp
+  #   regex: 
+  #   replace: 'yes'
 
   # - name: mechanical_fixed
   #   comment: 'Exclude mechanical, but fix for reverse mount LED'
@@ -102,6 +112,12 @@ filters:
   #       regex: 'fiducial'
 
 outputs:
+
+  - name: TSS
+    type: sch_variant
+
+  - name: TSP
+    type: pcb_variant
 
   - name: Schematic
     comment: Schematic in SVG format
@@ -129,8 +145,6 @@ outputs:
     #   use_aux_axis_as_origin: true
     layers:
        - Edge.Cuts
-
-
 
   - name: JLCPCB_gerbers
     comment: Gerbers compatible with JLCPCB

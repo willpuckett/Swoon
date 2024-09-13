@@ -1941,7 +1941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Swoon:xiao_nRF52840"
+		(property "Footprint" "Swoon:xiao_nRF52840_extra"
 			(at 0 12.2174 0)
 			(effects
 				(font

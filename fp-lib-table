@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Swoon")(type "KiCad")(uri "${KIPRJMOD}/library")(options "")(descr ""))
+  (lib (name "Swoon")(type "KiCad")(uri "${KIPRJMOD}/library/Swoon.pretty")(options "")(descr "All the nibbly bits"))
 )
