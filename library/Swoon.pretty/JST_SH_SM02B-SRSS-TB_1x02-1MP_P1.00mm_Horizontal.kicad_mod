@@ -266,7 +266,7 @@
 		(roundrect_rratio 0.208333)
 		(uuid "a35cddc3-784f-4b82-b582-ed7c919e74dc")
 	)
-	(model "${KIPRJMOD}/library/JST_-_SM02B-SRSS-TB(LF)(SN).step"
+	(model "${KIPRJMOD}/library/Swoon.3dshapes/JST_-_SM02B-SRSS-TB(LF)(SN).step"
 		(offset
 			(xyz 0 -0.5 0)
 		)

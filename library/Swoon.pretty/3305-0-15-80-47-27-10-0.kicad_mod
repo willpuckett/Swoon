@@ -97,12 +97,12 @@
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 2.262 2.262)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "0174ff5d-5dd3-4dbc-a777-585d797907b5")
 	)
-	(model "${KIPRJMOD}/library/mill-max-3305-0-15-01-47-XX-10-0.step"
+	(model "${KIPRJMOD}/library/Swoon.3dshapes/mill-max-3305-0-15-01-47-XX-10-0.step"
 		(offset
 			(xyz 0 0 0.25)
 		)

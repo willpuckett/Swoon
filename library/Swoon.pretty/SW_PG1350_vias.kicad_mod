@@ -434,7 +434,7 @@
 	(pad "1" thru_hole circle
 		(at 0 5.9)
 		(size 2.262 2.262)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "cbc466f8-2413-47c5-8676-9b2e9e769e8c")
@@ -450,7 +450,7 @@
 	(pad "2" thru_hole circle
 		(at -5 3.8)
 		(size 2.262 2.262)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "63e288c2-0436-41a9-80af-63b9c8ad1e9c")
@@ -474,7 +474,7 @@
 	(pad "2" thru_hole circle
 		(at 5 3.8)
 		(size 2.262 2.262)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "3cc8a519-fbac-4aaf-84a6-160395416cf8")
@@ -487,9 +487,9 @@
 		(remove_unused_layers no)
 		(uuid "7ba7907b-1b25-410a-bcfa-f92d50641245")
 	)
-	(model "${KIPRJMOD}/library/keycap_1x1.STEP"
+	(model "${KIPRJMOD}/library/Swoon.3dshapes/keycap_1x1.STEP"
 		(offset
-			(xyz 0 0 5)
+			(xyz 0 0 5.5)
 		)
 		(scale
 			(xyz 0.98 1 0.94)
@@ -498,9 +498,9 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/library/Kailh Choc Low Profile Switch.step"
+	(model "${KIPRJMOD}/library/Swoon.3dshapes/pg1350.step"
 		(offset
-			(xyz 0 0 2.1)
+			(xyz 0 0 2.25)
 		)
 		(scale
 			(xyz 1 1 1)

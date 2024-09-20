@@ -138,7 +138,7 @@
 		(clearance 0.2)
 		(uuid "e467cd2d-8bf5-40b5-9f79-d019322d9b13")
 	)
-	(model "${KIPRJMOD}/library/mill-max-0900-2-15-20-75-14-11-0.step"
+	(model "${KIPRJMOD}/library/Swoon.3dshapes/mill-max-0900-2-15-20-75-14-11-0.step"
 		(offset
 			(xyz 0 0 0)
 		)

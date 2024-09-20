@@ -129,7 +129,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "4f9c6da9-adc8-4193-a05a-0fd6e089a893")
 	)
-	(model "/library/Swoon.3dshapes/BAT-SMD_MY-LR44-02.wrl"
+	(model "${KIPRJMOD}/library/Swoon.3dshapes/BAT-SMD_MY-LR44-02.wrl"
 		(offset
 			(xyz 0 0 6.5)
 		)

@@ -284,7 +284,7 @@
 		(remove_unused_layers no)
 		(uuid "0a048630-366e-48bd-ac59-e2a09aefbd2d")
 	)
-	(model "${KIPRJMOD}/library/mill-max-310-43-107-41-001000.STEP"
+	(model "${KIPRJMOD}/library/Swoon.3dshapes/mill-max-310-43-107-41-001000.STEP"
 		(offset
 			(xyz -8.6 -1.3 4)
 		)

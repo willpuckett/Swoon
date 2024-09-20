@@ -2861,7 +2861,7 @@
 		)
 		(uuid "3bf60d6f-ca86-4145-a391-32c39febf729")
 	)
-	(model "${KIPRJMOD}/library/XIAO-nRF52840 v15.step"
+	(model "${KIPRJMOD}/library/Swoon.3dshapes/XIAO-nRF52840 v15.step"
 		(offset
 			(xyz 1.725 6.1 4)
 		)

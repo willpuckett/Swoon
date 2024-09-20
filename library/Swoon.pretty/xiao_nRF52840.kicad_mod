@@ -2860,7 +2860,7 @@
 		(remove_unused_layers no)
 		(uuid "274d499d-3f31-4150-8e2b-887712ad0ac0")
 	)
-	(model "${KIPRJMOD}/library/XIAO-nRF52840 v15.step"
+	(model "${KIPRJMOD}/library/Swoon.3dshapes/XIAO-nRF52840 v15.step"
 		(offset
 			(xyz 1.725 6.1 4)
 		)

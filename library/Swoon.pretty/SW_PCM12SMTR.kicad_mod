@@ -397,7 +397,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "74f02c02-909c-450c-ad02-a4648cb175c0")
 	)
-	(model "${KIPRJMOD}/library/PCM12SMTR.step"
+	(model "${KIPRJMOD}/library/Swoon.3dshapes/PCM12SMTR.step"
 		(offset
 			(xyz 0 0 0)
 		)

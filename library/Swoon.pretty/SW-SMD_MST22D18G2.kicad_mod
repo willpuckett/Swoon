@@ -300,7 +300,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "15c3370b-8e58-469a-b98e-27bfdc02f385")
 	)
-	(model "/library/Swoon.3dshapes/SW-SMD_MST22D18G2.wrl"
+	(model "${KIPRJMOD}/library/Swoon.3dshapes/SW-SMD_MST22D18G2.wrl"
 		(offset
 			(xyz 0 -0 -0)
 		)
