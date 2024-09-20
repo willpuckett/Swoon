@@ -12548,7 +12548,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 121.92 91.44 0)
 			(effects
 				(font
@@ -12890,7 +12890,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 121.92 88.9 0)
 			(effects
 				(font
@@ -12994,7 +12994,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 218.44 67.31 0)
 			(effects
 				(font
@@ -13124,7 +13124,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 69.85 0)
 			(effects
 				(font
@@ -13337,7 +13337,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 69.85 0)
 			(effects
 				(font
@@ -13440,7 +13440,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 64.77 0)
 			(effects
 				(font
@@ -13543,7 +13543,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 77.47 132.08 0)
 			(effects
 				(font
@@ -13674,7 +13674,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 137.16 82.55 0)
 			(effects
 				(font
@@ -13789,7 +13789,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 57.15 71.12 0)
 			(effects
 				(font
@@ -13929,7 +13929,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 72.39 123.19 0)
 			(effects
 				(font
@@ -14063,7 +14063,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 92.71 82.55 0)
 			(effects
 				(font
@@ -14188,7 +14188,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 137.16 102.87 0)
 			(effects
 				(font
@@ -14313,7 +14313,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 101.6 88.9 0)
 			(effects
 				(font
@@ -14426,7 +14426,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 81.28 88.9 0)
 			(effects
 				(font
@@ -14537,7 +14537,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 240.03 118.11 0)
 			(effects
 				(font
@@ -14649,7 +14649,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 62.23 0)
 			(effects
 				(font
@@ -14753,7 +14753,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 229.87 82.55 0)
 			(effects
 				(font
@@ -14866,7 +14866,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 60.96 132.08 0)
 			(effects
 				(font
@@ -15005,7 +15005,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 52.07 62.23 0)
 			(effects
 				(font
@@ -15120,7 +15120,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 118.11 88.9 0)
 			(effects
 				(font
@@ -15352,7 +15352,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 76.2 102.87 0)
 			(effects
 				(font
@@ -15596,7 +15596,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 55.88 123.19 0)
 			(effects
 				(font
@@ -15711,7 +15711,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 138.43 71.12 0)
 			(effects
 				(font
@@ -15833,7 +15833,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 231.14 67.31 0)
 			(effects
 				(font
@@ -15954,7 +15954,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 72.39 0)
 			(effects
 				(font
@@ -16067,7 +16067,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 142.24 68.58 0)
 			(effects
 				(font
@@ -16271,7 +16271,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 62.23 0)
 			(effects
 				(font
@@ -16384,7 +16384,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 81.28 71.12 0)
 			(effects
 				(font
@@ -16505,7 +16505,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 138.43 109.22 0)
 			(effects
 				(font
@@ -16636,7 +16636,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -16761,7 +16761,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 76.2 123.19 0)
 			(effects
 				(font
@@ -16876,7 +16876,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 118.11 111.76 0)
 			(effects
 				(font
@@ -16997,7 +16997,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 97.79 109.22 0)
 			(effects
 				(font
@@ -17100,7 +17100,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 77.47 91.44 0)
 			(effects
 				(font
@@ -17240,7 +17240,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 72.39 82.55 0)
 			(effects
 				(font
@@ -17347,7 +17347,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 101.6 71.12 0)
 			(effects
 				(font
@@ -17478,7 +17478,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 55.88 62.23 0)
 			(effects
 				(font
@@ -17621,7 +17621,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 72.39 62.23 0)
 			(effects
 				(font
@@ -17736,7 +17736,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -17849,7 +17849,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 142.24 88.9 0)
 			(effects
 				(font
@@ -17980,7 +17980,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 52.07 102.87 0)
 			(effects
 				(font
@@ -18086,7 +18086,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 74.93 0)
 			(effects
 				(font
@@ -18199,7 +18199,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 101.6 109.22 0)
 			(effects
 				(font
@@ -18490,7 +18490,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 231.14 67.31 0)
 			(effects
 				(font
@@ -18620,7 +18620,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 57.15 91.44 0)
 			(effects
 				(font
@@ -18742,7 +18742,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 121.92 68.58 0)
 			(effects
 				(font
@@ -18974,7 +18974,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 96.52 82.55 0)
 			(effects
 				(font
@@ -19098,7 +19098,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -19201,7 +19201,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 72.39 0)
 			(effects
 				(font
@@ -19332,7 +19332,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 133.35 62.23 0)
 			(effects
 				(font
@@ -19429,7 +19429,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 72.39 0)
 			(effects
 				(font
@@ -19618,7 +19618,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 81.28 68.58 0)
 			(effects
 				(font
@@ -19730,7 +19730,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 97.79 88.9 0)
 			(effects
 				(font
@@ -19852,7 +19852,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 96.52 62.23 0)
 			(effects
 				(font
@@ -19976,7 +19976,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 57.15 68.58 0)
 			(effects
 				(font
@@ -20079,7 +20079,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 62.23 0)
 			(effects
 				(font
@@ -20183,7 +20183,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 121.92 71.12 0)
 			(effects
 				(font
@@ -20304,7 +20304,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 57.15 109.22 0)
 			(effects
 				(font
@@ -20416,7 +20416,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 77.47 88.9 0)
 			(effects
 				(font
@@ -20519,7 +20519,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 97.79 91.44 0)
 			(effects
 				(font
@@ -20631,7 +20631,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 74.93 0)
 			(effects
 				(font
@@ -20753,7 +20753,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 116.84 82.55 0)
 			(effects
 				(font
@@ -20979,7 +20979,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 121.92 111.76 0)
 			(effects
 				(font
@@ -21101,7 +21101,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 81.28 109.22 0)
 			(effects
 				(font
@@ -21205,7 +21205,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 60.96 111.76 0)
 			(effects
 				(font
@@ -21374,7 +21374,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 72.39 0)
 			(effects
 				(font
@@ -21496,7 +21496,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 60.96 109.22 0)
 			(effects
 				(font
@@ -21618,7 +21618,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 55.88 102.87 0)
 			(effects
 				(font
@@ -21953,7 +21953,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 77.47 71.12 0)
 			(effects
 				(font
@@ -22066,7 +22066,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 101.6 91.44 0)
 			(effects
 				(font
@@ -22244,7 +22244,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 59.69 0)
 			(effects
 				(font
@@ -22356,7 +22356,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 57.15 88.9 0)
 			(effects
 				(font
@@ -22478,7 +22478,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 116.84 62.23 0)
 			(effects
 				(font
@@ -22584,7 +22584,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 64.77 0)
 			(effects
 				(font
@@ -22715,7 +22715,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 96.52 102.87 0)
 			(effects
 				(font
@@ -22840,7 +22840,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 60.96 68.58 0)
 			(effects
 				(font
@@ -22953,7 +22953,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 121.92 109.22 0)
 			(effects
 				(font
@@ -23056,7 +23056,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 118.11 71.12 0)
 			(effects
 				(font
@@ -23196,7 +23196,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 113.03 62.23 0)
 			(effects
 				(font
@@ -23312,7 +23312,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 60.96 88.9 0)
 			(effects
 				(font
@@ -23425,7 +23425,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 81.28 129.54 0)
 			(effects
 				(font
@@ -23748,7 +23748,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 97.79 71.12 0)
 			(effects
 				(font
@@ -23977,7 +23977,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 219.71 82.55 0)
 			(effects
 				(font
@@ -24089,7 +24089,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -24211,7 +24211,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 55.88 82.55 0)
 			(effects
 				(font
@@ -24327,7 +24327,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 81.28 111.76 0)
 			(effects
 				(font
@@ -24430,7 +24430,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 69.85 0)
 			(effects
 				(font
@@ -24570,7 +24570,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 72.39 102.87 0)
 			(effects
 				(font
@@ -24676,7 +24676,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 138.43 111.76 0)
 			(effects
 				(font
@@ -24807,7 +24807,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 76.2 82.55 0)
 			(effects
 				(font
@@ -24931,7 +24931,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 77.47 129.54 0)
 			(effects
 				(font
@@ -25044,7 +25044,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 101.6 68.58 0)
 			(effects
 				(font
@@ -25156,7 +25156,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 57.15 129.54 0)
 			(effects
 				(font
@@ -25268,7 +25268,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 97.79 68.58 0)
 			(effects
 				(font
@@ -25371,7 +25371,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 77.47 111.76 0)
 			(effects
 				(font
@@ -25483,7 +25483,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 138.43 91.44 0)
 			(effects
 				(font
@@ -25595,7 +25595,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 118.11 91.44 0)
 			(effects
 				(font
@@ -25717,7 +25717,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 60.96 129.54 0)
 			(effects
 				(font
@@ -25820,7 +25820,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 57.15 111.76 0)
 			(effects
 				(font
@@ -25941,7 +25941,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 118.11 109.22 0)
 			(effects
 				(font
@@ -26145,7 +26145,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 69.85 0)
 			(effects
 				(font
@@ -26256,7 +26256,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 240.03 134.62 0)
 			(effects
 				(font
@@ -26378,7 +26378,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 142.24 91.44 0)
 			(effects
 				(font
@@ -26509,7 +26509,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 76.2 62.23 0)
 			(effects
 				(font
@@ -26615,7 +26615,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 74.93 0)
 			(effects
 				(font
@@ -26728,7 +26728,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 81.28 91.44 0)
 			(effects
 				(font
@@ -26841,7 +26841,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -26944,7 +26944,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 74.93 0)
 			(effects
 				(font
@@ -27063,7 +27063,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 209.55 119.38 0)
 			(effects
 				(font
@@ -27190,7 +27190,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 77.47 68.58 0)
 			(effects
 				(font
@@ -27294,7 +27294,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 101.6 111.76 0)
 			(effects
 				(font
@@ -27406,7 +27406,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 57.15 132.08 0)
 			(effects
 				(font
@@ -27528,7 +27528,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 218.44 67.31 0)
 			(effects
 				(font
@@ -27677,7 +27677,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 52.07 123.19 0)
 			(effects
 				(font
@@ -27884,7 +27884,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 62.23 0)
 			(effects
 				(font
@@ -28024,7 +28024,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 52.07 82.55 0)
 			(effects
 				(font
@@ -28158,7 +28158,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 133.35 82.55 0)
 			(effects
 				(font
@@ -28292,7 +28292,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 92.71 102.87 0)
 			(effects
 				(font
@@ -28389,7 +28389,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 59.69 0)
 			(effects
 				(font
@@ -28529,7 +28529,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 113.03 102.87 0)
 			(effects
 				(font
@@ -28865,7 +28865,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 142.24 109.22 0)
 			(effects
 				(font
@@ -28987,7 +28987,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 116.84 102.87 0)
 			(effects
 				(font
@@ -29121,7 +29121,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 137.16 62.23 0)
 			(effects
 				(font
@@ -29245,7 +29245,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -29459,7 +29459,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 60.96 71.12 0)
 			(effects
 				(font
@@ -29572,7 +29572,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 142.24 71.12 0)
 			(effects
 				(font
@@ -29685,7 +29685,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 60.96 91.44 0)
 			(effects
 				(font
@@ -29825,7 +29825,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 113.03 82.55 0)
 			(effects
 				(font
@@ -29931,7 +29931,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 97.79 111.76 0)
 			(effects
 				(font
@@ -30138,7 +30138,7 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" ""
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 133.35 102.87 0)
 			(effects
 				(font
@@ -30245,7 +30245,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 81.28 132.08 0)
 			(effects
 				(font
@@ -30355,7 +30355,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" ""
+		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 209.55 133.35 0)
 			(effects
 				(font

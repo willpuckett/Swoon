@@ -76,7 +76,7 @@ outputs:
     layers:
       - Edge.Cuts
     options:
-      output: '%f_%i.%x'
+      output: '%f_edges.%x'
 
   - name: JLCPCB_GERBERS
     comment: Gerbers compatible with JLCPCB
@@ -106,6 +106,8 @@ outputs:
       - B.SilkS
       - F.Mask
       - B.Mask
+      - F.Paste
+      - B.Paste
       - Edge.Cuts
 
   - name: JLCPCB_DRILL
@@ -182,7 +184,7 @@ outputs:
           dest: /
         - source: JLCPCB_DRILL/*
           dest: /
-      output: '%f_%v.zip'
+      output: '%f_jlc_%v.zip'
 
   - name: JLCPCB_ZIP_ALL
     comment: Gerbers, Drill, Position and BOM files for JLCPCB
@@ -197,4 +199,4 @@ outputs:
           dest: /
         - from_output: STEP
           dest: /
-      output: '%f_ALL_%v.zip'
+      output: '%f_%v.zip'
