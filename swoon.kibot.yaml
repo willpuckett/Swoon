@@ -75,6 +75,8 @@ outputs:
     type: svg
     layers:
       - Edge.Cuts
+    options:
+      output: '%f_%i.%x'
 
   - name: JLCPCB_GERBERS
     comment: Gerbers compatible with JLCPCB
@@ -180,6 +182,7 @@ outputs:
           dest: /
         - source: JLCPCB_DRILL/*
           dest: /
+      output: '%f_%v.zip'
 
   - name: JLCPCB_ZIP_ALL
     comment: Gerbers, Drill, Position and BOM files for JLCPCB
@@ -194,3 +197,4 @@ outputs:
           dest: /
         - from_output: STEP
           dest: /
+      output: '%f_ALL_%v.zip'
