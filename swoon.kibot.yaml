@@ -71,10 +71,10 @@ outputs:
       output: '%f_%i.%x'
 
   - name: EDGES
-    comment: Edge Cut SVG used for case foam generation
+    comment: Edge Cut SVG used for case generation
     type: svg
     layers:
-       - Edge.Cuts
+      - Edge.Cuts
 
   - name: JLCPCB_GERBERS
     comment: Gerbers compatible with JLCPCB

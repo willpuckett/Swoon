@@ -67,12 +67,12 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: SCHEMATIC_SVG
-        path: default/*SCHEMATIC*.svg
+        path: default/*schematic*.svg
     - name: upload board outline
       uses: actions/upload-artifact@v4
       with:
         name: BOARD_OUTLINE
-        path: default/*EDGES*.svg
+        path: default/*edge*.svg
     - name: upload drill
       uses: actions/upload-artifact@v4
       with:
