@@ -106,7 +106,7 @@ outputs:
       - B.Mask
       - Edge.Cuts
 
-  - name: DRILL
+  - name: JLCPCB_DRILL
     comment: Drill files compatible with JLCPCB
     type: excellon
     dir: JLCPCB
@@ -186,7 +186,7 @@ outputs:
     type: compress
     options:
       files:
-        - from_output: JLCPCB
+        - from_output: JLCPCB_ZIP
           dest: /
         - from_output: JLCPCB_POSITION
         - from_output: JLCPCB_BOM
