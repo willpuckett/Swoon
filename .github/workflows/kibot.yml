@@ -62,41 +62,68 @@ jobs:
         dir: default
         variant: flip
         skip: erc,drc
-    - name: upload results
+        targets: SCHEMATIC, EDGES, JLCPCB_GERBERS, JLCPCB_DRILL, JLCPCB_ZIP
+    - name: upload schematic
       uses: actions/upload-artifact@v4
       with:
-        name: JLCPCB
+        name: SCHEMATIC_SVG
+        path: default/*SCHEMATIC*.svg
+    - name: upload board outline
+      uses: actions/upload-artifact@v4
+      with:
+        name: BOARD_OUTLINE
+        path: default/*EDGES*.svg
+    - name: upload drill
+      uses: actions/upload-artifact@v4
+      with:
+        name: JLCPCB_DRILL
+        path: default/JLCPCB_DRILL/
+    - name: upload compressed gerbers and drill
+      uses: actions/upload-artifact@v4
+      with:
+        name: SWOON_FLIP
         path: default/*.zip
 
   LEFT:
     runs-on: ubuntu-latest
-    needs: [ERC, DRC]
+    needs: [ERC, DRC, FLIP]
     steps:
     - uses: actions/checkout@v4
+    - uses: actions/download-artifact@v4
+      with:
+        name: JLCPCB_DRILL
     - uses: INTI-CMNB/KiBot@v2_dk8
       with:
         dir: default
         variant: left
         skip: erc,drc
+        targets: JLCPCB_GERBERS, JLCPCB_POSITION, JLCPCB_BOM, STEP, JLCPCB_ZIP, JLCPCB_ZIP_ALL
     - name: upload results
       uses: actions/upload-artifact@v4
       with:
-        name: JLCPCB
-        path: default/*.zip
+        name: SWOON_LEFT
+        path: default/*ALL*.zip
 
   RIGHT:
     runs-on: ubuntu-latest
-    needs: [ERC, DRC]
+    needs: [ERC, DRC, FLIP]
     steps:
     - uses: actions/checkout@v4
+    - uses: actions/download-artifact@v4
+      with:
+        name: JLCPCB_DRILL
     - uses: INTI-CMNB/KiBot@v2_dk8
       with:
         dir: default
         variant: right
         skip: erc,drc
+        targets: JLCPCB_GERBERS, JLCPCB_POSITION, JLCPCB_BOM, STEP, JLCPCB_ZIP, JLCPCB_ZIP_ALL
     - name: upload results
       uses: actions/upload-artifact@v4
       with:
-        name: JLCPCB
-        path: default/*.zip
+        name: SWOON_RIGHT
+        path: default/*ALL*.zip
+    - uses: geekyeggo/delete-artifact@v5
+      with:
+        name: JLCPCB_DRILL
 

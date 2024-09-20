@@ -15,14 +15,14 @@ variants:
   - name: flip
     comment: For Hand Soldering
     type: kibom
-    file_id: _FLIP
+    file_id: FLIP
     variant: flip
     pre_transform: 
       - fix_rotation
   - name: left
     comment: Left for PCBA
     type: kibom
-    file_id: _LEFT
+    file_id: LEFT
     variant: left
     pre_transform: 
       - variant_rename
@@ -30,7 +30,7 @@ variants:
   - name: right
     comment: Right for PCBA
     type: kibom
-    file_id: _RIGHT
+    file_id: RIGHT
     variant: right
     pre_transform: 
       - variant_rename
@@ -64,13 +64,13 @@ filters:
         regex: '^C\d+'
 
 outputs:
-  - name: SCHEMATIC_SVG
+  - name: SCHEMATIC
     comment: Schematic in SVG format
     type: svg_sch_print
     options:
       output: '%f_%i.%x'
 
-  - name: EDGES_SVG
+  - name: EDGES
     comment: Edge Cut SVG used for case foam generation
     type: svg
     layers:
@@ -79,7 +79,7 @@ outputs:
   - name: JLCPCB_GERBERS
     comment: Gerbers compatible with JLCPCB
     type: gerber
-    dir: JLCPCB
+    dir: JLCPCB_GERBERS
     options: &gerber_options
       exclude_edge_layer: true
       exclude_pads_from_silkscreen: true
@@ -109,7 +109,7 @@ outputs:
   - name: JLCPCB_DRILL
     comment: Drill files compatible with JLCPCB
     type: excellon
-    dir: JLCPCB
+    dir: JLCPCB_DRILL
     options:
       pth_and_npth_single_file: false
       pth_id: '-PTH'
@@ -117,24 +117,13 @@ outputs:
       metric_units: true
       map: gerber
       route_mode_for_oval_holes: false
-      output: "swoon%i.%x"
-
-  - name: JLCPCB_ZIP
-    comment: ZIP file for JLCPCB
-    type: compress
-    dir: JLCPCB
-    options:
-      files:
-        - from_output: JLCPCB_GERBERS
-          dest: /
-        - from_output: JLCPCB_DRILL
-          dest: /
+      output: "swoon_%i.%x"
 
   - name: JLCPCB_POSITION
     comment: Pick and place position file compatible with JLCPCB
     type: position
     options:
-      output: '%f_cpl_jlc.%x'
+      output: '%f_cpl_jlc_%v.%x'
       format: CSV
       units: millimeters
       separate_files_for_front_and_back: false
@@ -156,7 +145,7 @@ outputs:
     comment: BoM for JLC
     type: bom
     options:
-      output: '%f_%i_jlc.%x'
+      output: '%f_%i_jlc_%v.%x'
       exclude_filter: 'only_jlc_parts'
       ref_separator: ','
       group_fields: ['Value', 'Footprint', 'LCSC']
@@ -180,17 +169,28 @@ outputs:
     run_by_default: true
     options:
       min_distance: 0.1
+      output: '%f_%v.%x'
 
-  - name: Pack
-    comment: ZIP for Artifact
+  - name: JLCPCB_ZIP
+    comment: ZIP file for JLCPCB
+    type: compress
+    options:
+      files:
+        - source: JLCPCB_GERBERS/*
+          dest: /
+        - source: JLCPCB_DRILL/*
+          dest: /
+
+  - name: JLCPCB_ZIP_ALL
+    comment: Gerbers, Drill, Position and BOM files for JLCPCB
     type: compress
     options:
       files:
         - from_output: JLCPCB_ZIP
           dest: /
         - from_output: JLCPCB_POSITION
+          dest: /
         - from_output: JLCPCB_BOM
+          dest: /
         - from_output: STEP
-        - from_output: EDGES_SVG
-        - from_output: SCHEMATIC_SVG
-      output: '%f_%i.zip'
+          dest: /
