@@ -62,7 +62,7 @@ jobs:
         dir: default
         variant: flip
         skip: erc,drc
-        targets: SCHEMATIC, EDGES, JLCPCB_GERBERS, JLCPCB_DRILL, JLCPCB_ZIP
+        targets: SCHEMATIC EDGES JLCPCB_GERBERS JLCPCB_DRILL JLCPCB_ZIP
     - name: upload schematic
       uses: actions/upload-artifact@v4
       with:
@@ -97,7 +97,7 @@ jobs:
         dir: default
         variant: left
         skip: erc,drc
-        targets: JLCPCB_GERBERS, JLCPCB_POSITION, JLCPCB_BOM, STEP, JLCPCB_ZIP, JLCPCB_ZIP_ALL
+        targets: JLCPCB_GERBERS JLCPCB_POSITION JLCPCB_BOM STEP JLCPCB_ZIP JLCPCB_ZIP_ALL
     - name: upload results
       uses: actions/upload-artifact@v4
       with:
@@ -117,7 +117,7 @@ jobs:
         dir: default
         variant: right
         skip: erc,drc
-        targets: JLCPCB_GERBERS, JLCPCB_POSITION, JLCPCB_BOM, STEP, JLCPCB_ZIP, JLCPCB_ZIP_ALL
+        targets: JLCPCB_GERBERS JLCPCB_POSITION JLCPCB_BOM STEP JLCPCB_ZIP JLCPCB_ZIP_ALL
     - name: upload results
       uses: actions/upload-artifact@v4
       with:
