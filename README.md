@@ -24,11 +24,14 @@
 A flippable variant [[flip](/jlcpcb/swoon_FLIP.zip)] for hand-soldering, like
 the original half-swept. **Flip** is also the most cost conscious variant—about
 $7.60 to get 5 of the boards produced, enough for 2 full keyboads and a nice...
-coaster? You'll need to solder the upward facing jumpers on each half under the
-Xiao before use.
+coaster?
+
+> [!IMPORTANT]
+> You'll need to solder the upward facing jumpers on each half under the Xiao
+> before use.
 
 > [!CAUTION]
-> Use LIR1254 battery __only__.
+> Use 3.7v LIR1254 (lithium ion rechargable) battery **only**.
 
 #### BOM
 
@@ -54,7 +57,7 @@ you'll need to preorder the parts through global sourcing before paying. The
 Each half is pre-jumpered in the gerbers so you can print and go.
 
 > [!CAUTION]
-> Use LIR1254 battery __only__.
+> Use 3.7v LIR1254 (lithium ion rechargable) battery **only**.
 
 ## CI/CD
 
@@ -66,11 +69,11 @@ but hopefully they'll be worked out soon. In the mean time, use the files in the
 ## Case
 
 There's a case [[step](/case/case.step)] [[stl](/case/case.stl)] that's really
-more of a skin.
+more of a skin. Print and place the pcb directly in it.
 
 > [!TIP]
-> Polymaker TPU seems to work well
+> Polymaker TPU seems to work well. It seems to like to print slow and
+> cool—leave the door open.
 
-Print and place the pcb directly in it. TPU is relatively non-slip, and it
-absorbs and distributes the force of typing very nicely, so no bumpons needed
-which further reduces height.
+TPU is relatively non-slip, and it absorbs and distributes the force of typing
+very nicely, so no bumpons needed which further reduces height.
