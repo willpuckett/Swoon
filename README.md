@@ -27,7 +27,8 @@ $7.60 to get 5 of the boards produced, enough for 2 full keyboads and a nice...
 coaster? You'll need to solder the upward facing jumpers on each half under the
 Xiao before use.
 
-Use LIR1254 battery only.
+> [!CAUTION]
+> Use LIR1254 battery __only__.
 
 #### BOM
 
@@ -52,7 +53,8 @@ you'll need to preorder the parts through global sourcing before paying. The
 
 Each half is pre-jumpered in the gerbers so you can print and go.
 
-Use LIR1254 battery only.
+> [!CAUTION]
+> Use LIR1254 battery __only__.
 
 ## CI/CD
 
@@ -64,7 +66,11 @@ but hopefully they'll be worked out soon. In the mean time, use the files in the
 ## Case
 
 There's a case [[step](/case/case.step)] [[stl](/case/case.stl)] that's really
-more of a skin. Print in TPU (polymaker TPU seems to work well) and place the
-pcb directly in it. TPU is relatively non-slip, and it absorbs and distributes
-the force of typing very nicely, so no bumpons needed which further reduces
-height.
+more of a skin.
+
+> [!TIP]
+> Polymaker TPU seems to work well
+
+Print and place the pcb directly in it. TPU is relatively non-slip, and it
+absorbs and distributes the force of typing very nicely, so no bumpons needed
+which further reduces height.
