@@ -12,6 +12,7 @@
 - Utilise Seeed Xiao—it's cuter
 - Experiment with parts consignment for PCBA of hotswaps
 - Choose a battery that can be easily changed by users who do not solder
+  (LIR1254)
 - Explore using CI/CD for board variants, case, and top plate generation
 - Locate each half's components on its respective top side for more affordable
   assembly and lower overall height
@@ -20,10 +21,13 @@
 
 ### **Flip**
 
-A flippable variant for hand-soldering, like the original half-swept. **Flip**
-is also the most cost conscious variant—about $7.60 to get 5 of the boards
-produced, enough for 2 full keyboads and a nice... coaster? You'll need to
-solder the upward facing jumpers on each half under the Xiao before use.
+A flippable variant [[flip](/jlcpcb/swoon_FLIP.zip)] for hand-soldering, like
+the original half-swept. **Flip** is also the most cost conscious variant—about
+$7.60 to get 5 of the boards produced, enough for 2 full keyboads and a nice...
+coaster? You'll need to solder the upward facing jumpers on each half under the
+Xiao before use.
+
+Use LIR1254 battery only.
 
 #### BOM
 
@@ -36,15 +40,19 @@ solder the upward facing jumpers on each half under the Xiao before use.
 |       2       |              MST22D18G2125               |   C2906280    |
 |      34       | CD4148WS (or 1N4148 SOD-323 from Amazon) |   C38587762   |
 |      34       |      Your ChocV1 switches of choice      |      N/A      |
+|       2       |           LIR1254 (NOT LR44!)            |      N/A      |
 
 ### **Left** and **Right**
 
 These variants are designed to be produced and assembled by JLCPCB. Each zip
-file has the a gerbers/drill zip, a cpl, and bom file. They should be fully
-assemblable, but you'll need to preorder the parts through global sourcing
-before paying. The 3305s aren't cheap and they cost extra to assemble.
+file [[left](/jlcpcb/swoon_LEFT.zip)] [[right](/jlcpcb/swoon_RIGHT.zip)] has the
+a gerbers/drill zip, a cpl, and bom file. They should be fully assemblable, but
+you'll need to preorder the parts through global sourcing before paying. The
+3305s aren't cheap and they cost extra to assemble.
 
 Each half is pre-jumpered in the gerbers so you can print and go.
+
+Use LIR1254 battery only.
 
 ## CI/CD
 
@@ -55,7 +63,8 @@ but hopefully they'll be worked out soon. In the mean time, use the files in the
 
 ## Case
 
-There's a case [[step](/case/case.step)] [[stl](/case/case.stl)]. It's really
+There's a case [[step](/case/case.step)] [[stl](/case/case.stl)] that's really
 more of a skin. Print in TPU (polymaker TPU seems to work well) and place the
 pcb directly in it. TPU is relatively non-slip, and it absorbs and distributes
-the force of typing very nicely, so no bumpons needed.
+the force of typing very nicely, so no bumpons needed which further reduces
+height.
