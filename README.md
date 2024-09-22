@@ -5,7 +5,7 @@
 > for
 > [Seeed Xiao nRF52840](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html).
 
-![Swoon Half Xiao'd](.images/swoon.jpg)
+![Swoon Half Xiao'd](.images/swoon_render.jpg)
 
 ## Motivations
 
