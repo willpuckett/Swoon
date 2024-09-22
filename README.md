@@ -35,16 +35,16 @@ coaster?
 
 #### BOM
 
-|      QTY      |                   Part                   | JLCPCB Part # |
-| :-----------: | :--------------------------------------: | :-----------: |
-|       2       |         0906-2-15-20-75-14-11-0          |   C5261048    |
-|       2       |            BAT-SMD_MY-LR44-02            |   C2902345    |
-|       4       |  310-13-107-41-001000/MF254V-11-07-0743  |   C5504401    |
-| 34 (optional) |         3305-0-15-80-47-27-10-0          |   C17370797   |
-|       2       |              MST22D18G2125               |   C2906280    |
-|      34       | CD4148WS (or 1N4148 SOD-323 from Amazon) |   C38587762   |
-|      34       |      Your ChocV1 switches of choice      |      N/A      |
-|       2       |           LIR1254 (NOT LR44!)            |      N/A      |
+|      QTY      |                   Part                    | JLCPCB Part # |
+| :-----------: | :---------------------------------------: | :-----------: |
+|       2       |          0906-2-15-20-75-14-11-0          |   C5261048    |
+|       2       |            BAT-SMD_MY-LR44-02             |   C2902345    |
+|       4       | 310-13-107-41-001000 or MF254V-11-07-0743 |   C5504401    |
+| 68 (optional) |          3305-0-15-80-47-27-10-0          |   C17370797   |
+|       2       |               MST22D18G2125               |   C2906280    |
+|      34       | CD4148WS (or 1N4148 SOD-323 from Amazon)  |   C38587762   |
+|      34       |      Your ChocV1 switches of choice       |      N/A      |
+|       2       |         3.7V LIR1254 (NOT LR44!)          |      N/A      |
 
 ### **Left** and **Right**
 
@@ -72,8 +72,8 @@ There's a case [[step](/case/case.step)] [[stl](/case/case.stl)] that's really
 more of a skin. Print and place the pcb directly in it.
 
 > [!TIP]
-> Polymaker TPU seems to work well. It seems to like to print slow and
-> cool—leave the door open.
+> Polymaker TPU works well. It seems to like to print slow and cool—leave the
+> door open.
 
 TPU is relatively non-slip, and it absorbs and distributes the force of typing
 very nicely, so no bumpons needed which further reduces height.
