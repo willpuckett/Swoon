@@ -18,6 +18,7 @@ variants:
     file_id: FLIP
     variant: flip
     pre_transform: 
+      - variant_rename
       - fix_rotation
   - name: left
     comment: Left for PCBA
@@ -39,7 +40,7 @@ variants:
     
 filters:
   - name: variant_rename
-    comment: Add TPs and 3305s to board
+    comment: Remove single sided components
     type: var_rename
     separator: ':'
     variant_to_value: false
@@ -118,7 +119,6 @@ outputs:
     type: excellon
     dir: JLCPCB
     options:
-      variant: flip
       pth_and_npth_single_file: false
       pth_id: 'PTH'
       npth_id: 'NPTH'

@@ -264,40 +264,46 @@
 			)
 		)
 	)
-	(pad "1" smd rect
-		(at -2.5 -2.75 180)
-		(size 1.2 2)
+	(pad "1" smd roundrect
+		(at -2.5 -3 180)
+		(size 1.2 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "dd632765-25ec-4b89-8ab4-5999db2e2d0b")
 	)
-	(pad "2" smd rect
-		(at 0 -2.75 180)
-		(size 1.2 2)
+	(pad "2" smd roundrect
+		(at 0 -3 180)
+		(size 1.2 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "9c9b7a06-2b53-424a-b421-7395f166df76")
 	)
-	(pad "3" smd rect
-		(at 2.5 -2.75 180)
-		(size 1.2 2)
+	(pad "3" smd roundrect
+		(at 2.5 -3 180)
+		(size 1.2 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "bc91941a-c25a-4b34-a88f-b9da6d012d86")
 	)
-	(pad "4" smd rect
-		(at -2.5 2.75 180)
-		(size 1.2 2)
+	(pad "4" smd roundrect
+		(at -2.5 3 180)
+		(size 1.2 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "ff018be9-5c7e-4651-829d-46d3bb5e8809")
 	)
-	(pad "5" smd rect
-		(at 0 2.75 180)
-		(size 1.2 2)
+	(pad "5" smd roundrect
+		(at 0 3 180)
+		(size 1.2 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "11532618-d716-4332-95fe-3db483171529")
 	)
-	(pad "6" smd rect
-		(at 2.5 2.75 180)
-		(size 1.2 2)
+	(pad "6" smd roundrect
+		(at 2.5 3 180)
+		(size 1.2 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "15c3370b-8e58-469a-b98e-27bfdc02f385")
 	)
 	(model "${KIPRJMOD}/library/Swoon.3dshapes/SW-SMD_MST22D18G2.wrl"

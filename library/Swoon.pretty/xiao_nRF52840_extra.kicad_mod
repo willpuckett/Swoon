@@ -2767,10 +2767,8 @@
 		(at -7.62 -7.62)
 		(size 1.2 1.2)
 		(drill 0.8)
-		(layers "*.Cu" "B.Mask")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(zone_connect 0)
-		(thermal_bridge_angle 90)
 		(uuid "761b464e-f4ca-42d4-b7f7-c216f2da5dd1")
 	)
 	(pad "29" smd custom

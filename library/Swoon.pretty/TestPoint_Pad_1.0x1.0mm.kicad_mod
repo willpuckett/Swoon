@@ -6,8 +6,9 @@
 	(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 	(tags "test point SMD pad rectangle square")
 	(property "Reference" "REF**"
-		(at 0 -1.448 0)
-		(layer "F.SilkS")
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
 		(uuid "57854389-d614-41bc-badd-9e50c042f000")
 		(effects
 			(font

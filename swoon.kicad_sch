@@ -12494,7 +12494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 121.92 91.44 0)
 			(effects
 				(font
@@ -12558,6 +12558,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 121.92 91.44 0)
 			(effects
 				(font
@@ -12662,6 +12671,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:SW_PG1350_vias"
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
 			(at 60.96 125.73 0)
 			(effects
 				(font
@@ -12780,6 +12798,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "89d47802-d002-46f2-ab8a-d5fcd3f52a05")
 		)
@@ -12827,7 +12854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 121.92 88.9 0)
 			(effects
 				(font
@@ -12891,6 +12918,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 121.92 88.9 0)
 			(effects
 				(font
@@ -13012,6 +13048,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 218.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "a632d859-da4d-4e45-8045-0032ad405d87")
 		)
@@ -13070,7 +13115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 236.22 64.77 0)
 			(effects
 				(font
@@ -13115,7 +13160,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "left:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 236.22 69.85 0)
 			(effects
 				(font
@@ -13125,6 +13170,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 236.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 69.85 0)
 			(effects
 				(font
@@ -13237,6 +13291,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb41f7a7-8189-4429-abf0-e068e8b8682a")
 		)
@@ -13283,7 +13346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 213.36 64.77 0)
 			(effects
 				(font
@@ -13328,7 +13391,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "left:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 213.36 69.85 0)
 			(effects
 				(font
@@ -13338,6 +13401,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 69.85 0)
 			(effects
 				(font
@@ -13386,7 +13458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 213.36 59.69 0)
 			(effects
 				(font
@@ -13431,7 +13503,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "left:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 213.36 64.77 0)
 			(effects
 				(font
@@ -13441,6 +13513,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 213.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 64.77 0)
 			(effects
 				(font
@@ -13489,7 +13570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 77.47 132.08 0)
 			(effects
 				(font
@@ -13553,6 +13634,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 77.47 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 77.47 132.08 0)
 			(effects
 				(font
@@ -13692,6 +13782,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec9bbc74-6f4c-4024-826c-579cc436eb79")
 		)
@@ -13735,7 +13834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 57.15 71.12 0)
 			(effects
 				(font
@@ -13799,6 +13898,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 57.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 57.15 71.12 0)
 			(effects
 				(font
@@ -13930,6 +14038,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 72.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
 			(at 72.39 123.19 0)
 			(effects
 				(font
@@ -14072,6 +14189,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 92.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "079a1446-fb1c-4a61-ab8c-d4b2fb498f96")
 		)
@@ -14206,6 +14332,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29dc06b5-6aba-49af-ab69-5936b7bbf3af")
 		)
@@ -14250,7 +14385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 101.6 88.9 0)
 			(effects
 				(font
@@ -14314,6 +14449,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 101.6 88.9 0)
 			(effects
 				(font
@@ -14363,7 +14507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 81.28 88.9 0)
 			(effects
 				(font
@@ -14427,6 +14571,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 81.28 88.9 0)
 			(effects
 				(font
@@ -14546,6 +14699,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:BAT-SMD_MY-LR44-02"
+			(at 240.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3620cdff-7e0e-4ffe-b3e6-b9f988b152e6")
 		)
@@ -14595,7 +14757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 236.22 57.15 0)
 			(effects
 				(font
@@ -14640,7 +14802,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "left:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 236.22 62.23 0)
 			(effects
 				(font
@@ -14650,6 +14812,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 236.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 62.23 0)
 			(effects
 				(font
@@ -14699,7 +14870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:0906-2-15-20-75-14-11-0"
 			(at 229.87 82.55 0)
 			(effects
 				(font
@@ -14771,6 +14942,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 229.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8eaa682-3865-40a5-8725-ed6da70191ff")
 		)
@@ -14812,7 +14992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 60.96 132.08 0)
 			(effects
 				(font
@@ -14876,6 +15056,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 60.96 132.08 0)
 			(effects
 				(font
@@ -15014,6 +15203,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 52.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a074724b-4136-4750-a764-e0ea15607186")
 		)
@@ -15057,7 +15255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 118.11 88.9 0)
 			(effects
 				(font
@@ -15121,6 +15319,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 118.11 88.9 0)
 			(effects
 				(font
@@ -15225,6 +15432,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:SW_PG1350_vias"
+			(at 81.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
 			(at 81.28 125.73 0)
 			(effects
 				(font
@@ -15370,6 +15586,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 76.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2b16213-a290-46bf-b89c-82ed273bf9cb")
 		)
@@ -15469,6 +15694,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:SW_PG1350_vias"
+			(at 142.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
 			(at 142.24 85.09 0)
 			(effects
 				(font
@@ -15614,6 +15848,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 55.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "acc41c70-f12e-4cdd-8d91-a4aae0115bc8")
 		)
@@ -15657,7 +15900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 138.43 71.12 0)
 			(effects
 				(font
@@ -15721,6 +15964,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 138.43 71.12 0)
 			(effects
 				(font
@@ -15842,6 +16094,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "e99370b5-86a9-47e4-a2d2-842706ab89df")
 		)
@@ -15900,7 +16161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 236.22 67.31 0)
 			(effects
 				(font
@@ -15945,7 +16206,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "left:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 236.22 72.39 0)
 			(effects
 				(font
@@ -15955,6 +16216,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 236.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 72.39 0)
 			(effects
 				(font
@@ -16004,7 +16274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 142.24 68.58 0)
 			(effects
 				(font
@@ -16068,6 +16338,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 142.24 68.58 0)
 			(effects
 				(font
@@ -16180,6 +16459,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
+			(at 142.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e71e6913-7ca3-4628-86ef-7095838141d3")
 		)
@@ -16226,7 +16514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 213.36 57.15 0)
 			(effects
 				(font
@@ -16280,7 +16568,16 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "right:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 62.23 0)
 			(effects
 				(font
@@ -16330,7 +16627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 81.28 71.12 0)
 			(effects
 				(font
@@ -16402,6 +16699,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 81.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a616766-5abf-4a7d-838d-f193701e5c32")
 		)
@@ -16442,7 +16748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 138.43 109.22 0)
 			(effects
 				(font
@@ -16506,6 +16812,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 138.43 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 138.43 109.22 0)
 			(effects
 				(font
@@ -16637,6 +16952,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 92.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -16779,6 +17103,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 76.2 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5fb43d5-1a5a-4488-b71e-f8e0ac36413d")
 		)
@@ -16822,7 +17155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 118.11 111.76 0)
 			(effects
 				(font
@@ -16894,6 +17227,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 118.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55b598ca-7a27-4185-aa39-732ac3fbe710")
 		)
@@ -16934,7 +17276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 97.79 109.22 0)
 			(effects
 				(font
@@ -17006,6 +17348,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 97.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e369f3e5-f2da-413d-8b11-b1d48a67726f")
 		)
@@ -17046,7 +17397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 77.47 91.44 0)
 			(effects
 				(font
@@ -17110,6 +17461,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 77.47 91.44 0)
 			(effects
 				(font
@@ -17249,6 +17609,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8adc6bc1-a9b7-448a-ad42-6a770a80d884")
 		)
@@ -17293,7 +17662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 101.6 71.12 0)
 			(effects
 				(font
@@ -17357,6 +17726,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 101.6 71.12 0)
 			(effects
 				(font
@@ -17488,6 +17866,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:D_0805_2012Metric"
+			(at 55.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
 			(at 55.88 62.23 0)
 			(effects
 				(font
@@ -17630,6 +18017,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 72.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48eb361a-4a2e-4407-b84e-61f8da3a0632")
 		)
@@ -17673,7 +18069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -17737,6 +18133,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 118.11 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -17786,7 +18191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 142.24 88.9 0)
 			(effects
 				(font
@@ -17850,6 +18255,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 142.24 88.9 0)
 			(effects
 				(font
@@ -17989,6 +18403,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 52.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7527fe3c-1de9-410b-aa14-e95398fc5f6e")
 		)
@@ -18032,7 +18455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 236.22 69.85 0)
 			(effects
 				(font
@@ -18077,7 +18500,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "left:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 236.22 74.93 0)
 			(effects
 				(font
@@ -18087,6 +18510,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 236.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 74.93 0)
 			(effects
 				(font
@@ -18136,7 +18568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 101.6 109.22 0)
 			(effects
 				(font
@@ -18200,6 +18632,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 101.6 109.22 0)
 			(effects
 				(font
@@ -18308,6 +18749,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:xiao_nRF52840_extra"
+			(at 224.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:xiao_nRF52840_extra"
 			(at 224.79 67.31 0)
 			(effects
 				(font
@@ -18508,6 +18958,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "b7d7b646-512a-4aea-be69-084003ec771f")
 		)
@@ -18566,7 +19025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 57.15 91.44 0)
 			(effects
 				(font
@@ -18638,6 +19097,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 57.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6d0af03-7820-4507-8e29-52a3892bfa9c")
 		)
@@ -18679,7 +19147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 121.92 68.58 0)
 			(effects
 				(font
@@ -18743,6 +19211,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 121.92 68.58 0)
 			(effects
 				(font
@@ -18847,6 +19324,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:SW_PG1350_vias"
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
 			(at 101.6 85.09 0)
 			(effects
 				(font
@@ -18992,6 +19478,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 96.52 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30f4ccb4-4448-49e9-8056-618fe1917584")
 		)
@@ -19035,7 +19530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -19107,6 +19602,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 138.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcad234c-b72f-4cab-ace1-9eb37020f76a")
 		)
@@ -19147,7 +19651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 213.36 67.31 0)
 			(effects
 				(font
@@ -19192,7 +19696,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "left:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 213.36 72.39 0)
 			(effects
 				(font
@@ -19202,6 +19706,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 213.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 72.39 0)
 			(effects
 				(font
@@ -19341,6 +19854,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 133.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ab436de-44c0-4d11-ae3f-4d1c49ec8232")
 		)
@@ -19384,7 +19906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 213.36 67.31 0)
 			(effects
 				(font
@@ -19438,7 +19960,16 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "right:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 72.39 0)
 			(effects
 				(font
@@ -19555,7 +20086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 81.28 68.58 0)
 			(effects
 				(font
@@ -19619,6 +20150,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 81.28 68.58 0)
 			(effects
 				(font
@@ -19667,7 +20207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 97.79 88.9 0)
 			(effects
 				(font
@@ -19731,6 +20271,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 97.79 88.9 0)
 			(effects
 				(font
@@ -19870,6 +20419,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e150baec-6aa8-4446-9015-d2bd426a3618")
 		)
@@ -19913,7 +20471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 57.15 68.58 0)
 			(effects
 				(font
@@ -19985,6 +20543,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 57.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dca3e5f7-a71c-4b88-bfaf-2f8ebea8ff8c")
 		)
@@ -20025,7 +20592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 213.36 57.15 0)
 			(effects
 				(font
@@ -20070,7 +20637,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "left:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 213.36 62.23 0)
 			(effects
 				(font
@@ -20080,6 +20647,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 213.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 62.23 0)
 			(effects
 				(font
@@ -20129,7 +20705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 121.92 71.12 0)
 			(effects
 				(font
@@ -20193,6 +20769,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 121.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 121.92 71.12 0)
 			(effects
 				(font
@@ -20241,7 +20826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 57.15 109.22 0)
 			(effects
 				(font
@@ -20305,6 +20890,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 57.15 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 57.15 109.22 0)
 			(effects
 				(font
@@ -20353,7 +20947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 77.47 88.9 0)
 			(effects
 				(font
@@ -20425,6 +21019,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 77.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d598cfe-7571-4433-be5b-2a3db5590002")
 		)
@@ -20465,7 +21068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 97.79 91.44 0)
 			(effects
 				(font
@@ -20537,6 +21140,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 97.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac25a5a8-e72d-43df-ac01-a41fd8660d48")
 		)
@@ -20577,7 +21189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 213.36 69.85 0)
 			(effects
 				(font
@@ -20622,7 +21234,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "left:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 213.36 74.93 0)
 			(effects
 				(font
@@ -20632,6 +21244,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 74.93 0)
 			(effects
 				(font
@@ -20771,6 +21392,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 116.84 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7bdf82e4-a187-439c-8733-a6d788a56ce5")
 		)
@@ -20878,6 +21508,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
+			(at 81.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f0b90634-8414-4214-8bba-6da01bdbed26")
 		)
@@ -20925,7 +21564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 121.92 111.76 0)
 			(effects
 				(font
@@ -20997,6 +21636,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 121.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6c56998-e868-49e0-a573-2b44d52f1f49")
 		)
@@ -21038,7 +21686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 81.28 109.22 0)
 			(effects
 				(font
@@ -21110,6 +21758,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "373b002e-d7d1-4204-9d7b-e673858905e6")
 		)
@@ -21151,7 +21808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 60.96 111.76 0)
 			(effects
 				(font
@@ -21215,6 +21872,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 60.96 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 60.96 111.76 0)
 			(effects
 				(font
@@ -21329,7 +21995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 236.22 67.31 0)
 			(effects
 				(font
@@ -21383,7 +22049,16 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "right:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+			(at 236.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 72.39 0)
 			(effects
 				(font
@@ -21433,7 +22108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 60.96 109.22 0)
 			(effects
 				(font
@@ -21497,6 +22172,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 60.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 60.96 109.22 0)
 			(effects
 				(font
@@ -21636,6 +22320,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 55.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b10c6f1-1e35-42f4-9a07-f3343ae655fb")
 		)
@@ -21732,6 +22425,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:Tenting_Puck2"
+			(at 95.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:Tenting_Puck2"
 			(at 95.25 180.34 0)
 			(effects
 				(font
@@ -21853,6 +22555,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
+			(at 60.96 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e7615e3a-dd8d-4b47-865d-7ddb0ffa4c8f")
 		)
@@ -21899,7 +22610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 77.47 71.12 0)
 			(effects
 				(font
@@ -21963,6 +22674,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 77.47 71.12 0)
 			(effects
 				(font
@@ -22012,7 +22732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 101.6 91.44 0)
 			(effects
 				(font
@@ -22076,6 +22796,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 101.6 91.44 0)
 			(effects
 				(font
@@ -22190,7 +22919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 213.36 54.61 0)
 			(effects
 				(font
@@ -22235,7 +22964,7 @@
 				(hide yes)
 			)
 		)
-		(property "left:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "left:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 213.36 59.69 0)
 			(effects
 				(font
@@ -22245,6 +22974,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 59.69 0)
 			(effects
 				(font
@@ -22293,7 +23031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 57.15 88.9 0)
 			(effects
 				(font
@@ -22357,6 +23095,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 57.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 57.15 88.9 0)
 			(effects
 				(font
@@ -22496,6 +23243,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 116.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1cefac28-44bb-43a6-ab24-aa331f5e14e3")
 		)
@@ -22539,7 +23295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 236.22 59.69 0)
 			(effects
 				(font
@@ -22593,7 +23349,16 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "right:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+			(at 236.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 64.77 0)
 			(effects
 				(font
@@ -22733,6 +23498,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d43ca3d0-3e17-4cd1-8be9-ad61fae524b8")
 		)
@@ -22777,7 +23551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 60.96 68.58 0)
 			(effects
 				(font
@@ -22841,6 +23615,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 60.96 68.58 0)
 			(effects
 				(font
@@ -22890,7 +23673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 121.92 109.22 0)
 			(effects
 				(font
@@ -22962,6 +23745,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efa004c6-5a11-4a8c-8335-d72abe047dc4")
 		)
@@ -23002,7 +23794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 118.11 71.12 0)
 			(effects
 				(font
@@ -23066,6 +23858,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 118.11 71.12 0)
 			(effects
 				(font
@@ -23205,6 +24006,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "afb8b8a3-e013-4252-8bc6-0914d679793c")
 		)
@@ -23249,7 +24059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 60.96 88.9 0)
 			(effects
 				(font
@@ -23313,6 +24123,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 60.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 60.96 88.9 0)
 			(effects
 				(font
@@ -23362,7 +24181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 81.28 129.54 0)
 			(effects
 				(font
@@ -23426,6 +24245,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 81.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 81.28 129.54 0)
 			(effects
 				(font
@@ -23530,6 +24358,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:SW_PG1350_vias"
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
 			(at 101.6 64.77 0)
 			(effects
 				(font
@@ -23648,6 +24485,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
+			(at 142.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8a8cc670-d460-4f52-b8c8-215e7cc71b44")
 		)
@@ -23694,7 +24540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 97.79 71.12 0)
 			(effects
 				(font
@@ -23758,6 +24604,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 97.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 97.79 71.12 0)
 			(effects
 				(font
@@ -23868,6 +24723,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b435029f-0d2e-403e-b34b-b8a1b77d3063")
 		)
@@ -23914,7 +24778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:0906-2-15-20-75-14-11-0"
 			(at 219.71 82.55 0)
 			(effects
 				(font
@@ -23986,6 +24850,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 219.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b1bf697-02b0-4df4-9921-bae11ccf7fa9")
 		)
@@ -24026,7 +24899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -24090,6 +24963,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 77.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -24229,6 +25111,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 55.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6ace408-b219-4151-bbac-2bcbb522cf41")
 		)
@@ -24273,7 +25164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 81.28 111.76 0)
 			(effects
 				(font
@@ -24345,6 +25236,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1eb13e6-934b-4ec4-b189-bbe759125e6c")
 		)
@@ -24385,7 +25285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 236.22 64.77 0)
 			(effects
 				(font
@@ -24439,7 +25339,16 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "right:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+			(at 236.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 69.85 0)
 			(effects
 				(font
@@ -24579,6 +25488,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d4d7066d-e181-4706-9b37-2af68b269b80")
 		)
@@ -24622,7 +25540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 138.43 111.76 0)
 			(effects
 				(font
@@ -24686,6 +25604,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 138.43 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 138.43 111.76 0)
 			(effects
 				(font
@@ -24825,6 +25752,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05aa996e-bd78-4f77-9416-ddea0adb0710")
 		)
@@ -24868,7 +25804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 77.47 129.54 0)
 			(effects
 				(font
@@ -24932,6 +25868,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 77.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 77.47 129.54 0)
 			(effects
 				(font
@@ -24981,7 +25926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 101.6 68.58 0)
 			(effects
 				(font
@@ -25045,6 +25990,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 101.6 68.58 0)
 			(effects
 				(font
@@ -25093,7 +26047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 57.15 129.54 0)
 			(effects
 				(font
@@ -25157,6 +26111,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 57.15 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 57.15 129.54 0)
 			(effects
 				(font
@@ -25205,7 +26168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 97.79 68.58 0)
 			(effects
 				(font
@@ -25277,6 +26240,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 97.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09b6e9a3-6968-4e69-88b1-c235dd4eeebf")
 		)
@@ -25317,7 +26289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 77.47 111.76 0)
 			(effects
 				(font
@@ -25381,6 +26353,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 77.47 111.76 0)
 			(effects
 				(font
@@ -25429,7 +26410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 138.43 91.44 0)
 			(effects
 				(font
@@ -25493,6 +26474,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 138.43 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 138.43 91.44 0)
 			(effects
 				(font
@@ -25541,7 +26531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 118.11 91.44 0)
 			(effects
 				(font
@@ -25605,6 +26595,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 118.11 91.44 0)
 			(effects
 				(font
@@ -25654,7 +26653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 60.96 129.54 0)
 			(effects
 				(font
@@ -25726,6 +26725,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 60.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0500b14e-072f-44bd-a4a6-2f4ae2ea34af")
 		)
@@ -25766,7 +26774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 57.15 111.76 0)
 			(effects
 				(font
@@ -25838,6 +26846,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 57.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c15f3c77-dc63-441f-b880-846ef3aa4399")
 		)
@@ -25878,7 +26895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 118.11 109.22 0)
 			(effects
 				(font
@@ -25942,6 +26959,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 118.11 109.22 0)
 			(effects
 				(font
@@ -26054,6 +27080,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
+			(at 121.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cfee1108-29cb-43aa-90e3-f87995f1bce1")
 		)
@@ -26100,7 +27135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 213.36 64.77 0)
 			(effects
 				(font
@@ -26154,7 +27189,16 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "right:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 69.85 0)
 			(effects
 				(font
@@ -26274,6 +27318,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:BAT-SMD_MY-LR44-02"
+			(at 240.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c7d7562d-128a-4f0e-8b69-21619ac3f32d")
 		)
@@ -26324,7 +27377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 142.24 91.44 0)
 			(effects
 				(font
@@ -26388,6 +27441,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 142.24 91.44 0)
 			(effects
 				(font
@@ -26527,6 +27589,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 76.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5628747d-eb73-4ec3-bb2b-6d0fc8bebcaa")
 		)
@@ -26570,7 +27641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 236.22 69.85 0)
 			(effects
 				(font
@@ -26624,7 +27695,16 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "right:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+			(at 236.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 74.93 0)
 			(effects
 				(font
@@ -26674,7 +27754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 81.28 91.44 0)
 			(effects
 				(font
@@ -26738,6 +27818,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 81.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 81.28 91.44 0)
 			(effects
 				(font
@@ -26787,7 +27876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -26859,6 +27948,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "502a3390-db62-4fff-afd0-4c760d9a3c10")
 		)
@@ -26899,7 +27997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 213.36 69.85 0)
 			(effects
 				(font
@@ -26953,7 +28051,16 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "right:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 74.93 0)
 			(effects
 				(font
@@ -27072,6 +28179,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:SW-SMD_MST22D18G2"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51dd8f5b-944f-4c54-b5be-b9abdd80d815")
 		)
@@ -27127,7 +28243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 77.47 68.58 0)
 			(effects
 				(font
@@ -27199,6 +28315,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 77.47 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c8f75cf-fe06-4550-b7e7-73a9ff2cd9d6")
 		)
@@ -27240,7 +28365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 101.6 111.76 0)
 			(effects
 				(font
@@ -27304,6 +28429,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 101.6 111.76 0)
 			(effects
 				(font
@@ -27352,7 +28486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 57.15 132.08 0)
 			(effects
 				(font
@@ -27416,6 +28550,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 57.15 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 57.15 132.08 0)
 			(effects
 				(font
@@ -27529,6 +28672,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 218.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 218.44 67.31 0)
 			(effects
 				(font
@@ -27686,6 +28838,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 52.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8318e93-4c77-4a8e-94a3-bab12ebffdbe")
 		)
@@ -27793,6 +28954,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "19193c30-1881-4d72-ba16-af3cc1f18d75")
 		)
@@ -27839,7 +29009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 236.22 57.15 0)
 			(effects
 				(font
@@ -27893,7 +29063,16 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "right:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+			(at 236.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 62.23 0)
 			(effects
 				(font
@@ -28025,6 +29204,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 52.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
 			(at 52.07 82.55 0)
 			(effects
 				(font
@@ -28167,6 +29355,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84096c1a-3fda-4c27-ac5c-935b238f6af2")
 		)
@@ -28301,6 +29498,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 92.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9aea8f91-2eaf-42be-8775-63a570b79eea")
 		)
@@ -28344,7 +29550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
 			(at 236.22 54.61 0)
 			(effects
 				(font
@@ -28398,7 +29604,16 @@
 				(hide yes)
 			)
 		)
-		(property "right:Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "right:Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+			(at 236.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 59.69 0)
 			(effects
 				(font
@@ -28538,6 +29753,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 113.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1e7a6b0-6702-4008-92be-aa1bf615d2ee")
 		)
@@ -28637,6 +29861,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:SW_PG1350_vias"
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
 			(at 101.6 105.41 0)
 			(effects
 				(font
@@ -28755,6 +29988,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
+			(at 121.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9ccbb4cf-d302-4ef9-9048-3f8f672f0803")
 		)
@@ -28802,7 +30044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 142.24 109.22 0)
 			(effects
 				(font
@@ -28866,6 +30108,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 142.24 109.22 0)
 			(effects
 				(font
@@ -28997,6 +30248,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:D_0805_2012Metric"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
 			(at 116.84 102.87 0)
 			(effects
 				(font
@@ -29139,6 +30399,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bac449be-212c-4c56-88a1-bc2b1f89e508")
 		)
@@ -29182,7 +30451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -29246,6 +30515,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -29358,6 +30636,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
+			(at 60.96 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b450beea-6a17-4b5d-acc9-6dc37c72dcff")
 		)
@@ -29405,7 +30692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 60.96 71.12 0)
 			(effects
 				(font
@@ -29469,6 +30756,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 60.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 60.96 71.12 0)
 			(effects
 				(font
@@ -29518,7 +30814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 142.24 71.12 0)
 			(effects
 				(font
@@ -29582,6 +30878,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 142.24 71.12 0)
 			(effects
 				(font
@@ -29631,7 +30936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 60.96 91.44 0)
 			(effects
 				(font
@@ -29695,6 +31000,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 60.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 60.96 91.44 0)
 			(effects
 				(font
@@ -29834,6 +31148,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "96862d54-3a8c-45a6-a56c-00a90ff03b25")
 		)
@@ -29877,7 +31200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 97.79 111.76 0)
 			(effects
 				(font
@@ -29941,6 +31264,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 97.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 97.79 111.76 0)
 			(effects
 				(font
@@ -30147,6 +31479,15 @@
 				(hide yes)
 			)
 		)
+		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "96c3830e-3155-497b-9c56-7dd6d9b1ae86")
 		)
@@ -30191,7 +31532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
 			(at 81.28 132.08 0)
 			(effects
 				(font
@@ -30255,6 +31596,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 81.28 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 81.28 132.08 0)
 			(effects
 				(font
@@ -30365,6 +31715,15 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:SW-SMD_MST22D18G2"
+			(at 209.55 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:SW-SMD_MST22D18G2"
 			(at 209.55 133.35 0)
 			(effects
 				(font

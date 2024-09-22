@@ -12,9 +12,10 @@
 		(uuid "57854389-d614-41bc-badd-9e50c042f000")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.01)
+				(size 0.001 0.001)
+				(thickness 0.15)
 			)
+			(justify right)
 		)
 	)
 	(property "Value" "TestPoint_Pad_Empty"
@@ -73,6 +74,8 @@
 		(at 0 0)
 		(size 0.001 0.001)
 		(layers "F.Cu")
+		(clearance 0.000001)
+		(zone_connect 2)
 		(uuid "a413cabe-a6bc-48ba-9db6-dd56cfa92311")
 	)
 )

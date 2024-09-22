@@ -111,22 +111,25 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "0eed1d0f-ba33-4b27-9751-a4bb1338fe3e")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0 -6.5)
 		(size 2.3 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "5b07a4d5-ebfc-417c-b6f2-5d5c5356afec")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at -6.5 0)
 		(size 1.5 2.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "d9fb3f3f-8148-4a1e-b5ab-2462dc16420b")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at 0 6.5)
 		(size 2.3 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "4f9c6da9-adc8-4193-a05a-0fd6e089a893")
 	)
 	(model "${KIPRJMOD}/library/Swoon.3dshapes/BAT-SMD_MY-LR44-02.wrl"

@@ -546,7 +546,7 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -558,7 +558,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -582,6 +582,12 @@
           "group_by": true,
           "label": "Config",
           "name": "Config",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "flip:Footprint",
+          "name": "flip:Footprint",
           "show": true
         },
         {
