@@ -25,6 +25,10 @@ jobs:
       with:
         fetch-depth: 2  
         ref: ${{ github.head_ref }}
+    # - uses: pkgxdev/setup@v1
+    #   with:
+    #     +: python 
+    #        pipx
     - run: |
         python3 -m pip install keymap-drawer
         .images/draw-keymaps.sh

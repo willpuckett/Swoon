@@ -911,7 +911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:SW_PG1350_vias_tented"
+		(property "Footprint" "Swoon:SW_PG1350_vias"
 			(at 0.254 -3.81 0)
 			(effects
 				(font
