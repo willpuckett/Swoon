@@ -19,8 +19,7 @@ jobs:
     #     run-id: ${{ github.event.workflow_run.id }}
     - run: |
         python3 -m pip install vpype build123d
-        vpype read case/swoon_edges.svg linemerge --tolerance 3mm linesort reloop \
-          linesimplify write case/swoon_edges_vpype.svg
+        vpype read case/swoon_edges.svg linemerge --tolerance 3mm linesort reloop linesimplify write case/swoon_edges_vpype.svg
         python case/case.py
     - uses: actions/upload-artifact@v4
       with:
