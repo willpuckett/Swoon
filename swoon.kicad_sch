@@ -9556,7 +9556,13 @@
 		)
 	)
 	(junction
-		(at 76.2 119.38)
+		(at 147.32 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01ebde17-e209-40c4-a68a-7a23757fede4")
+	)
+	(junction
+		(at 137.16 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0344bfb9-5293-43af-b014-03c4dae2e376")
@@ -9568,31 +9574,25 @@
 		(uuid "03e67c12-a682-4ab0-bf8e-3f00820335f2")
 	)
 	(junction
-		(at 127 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0739111a-54a6-40d9-98e3-1eaab1e422ce")
-	)
-	(junction
-		(at 86.36 109.22)
+		(at 72.39 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07bfce5b-e364-42e1-8e76-58246564ae60")
 	)
 	(junction
-		(at 86.36 88.9)
+		(at 72.39 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09655012-8fcf-474e-b6e6-4ba5443f5a2b")
 	)
 	(junction
-		(at 86.36 132.08)
+		(at 86.36 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0a60ffea-d790-4848-ae4d-27adb0e3e63e")
+		(uuid "0c8c3eda-91bd-42f8-8c3f-f497b9a95610")
 	)
 	(junction
-		(at 133.35 109.22)
+		(at 147.32 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e2fa86f-a3c1-4e9e-ad16-75314e50a10c")
@@ -9628,6 +9628,12 @@
 		(uuid "0f425fc8-face-4c8f-8703-b852ec7fb557")
 	)
 	(junction
+		(at 127 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fc41b34-a19d-47a0-bc90-a7547b14de96")
+	)
+	(junction
 		(at 106.68 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9646,7 +9652,7 @@
 		(uuid "1583e0f4-b57d-43a5-b27e-7e82ec772b32")
 	)
 	(junction
-		(at 92.71 109.22)
+		(at 106.68 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15d6e658-0899-40c6-a587-0dcaebf99c4f")
@@ -9682,19 +9688,7 @@
 		(uuid "2295d2a9-272e-4abf-b9a2-93b76dc9c677")
 	)
 	(junction
-		(at 66.04 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "233d7063-f750-46d5-bd69-faaaffafc445")
-	)
-	(junction
-		(at 66.04 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23879ad7-6467-4f16-b9c7-c0b9cc636bf7")
-	)
-	(junction
-		(at 127 109.22)
+		(at 113.03 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28fc8337-267e-4d25-b3f4-6ae84ee4c321")
@@ -9706,7 +9700,7 @@
 		(uuid "2a5097ca-1ab1-4451-b139-7e5f734f235f")
 	)
 	(junction
-		(at 52.07 88.9)
+		(at 66.04 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a6a06a7-e0ed-4a48-ad5d-3617c57e02ca")
@@ -9718,7 +9712,7 @@
 		(uuid "2e021bbb-68f0-4693-8e54-35d6cd8d73c5")
 	)
 	(junction
-		(at 52.07 129.54)
+		(at 127 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f85b7e8-9bf0-471d-b991-da30acef3cf3")
@@ -9742,12 +9736,6 @@
 		(uuid "39cf0aa7-90fe-4754-987e-38a6a39b3850")
 	)
 	(junction
-		(at 86.36 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b4b1eab-4931-471d-9dac-1d51a22777e4")
-	)
-	(junction
 		(at 137.16 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9758,6 +9746,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d485000-d99a-4838-98fc-e50461118e75")
+	)
+	(junction
+		(at 106.68 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d9393df-c585-4572-944f-31a72d3e19c1")
 	)
 	(junction
 		(at 245.11 125.73)
@@ -9778,6 +9772,12 @@
 		(uuid "40b3c44e-0ba2-49ec-9dd9-c8cd8468b892")
 	)
 	(junction
+		(at 106.68 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4177b513-ac33-40cb-9a4d-07115efe68c2")
+	)
+	(junction
 		(at 86.36 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9790,7 +9790,7 @@
 		(uuid "43a8618d-726e-4fe4-ab65-9e2fd495badf")
 	)
 	(junction
-		(at 106.68 88.9)
+		(at 92.71 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4417c8b2-5e38-4de3-b56a-d3112e9abd1a")
@@ -9802,16 +9802,10 @@
 		(uuid "450de671-7f20-4fab-a01a-22d4fa0877d9")
 	)
 	(junction
-		(at 106.68 68.58)
+		(at 92.71 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46f098b6-3a90-4b76-bebf-c7bff3b298a2")
-	)
-	(junction
-		(at 147.32 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47da7c27-dcde-441c-8d17-0784ba006c33")
 	)
 	(junction
 		(at 92.71 106.68)
@@ -9820,7 +9814,7 @@
 		(uuid "4938dfeb-bcc8-4669-86a2-eaf69cafbce3")
 	)
 	(junction
-		(at 147.32 68.58)
+		(at 133.35 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a39c952-0f28-48de-9b26-f24885138471")
@@ -9844,7 +9838,7 @@
 		(uuid "5257a2c0-994b-4f1d-a357-dc630ffc1830")
 	)
 	(junction
-		(at 72.39 127)
+		(at 133.35 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52b9d563-5bc8-4f1a-b5c3-0bc168c68025")
@@ -9868,7 +9862,7 @@
 		(uuid "5449a361-41a7-4926-9427-adb1ccc5a939")
 	)
 	(junction
-		(at 92.71 88.9)
+		(at 106.68 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54e055d1-2037-4692-8f23-698a316ff1b9")
@@ -9892,25 +9886,19 @@
 		(uuid "5b415253-1810-43c5-b181-da0968c5986b")
 	)
 	(junction
-		(at 106.68 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "661f6999-ffb9-4a92-9200-0aab8010ba44")
-	)
-	(junction
-		(at 72.39 88.9)
+		(at 86.36 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "669aee9f-81ad-4e48-9326-32412df99b78")
 	)
 	(junction
-		(at 72.39 68.58)
+		(at 86.36 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66de5e95-477d-4456-86cd-78d6eefdc7f0")
 	)
 	(junction
-		(at 127 68.58)
+		(at 113.03 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67701884-a3cc-4807-a42f-ebccdaf810a0")
@@ -9922,37 +9910,25 @@
 		(uuid "681744c9-fa46-4d21-915c-593ef7793493")
 	)
 	(junction
-		(at 127 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c26941c-f30e-406b-bb02-4683d5c7e517")
-	)
-	(junction
-		(at 66.04 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6daafb21-712e-4292-b2e3-6b1d7b216937")
-	)
-	(junction
 		(at 113.03 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6dd2553e-e3bd-4439-b194-ed4373ca9742")
 	)
 	(junction
-		(at 133.35 88.9)
+		(at 147.32 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74f0881c-71a9-489e-bb1b-78ea26e53909")
 	)
 	(junction
-		(at 127 88.9)
+		(at 113.03 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "756a4463-3438-43db-9ccc-7a59d06d5971")
 	)
 	(junction
-		(at 113.03 68.58)
+		(at 127 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7940ba06-7b41-4a9e-adde-28ae7f82eebe")
@@ -9962,6 +9938,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a8796e5-8c7b-4f43-a0f4-08240a80b6b9")
+	)
+	(junction
+		(at 86.36 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c4659fb-75ab-45f4-9b7b-8abd09ee3b96")
 	)
 	(junction
 		(at 213.36 64.77)
@@ -9976,22 +9958,16 @@
 		(uuid "7d3e0392-05be-4f0b-9f10-2931f15483e0")
 	)
 	(junction
-		(at 52.07 109.22)
+		(at 66.04 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fac0aa6-246b-4ee2-832c-d015a7de302d")
 	)
 	(junction
-		(at 72.39 109.22)
+		(at 86.36 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8085b39f-9405-48b0-812b-9da9a1ba6692")
-	)
-	(junction
-		(at 106.68 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "810039d4-df7f-4439-9106-0352b3d7b1db")
 	)
 	(junction
 		(at 127 113.03)
@@ -10012,7 +9988,7 @@
 		(uuid "840cf818-0faf-4bb7-9abe-af9c4e527c9b")
 	)
 	(junction
-		(at 66.04 68.58)
+		(at 52.07 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "842ac099-a56f-49a0-85ca-86cfab84b07c")
@@ -10036,10 +10012,16 @@
 		(uuid "886120f2-f8a2-49c0-b205-996c9c78260f")
 	)
 	(junction
-		(at 86.36 129.54)
+		(at 133.35 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8aa3c7cf-a04a-4a36-a182-b63ecfe9a388")
+	)
+	(junction
+		(at 66.04 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e7a4012-cbf4-4a16-9d80-db416242b701")
 	)
 	(junction
 		(at 55.88 58.42)
@@ -10054,16 +10036,22 @@
 		(uuid "939dc3a2-3c06-45b5-a56c-4f058a850a4a")
 	)
 	(junction
-		(at 147.32 91.44)
+		(at 86.36 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "94852b18-3be6-4c78-82cf-7af2db7de2c9")
+		(uuid "9438babd-7b63-40a2-bc0e-b67d14f0c380")
 	)
 	(junction
 		(at 76.2 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9605de16-7c1e-4fad-910d-c4100ca5a7bc")
+	)
+	(junction
+		(at 147.32 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bab67b9-5961-4ea4-ad6c-faa80f64c2bb")
 	)
 	(junction
 		(at 55.88 86.36)
@@ -10084,7 +10072,7 @@
 		(uuid "9fa580fd-b5c8-45bb-9b5e-6658acf88cee")
 	)
 	(junction
-		(at 113.03 88.9)
+		(at 127 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0589a87-ddf0-4f5e-a48c-2c54d5a72a1c")
@@ -10102,25 +10090,19 @@
 		(uuid "a3c714b3-b847-4c77-8366-5dd6b4a2aab9")
 	)
 	(junction
-		(at 133.35 68.58)
+		(at 147.32 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5ab340c-595b-4983-932b-851f92e959f2")
 	)
 	(junction
-		(at 66.04 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5e0bf4b-db61-434b-820a-2238ee59ae51")
-	)
-	(junction
-		(at 147.32 109.22)
+		(at 133.35 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa6a6f41-836b-4099-b610-3ff435825ab2")
 	)
 	(junction
-		(at 66.04 109.22)
+		(at 52.07 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac941c87-2d75-4bcc-a3fe-7fb80b75146e")
@@ -10132,31 +10114,25 @@
 		(uuid "ace1ce4d-d660-474c-a48e-3ac99308b86a")
 	)
 	(junction
-		(at 127 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1a34499-6a1a-4569-bd76-e20776664e29")
-	)
-	(junction
 		(at 116.84 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1da1ae7-c637-4664-93b2-1fc5a8fa5954")
 	)
 	(junction
-		(at 55.88 127)
+		(at 116.84 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b213bcb2-458c-4ead-ab51-44a4e6fd7a74")
 	)
 	(junction
-		(at 72.39 129.54)
+		(at 147.32 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b78d64d2-6dd0-44d5-8a23-5edc1cb7ffdf")
 	)
 	(junction
-		(at 86.36 68.58)
+		(at 72.39 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba2fb569-f0ae-449c-b0b6-fea7886916ab")
@@ -10168,16 +10144,16 @@
 		(uuid "ba3293cf-70c1-4733-ac49-d74da2822a83")
 	)
 	(junction
-		(at 86.36 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb616b36-a2e6-4367-92de-16e621b26468")
-	)
-	(junction
 		(at 116.84 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c00a1c93-b7b0-494b-83f6-3bbabd6bf32a")
+	)
+	(junction
+		(at 66.04 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c222ce5b-c942-4758-b503-18d654d3784c")
 	)
 	(junction
 		(at 213.36 67.31)
@@ -10192,25 +10168,31 @@
 		(uuid "c5f21f4c-bce2-41b1-beb6-4a5e91d656a9")
 	)
 	(junction
+		(at 127 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c83ba884-b996-41b0-8b52-4c377ad77e6e")
+	)
+	(junction
 		(at 236.22 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cac160fa-92ba-4f92-8422-fa2322d02984")
 	)
 	(junction
-		(at 147.32 71.12)
+		(at 127 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cddfb915-7e65-461e-b4de-7777797ab142")
+		(uuid "cc6e9089-2594-4f82-94c7-390d353ea7ba")
 	)
 	(junction
-		(at 52.07 68.58)
+		(at 66.04 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2724e02-dd2f-42fa-833c-81f0a993a037")
 	)
 	(junction
-		(at 106.68 109.22)
+		(at 92.71 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d34f0a0f-fc25-44cd-b611-ed3c0e40a957")
@@ -10222,7 +10204,7 @@
 		(uuid "d36761db-ab36-450e-bc8e-cb2965e81815")
 	)
 	(junction
-		(at 92.71 68.58)
+		(at 106.68 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3847595-3f30-4ce0-bc54-bb3b27352305")
@@ -10234,13 +10216,19 @@
 		(uuid "d5970953-20d5-45a5-8cf4-edacb8d517b2")
 	)
 	(junction
-		(at 113.03 109.22)
+		(at 127 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8e500ea-0812-4276-9aa8-2651eace6331")
 	)
 	(junction
-		(at 55.88 119.38)
+		(at 147.32 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d96e6c07-d151-4be0-b177-6a5b33382956")
+	)
+	(junction
+		(at 116.84 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da3b8e2e-76b9-40c5-817f-a41015dab2e9")
@@ -10252,19 +10240,19 @@
 		(uuid "da4583f4-8202-47a0-838d-c66e0ffcc217")
 	)
 	(junction
-		(at 86.36 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dad20a2b-7ea5-4b90-b3be-ad5121141b63")
-	)
-	(junction
 		(at 116.84 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db01e275-fde9-4310-a3f6-b9a1ef5875d8")
 	)
 	(junction
-		(at 76.2 127)
+		(at 147.32 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc08f658-cd57-4d5d-84a4-61924ef941b3")
+	)
+	(junction
+		(at 137.16 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddae8466-1c3f-450d-a5c6-1cd2b45e0f28")
@@ -10276,7 +10264,7 @@
 		(uuid "dddefb32-b45e-427e-affa-665d52d14af2")
 	)
 	(junction
-		(at 52.07 127)
+		(at 113.03 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea681f33-d42b-44c2-9dae-2385e9e41d15")
@@ -10288,10 +10276,22 @@
 		(uuid "ebec6cae-37db-48a1-a431-2c60793a3f22")
 	)
 	(junction
-		(at 66.04 129.54)
+		(at 127 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebfa7a76-0667-4450-80bc-1655be83c3fc")
+	)
+	(junction
+		(at 113.03 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec6afa35-28a2-4329-819b-42db5a9bf192")
+	)
+	(junction
+		(at 66.04 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed5864d6-82d8-4c36-88fb-2934f6073506")
 	)
 	(junction
 		(at 213.36 69.85)
@@ -10312,6 +10312,12 @@
 		(uuid "f091435e-ccd7-4ae9-a4c7-e653850d84af")
 	)
 	(junction
+		(at 106.68 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f244cc09-829e-4083-86e0-3e09442f7b71")
+	)
+	(junction
 		(at 52.07 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10324,19 +10330,13 @@
 		(uuid "fda31874-801f-466c-b96a-1eea0254d0b0")
 	)
 	(junction
-		(at 147.32 88.9)
+		(at 133.35 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fde31d2f-ccd8-4770-8bb3-f1068072128c")
 	)
 	(junction
-		(at 106.68 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe5fef3d-261e-48de-aee8-a08f69b3e044")
-	)
-	(junction
-		(at 66.04 88.9)
+		(at 52.07 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fec873ee-9104-45cf-b55a-e241e569f5b7")
@@ -10427,7 +10427,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 86.36) (xy 106.68 88.9)
+			(xy 92.71 86.36) (xy 92.71 88.9)
 		)
 		(stroke
 			(width 0)
@@ -10467,7 +10467,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 88.9) (xy 106.68 91.44)
+			(xy 92.71 88.9) (xy 92.71 91.44)
 		)
 		(stroke
 			(width 0)
@@ -10477,7 +10477,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 132.08) (xy 66.04 133.35)
+			(xy 127 133.35) (xy 127 134.62)
 		)
 		(stroke
 			(width 0)
@@ -10507,7 +10507,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 68.58) (xy 92.71 71.12)
+			(xy 106.68 68.58) (xy 106.68 71.12)
 		)
 		(stroke
 			(width 0)
@@ -10537,7 +10537,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 109.22) (xy 147.32 111.76)
+			(xy 133.35 109.22) (xy 133.35 111.76)
 		)
 		(stroke
 			(width 0)
@@ -10597,7 +10597,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 129.54) (xy 66.04 132.08)
+			(xy 113.03 130.81) (xy 113.03 133.35)
 		)
 		(stroke
 			(width 0)
@@ -10617,7 +10617,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 88.9) (xy 72.39 91.44)
+			(xy 86.36 88.9) (xy 86.36 91.44)
 		)
 		(stroke
 			(width 0)
@@ -10647,7 +10647,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 86.36) (xy 127 88.9)
+			(xy 113.03 86.36) (xy 113.03 88.9)
 		)
 		(stroke
 			(width 0)
@@ -10677,7 +10677,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 88.9) (xy 52.07 91.44)
+			(xy 66.04 88.9) (xy 66.04 91.44)
 		)
 		(stroke
 			(width 0)
@@ -10687,7 +10687,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 88.9) (xy 92.71 91.44)
+			(xy 106.68 88.9) (xy 106.68 91.44)
 		)
 		(stroke
 			(width 0)
@@ -10697,7 +10697,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 127) (xy 76.2 127)
+			(xy 133.35 128.27) (xy 137.16 128.27)
 		)
 		(stroke
 			(width 0)
@@ -10737,7 +10737,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 109.22) (xy 133.35 111.76)
+			(xy 147.32 109.22) (xy 147.32 111.76)
 		)
 		(stroke
 			(width 0)
@@ -10757,7 +10757,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 109.22) (xy 106.68 111.76)
+			(xy 92.71 109.22) (xy 92.71 111.76)
 		)
 		(stroke
 			(width 0)
@@ -10787,7 +10787,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 68.58) (xy 66.04 71.12)
+			(xy 52.07 68.58) (xy 52.07 71.12)
 		)
 		(stroke
 			(width 0)
@@ -10817,7 +10817,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 119.38) (xy 55.88 119.38)
+			(xy 113.03 120.65) (xy 116.84 120.65)
 		)
 		(stroke
 			(width 0)
@@ -10897,7 +10897,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 129.54) (xy 52.07 132.08)
+			(xy 127 130.81) (xy 127 133.35)
 		)
 		(stroke
 			(width 0)
@@ -10907,7 +10907,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 127) (xy 52.07 129.54)
+			(xy 113.03 128.27) (xy 113.03 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10927,7 +10927,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 129.54) (xy 86.36 132.08)
+			(xy 133.35 130.81) (xy 133.35 133.35)
 		)
 		(stroke
 			(width 0)
@@ -10957,7 +10957,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 127) (xy 66.04 129.54)
+			(xy 127 128.27) (xy 127 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10977,7 +10977,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 119.38) (xy 60.96 119.38)
+			(xy 116.84 120.65) (xy 121.92 120.65)
 		)
 		(stroke
 			(width 0)
@@ -10997,7 +10997,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 106.68) (xy 66.04 109.22)
+			(xy 52.07 106.68) (xy 52.07 109.22)
 		)
 		(stroke
 			(width 0)
@@ -11037,7 +11037,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 106.68) (xy 127 109.22)
+			(xy 113.03 106.68) (xy 113.03 109.22)
 		)
 		(stroke
 			(width 0)
@@ -11097,7 +11097,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 68.58) (xy 52.07 71.12)
+			(xy 66.04 68.58) (xy 66.04 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11107,7 +11107,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 109.22) (xy 86.36 111.76)
+			(xy 72.39 109.22) (xy 72.39 111.76)
 		)
 		(stroke
 			(width 0)
@@ -11187,7 +11187,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 68.58) (xy 113.03 71.12)
+			(xy 127 68.58) (xy 127 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11207,7 +11207,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 119.38) (xy 76.2 119.38)
+			(xy 133.35 120.65) (xy 137.16 120.65)
 		)
 		(stroke
 			(width 0)
@@ -11257,7 +11257,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 109.22) (xy 66.04 111.76)
+			(xy 52.07 109.22) (xy 52.07 111.76)
 		)
 		(stroke
 			(width 0)
@@ -11267,7 +11267,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 106.68) (xy 106.68 109.22)
+			(xy 92.71 106.68) (xy 92.71 109.22)
 		)
 		(stroke
 			(width 0)
@@ -11287,7 +11287,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 109.22) (xy 92.71 111.76)
+			(xy 106.68 109.22) (xy 106.68 111.76)
 		)
 		(stroke
 			(width 0)
@@ -11307,7 +11307,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 127) (xy 72.39 129.54)
+			(xy 133.35 128.27) (xy 133.35 130.81)
 		)
 		(stroke
 			(width 0)
@@ -11327,7 +11327,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 88.9) (xy 147.32 91.44)
+			(xy 133.35 88.9) (xy 133.35 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11347,7 +11347,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 106.68) (xy 52.07 109.22)
+			(xy 66.04 106.68) (xy 66.04 109.22)
 		)
 		(stroke
 			(width 0)
@@ -11377,7 +11377,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 106.68) (xy 113.03 109.22)
+			(xy 127 106.68) (xy 127 109.22)
 		)
 		(stroke
 			(width 0)
@@ -11397,7 +11397,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 86.36) (xy 92.71 88.9)
+			(xy 106.68 86.36) (xy 106.68 88.9)
 		)
 		(stroke
 			(width 0)
@@ -11407,7 +11407,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 129.54) (xy 72.39 132.08)
+			(xy 147.32 130.81) (xy 147.32 133.35)
 		)
 		(stroke
 			(width 0)
@@ -11427,7 +11427,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 68.58) (xy 133.35 71.12)
+			(xy 147.32 68.58) (xy 147.32 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11477,7 +11477,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 86.36) (xy 113.03 88.9)
+			(xy 127 86.36) (xy 127 88.9)
 		)
 		(stroke
 			(width 0)
@@ -11497,7 +11497,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 88.9) (xy 66.04 91.44)
+			(xy 52.07 88.9) (xy 52.07 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11507,7 +11507,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 68.58) (xy 72.39 71.12)
+			(xy 86.36 68.58) (xy 86.36 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11517,7 +11517,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 106.68) (xy 92.71 109.22)
+			(xy 106.68 106.68) (xy 106.68 109.22)
 		)
 		(stroke
 			(width 0)
@@ -11537,7 +11537,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 127) (xy 86.36 129.54)
+			(xy 147.32 128.27) (xy 147.32 130.81)
 		)
 		(stroke
 			(width 0)
@@ -11547,7 +11547,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 127) (xy 55.88 127)
+			(xy 113.03 128.27) (xy 116.84 128.27)
 		)
 		(stroke
 			(width 0)
@@ -11557,7 +11557,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 109.22) (xy 127 111.76)
+			(xy 113.03 109.22) (xy 113.03 111.76)
 		)
 		(stroke
 			(width 0)
@@ -11577,7 +11577,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 68.58) (xy 86.36 71.12)
+			(xy 72.39 68.58) (xy 72.39 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11607,7 +11607,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 68.58) (xy 127 71.12)
+			(xy 113.03 68.58) (xy 113.03 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11657,7 +11657,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 88.9) (xy 86.36 91.44)
+			(xy 72.39 88.9) (xy 72.39 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11667,7 +11667,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 88.9) (xy 113.03 91.44)
+			(xy 127 88.9) (xy 127 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11737,7 +11737,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 109.22) (xy 52.07 111.76)
+			(xy 66.04 109.22) (xy 66.04 111.76)
 		)
 		(stroke
 			(width 0)
@@ -11767,7 +11767,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 109.22) (xy 113.03 111.76)
+			(xy 127 109.22) (xy 127 111.76)
 		)
 		(stroke
 			(width 0)
@@ -11787,7 +11787,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 119.38) (xy 81.28 119.38)
+			(xy 137.16 120.65) (xy 142.24 120.65)
 		)
 		(stroke
 			(width 0)
@@ -11827,7 +11827,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 132.08) (xy 86.36 133.35)
+			(xy 147.32 133.35) (xy 147.32 134.62)
 		)
 		(stroke
 			(width 0)
@@ -11857,7 +11857,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 88.9) (xy 133.35 91.44)
+			(xy 147.32 88.9) (xy 147.32 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11907,7 +11907,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 127 91.44)
+			(xy 113.03 88.9) (xy 113.03 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11917,7 +11917,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 68.58) (xy 147.32 71.12)
+			(xy 133.35 68.58) (xy 133.35 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11937,7 +11937,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 133.35) (xy 86.36 133.35)
+			(xy 127 134.62) (xy 147.32 134.62)
 		)
 		(stroke
 			(width 0)
@@ -11977,7 +11977,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 109.22) (xy 72.39 111.76)
+			(xy 86.36 109.22) (xy 86.36 111.76)
 		)
 		(stroke
 			(width 0)
@@ -11987,7 +11987,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 68.58) (xy 106.68 71.12)
+			(xy 92.71 68.58) (xy 92.71 71.12)
 		)
 		(stroke
 			(width 0)
@@ -12135,7 +12135,7 @@
 		)
 		(uuid "0e6a2729-c677-476c-8395-6d7d679961ab")
 	)
-	(label "col5"
+	(label "row2"
 		(at 207.01 64.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12146,7 +12146,7 @@
 		)
 		(uuid "1f15f4d7-e0d6-45a2-ab8e-b5f067899e11")
 	)
-	(label "row2"
+	(label "row1"
 		(at 207.01 62.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12201,7 +12201,7 @@
 		)
 		(uuid "3f4f5805-91f3-4922-bffb-602512b73130")
 	)
-	(label "row1"
+	(label "col1"
 		(at 207.01 59.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12223,7 +12223,7 @@
 		)
 		(uuid "42f080d7-1c18-4203-aeff-ab6947653003")
 	)
-	(label "row3"
+	(label "col2"
 		(at 242.57 69.85 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12234,8 +12234,8 @@
 		)
 		(uuid "4755e588-2ecb-4541-b68e-d4e6144735f3")
 	)
-	(label "col2"
-		(at 81.28 119.38 90)
+	(label "col5"
+		(at 142.24 120.65 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12256,7 +12256,7 @@
 		)
 		(uuid "67eca747-0cfe-420e-982c-40499af57be1")
 	)
-	(label "col3"
+	(label "row3"
 		(at 207.01 72.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12267,8 +12267,8 @@
 		)
 		(uuid "69d52b9d-5b62-4ec8-8a21-685537af79fe")
 	)
-	(label "col1"
-		(at 60.96 119.38 90)
+	(label "col4"
+		(at 121.92 120.65 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12278,7 +12278,7 @@
 		)
 		(uuid "6a622b19-3a25-422c-a793-d62a170af77a")
 	)
-	(label "col1"
+	(label "col5"
 		(at 207.01 74.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12289,7 +12289,7 @@
 		)
 		(uuid "70d4ec43-8c00-4fc7-83aa-e5fc4d5479d5")
 	)
-	(label "col4"
+	(label "col3"
 		(at 207.01 69.85 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12377,7 +12377,7 @@
 		)
 		(uuid "ae55e3db-cfb8-42f9-9111-947f4adbcc0e")
 	)
-	(label "col2"
+	(label "col4"
 		(at 242.57 72.39 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12400,7 +12400,7 @@
 		(uuid "bed005c3-f11c-4e1f-8574-58f33c17d005")
 	)
 	(label "row4"
-		(at 86.36 133.35 0)
+		(at 147.32 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12467,8 +12467,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 121.92 91.44 0)
-		(mirror y)
+		(at 118.11 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12476,7 +12475,7 @@
 		(dnp no)
 		(uuid "0008eda9-d29f-4292-b05c-b80a2751a185")
 		(property "Reference" "J36"
-			(at 126.238 90.424 0)
+			(at 113.792 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12485,7 +12484,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 120.65 92.7099 0)
+			(at 119.38 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12495,7 +12494,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 121.92 91.44 0)
+			(at 118.11 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12504,7 +12503,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 121.92 91.44 0)
+			(at 118.11 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12513,7 +12512,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 121.92 91.44 0)
+			(at 118.11 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12522,7 +12521,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 121.92 91.44 0)
+			(at 118.11 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12531,7 +12530,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 121.92 91.44 0)
+			(at 118.11 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12540,7 +12539,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 121.92 91.44 0)
+			(at 118.11 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12549,7 +12548,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 121.92 91.44 0)
+			(at 118.11 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12558,7 +12557,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 121.92 91.44 0)
+			(at 118.11 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12567,7 +12566,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 121.92 91.44 0)
+			(at 118.11 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12589,7 +12588,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:SW_Push")
-		(at 60.96 125.73 0)
+		(at 121.92 127 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12598,7 +12597,7 @@
 		(dnp no)
 		(uuid "003d5e9b-4856-43cf-8db1-214bf65588cc")
 		(property "Reference" "SW16"
-			(at 64.008 122.682 0)
+			(at 124.968 123.952 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12607,7 +12606,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 56.388 123.444 0)
+			(at 117.348 124.714 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12617,7 +12616,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:SW_PG1350_vias"
-			(at 60.706 129.54 0)
+			(at 121.666 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12626,7 +12625,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
-			(at 60.96 121.92 0)
+			(at 121.92 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12635,7 +12634,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 127 0)
+			(at 121.92 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12644,7 +12643,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 60.96 125.73 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12653,7 +12652,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 60.96 125.73 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12662,7 +12661,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:SW_PG1350_vias"
-			(at 60.96 125.73 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12671,7 +12670,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:SW_PG1350_vias"
-			(at 60.96 125.73 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12680,7 +12679,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
-			(at 60.96 125.73 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12827,8 +12826,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 121.92 88.9 0)
-		(mirror y)
+		(at 118.11 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12836,7 +12834,7 @@
 		(dnp no)
 		(uuid "055aa254-5d5e-4770-984e-76d54497800d")
 		(property "Reference" "J34"
-			(at 126.238 87.884 0)
+			(at 113.792 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12845,7 +12843,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 120.65 90.1699 0)
+			(at 119.38 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12855,7 +12853,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 121.92 88.9 0)
+			(at 118.11 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12864,7 +12862,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 121.92 88.9 0)
+			(at 118.11 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12873,7 +12871,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 121.92 88.9 0)
+			(at 118.11 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12882,7 +12880,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 121.92 88.9 0)
+			(at 118.11 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12891,7 +12889,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 121.92 88.9 0)
+			(at 118.11 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12900,7 +12898,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 121.92 88.9 0)
+			(at 118.11 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12909,7 +12907,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 121.92 88.9 0)
+			(at 118.11 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12918,7 +12916,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 121.92 88.9 0)
+			(at 118.11 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12927,7 +12925,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 121.92 88.9 0)
+			(at 118.11 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13115,7 +13113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 64.77 0)
 			(effects
 				(font
@@ -13346,7 +13344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 64.77 0)
 			(effects
 				(font
@@ -13458,7 +13456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 59.69 0)
 			(effects
 				(font
@@ -13544,7 +13542,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 77.47 132.08 0)
+		(at 142.24 133.35 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13552,7 +13551,7 @@
 		(dnp no)
 		(uuid "0d882901-f888-4b7d-980e-01ae3426a1d5")
 		(property "Reference" "J67"
-			(at 73.152 131.064 0)
+			(at 146.558 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13561,7 +13560,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 78.74 133.3499 0)
+			(at 140.97 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13571,7 +13570,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 77.47 132.08 0)
+			(at 142.24 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13580,7 +13579,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 77.47 132.08 0)
+			(at 142.24 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13589,7 +13588,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 77.47 132.08 0)
+			(at 142.24 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13598,7 +13597,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 77.47 132.08 0)
+			(at 142.24 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13607,7 +13606,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 77.47 132.08 0)
+			(at 142.24 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13616,7 +13615,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 77.47 132.08 0)
+			(at 142.24 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13625,7 +13624,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 77.47 132.08 0)
+			(at 142.24 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13634,7 +13633,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 77.47 132.08 0)
+			(at 142.24 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13643,7 +13642,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 77.47 132.08 0)
+			(at 142.24 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13808,7 +13807,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 57.15 71.12 0)
+		(at 60.96 71.12 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13816,7 +13816,7 @@
 		(dnp no)
 		(uuid "0fe8c193-b36b-49fd-b248-6b1011022385")
 		(property "Reference" "J3"
-			(at 52.832 70.104 0)
+			(at 65.278 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13825,7 +13825,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 58.42 72.3899 0)
+			(at 59.69 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13835,7 +13835,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 57.15 71.12 0)
+			(at 60.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13844,7 +13844,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 57.15 71.12 0)
+			(at 60.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13853,7 +13853,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 57.15 71.12 0)
+			(at 60.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13862,7 +13862,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 57.15 71.12 0)
+			(at 60.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13871,7 +13871,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 57.15 71.12 0)
+			(at 60.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13880,7 +13880,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 57.15 71.12 0)
+			(at 60.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13889,7 +13889,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 57.15 71.12 0)
+			(at 60.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13898,7 +13898,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 57.15 71.12 0)
+			(at 60.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13907,7 +13907,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 57.15 71.12 0)
+			(at 60.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13930,7 +13930,7 @@
 	(symbol
 		(lib_name "CD4148W_23")
 		(lib_id "Diode:CD4148W")
-		(at 72.39 123.19 90)
+		(at 133.35 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13938,7 +13938,7 @@
 		(dnp no)
 		(uuid "1136d8d5-98f2-49fc-ad38-59a027ecfb00")
 		(property "Reference" "D33"
-			(at 72.644 120.65 90)
+			(at 133.604 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13947,7 +13947,7 @@
 			)
 		)
 		(property "Value" "CD4148WS"
-			(at 74.93 124.4599 90)
+			(at 135.89 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13957,7 +13957,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:D_0805_2012Metric"
-			(at 77.47 123.19 0)
+			(at 138.43 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13966,7 +13966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 123.19 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13975,7 +13975,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Switching Diode, 0805"
-			(at 72.39 123.19 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13984,7 +13984,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 72.39 123.19 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13993,7 +13993,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 72.39 123.19 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14002,7 +14002,7 @@
 			)
 		)
 		(property "LCSC" "C38587762"
-			(at 72.39 123.19 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14011,7 +14011,7 @@
 			)
 		)
 		(property "Config" "+left,+flip"
-			(at 72.39 123.19 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14020,7 +14020,7 @@
 			)
 		)
 		(property "MPN" "CD4148WS(0805C)"
-			(at 72.39 123.19 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14029,7 +14029,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:D_0805_2012Metric"
-			(at 72.39 123.19 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14038,7 +14038,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 72.39 123.19 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14047,7 +14047,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
-			(at 72.39 123.19 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14358,8 +14358,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 101.6 88.9 0)
-		(mirror y)
+		(at 97.79 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14367,7 +14366,7 @@
 		(dnp no)
 		(uuid "188cfbb4-ddb5-4367-b3d7-ef5a7c67cb05")
 		(property "Reference" "J30"
-			(at 105.918 87.884 0)
+			(at 93.472 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14376,7 +14375,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 100.33 90.1699 0)
+			(at 99.06 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14386,7 +14385,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 101.6 88.9 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14395,7 +14394,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 101.6 88.9 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14404,7 +14403,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 101.6 88.9 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14413,7 +14412,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 101.6 88.9 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14422,7 +14421,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 101.6 88.9 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14431,7 +14430,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 101.6 88.9 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14440,7 +14439,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 101.6 88.9 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14449,7 +14448,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 101.6 88.9 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14458,7 +14457,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 101.6 88.9 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14480,8 +14479,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 81.28 88.9 0)
-		(mirror y)
+		(at 77.47 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14489,7 +14487,7 @@
 		(dnp no)
 		(uuid "1929aa60-65cc-4445-a9d0-27fec9341b62")
 		(property "Reference" "J26"
-			(at 85.598 87.884 0)
+			(at 73.152 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14498,7 +14496,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 80.01 90.1699 0)
+			(at 78.74 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14508,7 +14506,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 81.28 88.9 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14517,7 +14515,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 81.28 88.9 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14526,7 +14524,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 81.28 88.9 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14535,7 +14533,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 81.28 88.9 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14544,7 +14542,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 81.28 88.9 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14553,7 +14551,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 81.28 88.9 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14562,7 +14560,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 81.28 88.9 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14571,7 +14569,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 81.28 88.9 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14580,7 +14578,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 81.28 88.9 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14757,7 +14755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 57.15 0)
 			(effects
 				(font
@@ -14965,8 +14963,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 60.96 132.08 0)
-		(mirror y)
+		(at 118.11 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14974,7 +14971,7 @@
 		(dnp no)
 		(uuid "1acc779b-1b0d-47e8-b47b-0142c7d31a5a")
 		(property "Reference" "J64"
-			(at 65.278 131.064 0)
+			(at 113.792 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14983,7 +14980,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 59.69 133.3499 0)
+			(at 119.38 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14993,7 +14990,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 60.96 132.08 0)
+			(at 118.11 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15002,7 +14999,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 60.96 132.08 0)
+			(at 118.11 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15011,7 +15008,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 60.96 132.08 0)
+			(at 118.11 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15020,7 +15017,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 60.96 132.08 0)
+			(at 118.11 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15029,7 +15026,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 60.96 132.08 0)
+			(at 118.11 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15038,7 +15035,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 60.96 132.08 0)
+			(at 118.11 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15047,7 +15044,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 60.96 132.08 0)
+			(at 118.11 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15056,7 +15053,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 60.96 132.08 0)
+			(at 118.11 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15065,7 +15062,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 60.96 132.08 0)
+			(at 118.11 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15229,7 +15226,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 118.11 88.9 0)
+		(at 121.92 88.9 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15237,7 +15235,7 @@
 		(dnp no)
 		(uuid "1cbc0d24-ced4-4b2f-a435-1ce5e5d94bd2")
 		(property "Reference" "J33"
-			(at 113.792 87.884 0)
+			(at 126.238 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15246,7 +15244,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 119.38 90.1699 0)
+			(at 120.65 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15256,7 +15254,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 118.11 88.9 0)
+			(at 121.92 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15265,7 +15263,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 118.11 88.9 0)
+			(at 121.92 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15274,7 +15272,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 118.11 88.9 0)
+			(at 121.92 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15283,7 +15281,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 118.11 88.9 0)
+			(at 121.92 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15292,7 +15290,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 118.11 88.9 0)
+			(at 121.92 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15301,7 +15299,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 118.11 88.9 0)
+			(at 121.92 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15310,7 +15308,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 118.11 88.9 0)
+			(at 121.92 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15319,7 +15317,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 118.11 88.9 0)
+			(at 121.92 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15328,7 +15326,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 118.11 88.9 0)
+			(at 121.92 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15350,7 +15348,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:SW_Push")
-		(at 81.28 125.73 0)
+		(at 142.24 127 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15359,7 +15357,7 @@
 		(dnp no)
 		(uuid "1dbc2136-7679-418e-a272-4c016cca5647")
 		(property "Reference" "SW17"
-			(at 84.328 122.682 0)
+			(at 145.288 123.952 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15368,7 +15366,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 76.708 123.444 0)
+			(at 137.668 124.714 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15378,7 +15376,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:SW_PG1350_vias"
-			(at 81.026 129.54 0)
+			(at 141.986 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15387,7 +15385,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Kailh-CPG135001D01_C400229.pdf"
-			(at 81.28 121.92 0)
+			(at 142.24 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15396,7 +15394,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 127 0)
+			(at 142.24 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15405,7 +15403,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 81.28 125.73 0)
+			(at 142.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15414,7 +15412,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 81.28 125.73 0)
+			(at 142.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15423,7 +15421,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:SW_PG1350_vias"
-			(at 81.28 125.73 0)
+			(at 142.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15432,7 +15430,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:SW_PG1350_vias"
-			(at 81.28 125.73 0)
+			(at 142.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15441,7 +15439,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:SW_PG1350_vias"
-			(at 81.28 125.73 0)
+			(at 142.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15732,7 +15730,7 @@
 	(symbol
 		(lib_name "CD4148W_27")
 		(lib_id "Diode:CD4148W")
-		(at 55.88 123.19 90)
+		(at 116.84 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15740,7 +15738,7 @@
 		(dnp no)
 		(uuid "29c00dfc-36ec-49de-8ece-aba200df9e73")
 		(property "Reference" "D32"
-			(at 56.134 120.65 90)
+			(at 117.094 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15749,7 +15747,7 @@
 			)
 		)
 		(property "Value" "CD4148WS"
-			(at 58.42 124.4599 90)
+			(at 119.38 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15759,7 +15757,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:D_0805_2012Metric"
-			(at 60.96 123.19 0)
+			(at 121.92 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15768,7 +15766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 123.19 0)
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15777,7 +15775,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Switching Diode, 0805"
-			(at 55.88 123.19 0)
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15786,7 +15784,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 55.88 123.19 0)
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15795,7 +15793,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 55.88 123.19 0)
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15804,7 +15802,7 @@
 			)
 		)
 		(property "LCSC" "C38587762"
-			(at 55.88 123.19 0)
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15813,7 +15811,7 @@
 			)
 		)
 		(property "Config" "+right,+flip"
-			(at 55.88 123.19 0)
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15822,7 +15820,7 @@
 			)
 		)
 		(property "MPN" "CD4148WS(0805C)"
-			(at 55.88 123.19 0)
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15831,7 +15829,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 55.88 123.19 0)
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15840,7 +15838,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:D_0805_2012Metric"
-			(at 55.88 123.19 0)
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15849,7 +15847,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
-			(at 55.88 123.19 0)
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15874,7 +15872,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 138.43 71.12 0)
+		(at 142.24 71.12 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15882,7 +15881,7 @@
 		(dnp no)
 		(uuid "2c459e0b-0c62-49d9-a16b-f820335377bf")
 		(property "Reference" "J19"
-			(at 134.112 70.104 0)
+			(at 146.558 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15891,7 +15890,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 139.7 72.3899 0)
+			(at 140.97 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15901,7 +15900,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 138.43 71.12 0)
+			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15910,7 +15909,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 138.43 71.12 0)
+			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15919,7 +15918,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 138.43 71.12 0)
+			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15928,7 +15927,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 138.43 71.12 0)
+			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15937,7 +15936,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 138.43 71.12 0)
+			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15946,7 +15945,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 138.43 71.12 0)
+			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15955,7 +15954,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 138.43 71.12 0)
+			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15964,7 +15963,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 138.43 71.12 0)
+			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15973,7 +15972,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 138.43 71.12 0)
+			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16161,7 +16160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 67.31 0)
 			(effects
 				(font
@@ -16247,8 +16246,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 142.24 68.58 0)
-		(mirror y)
+		(at 138.43 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16256,7 +16254,7 @@
 		(dnp no)
 		(uuid "2f38f6d5-2490-4abd-85f1-385119450908")
 		(property "Reference" "J18"
-			(at 146.558 67.564 0)
+			(at 134.112 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16265,7 +16263,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 140.97 69.8499 0)
+			(at 139.7 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16275,7 +16273,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 142.24 68.58 0)
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16284,7 +16282,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 142.24 68.58 0)
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16293,7 +16291,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 142.24 68.58 0)
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16302,7 +16300,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 142.24 68.58 0)
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16311,7 +16309,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 142.24 68.58 0)
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16320,7 +16318,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 142.24 68.58 0)
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16329,7 +16327,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 142.24 68.58 0)
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16338,7 +16336,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 142.24 68.58 0)
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16347,7 +16345,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 142.24 68.58 0)
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16514,7 +16512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 57.15 0)
 			(effects
 				(font
@@ -16600,8 +16598,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 81.28 71.12 0)
-		(mirror y)
+		(at 77.47 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16609,7 +16606,7 @@
 		(dnp no)
 		(uuid "32616c51-7bb1-40df-84fa-39d96fd8e39f")
 		(property "Reference" "J8"
-			(at 85.598 70.104 0)
+			(at 73.152 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16618,7 +16615,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 80.01 72.3899 0)
+			(at 78.74 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16628,7 +16625,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 81.28 71.12 0)
+			(at 77.47 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16637,7 +16634,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 81.28 71.12 0)
+			(at 77.47 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16646,7 +16643,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 81.28 71.12 0)
+			(at 77.47 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16655,7 +16652,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 81.28 71.12 0)
+			(at 77.47 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16664,7 +16661,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 81.28 71.12 0)
+			(at 77.47 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16673,7 +16670,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 81.28 71.12 0)
+			(at 77.47 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16682,7 +16679,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 81.28 71.12 0)
+			(at 77.47 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16691,7 +16688,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 81.28 71.12 0)
+			(at 77.47 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16700,7 +16697,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 81.28 71.12 0)
+			(at 77.47 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16722,7 +16719,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 138.43 109.22 0)
+		(at 142.24 109.22 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16730,7 +16728,7 @@
 		(dnp no)
 		(uuid "34f89a57-d6da-41a4-a630-45d6a8c11e33")
 		(property "Reference" "J57"
-			(at 134.112 108.204 0)
+			(at 146.558 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16739,7 +16737,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 139.7 110.4899 0)
+			(at 140.97 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16749,7 +16747,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 138.43 109.22 0)
+			(at 142.24 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16758,7 +16756,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 138.43 109.22 0)
+			(at 142.24 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16767,7 +16765,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 138.43 109.22 0)
+			(at 142.24 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16776,7 +16774,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 138.43 109.22 0)
+			(at 142.24 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16785,7 +16783,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 138.43 109.22 0)
+			(at 142.24 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16794,7 +16792,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 138.43 109.22 0)
+			(at 142.24 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16803,7 +16801,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 138.43 109.22 0)
+			(at 142.24 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16812,7 +16810,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 138.43 109.22 0)
+			(at 142.24 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16821,7 +16819,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 138.43 109.22 0)
+			(at 142.24 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16987,7 +16985,7 @@
 	(symbol
 		(lib_name "CD4148W_29")
 		(lib_id "Diode:CD4148W")
-		(at 76.2 123.19 90)
+		(at 137.16 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16995,7 +16993,7 @@
 		(dnp no)
 		(uuid "388b982b-b859-44db-9394-d9686eeda3bb")
 		(property "Reference" "D34"
-			(at 76.454 120.65 90)
+			(at 137.414 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17004,7 +17002,7 @@
 			)
 		)
 		(property "Value" "CD4148WS"
-			(at 78.74 124.4599 90)
+			(at 139.7 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17014,7 +17012,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:D_0805_2012Metric"
-			(at 81.28 123.19 0)
+			(at 142.24 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17023,7 +17021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 123.19 0)
+			(at 137.16 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17032,7 +17030,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Switching Diode, 0805"
-			(at 76.2 123.19 0)
+			(at 137.16 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17041,7 +17039,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 76.2 123.19 0)
+			(at 137.16 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17050,7 +17048,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 76.2 123.19 0)
+			(at 137.16 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17059,7 +17057,7 @@
 			)
 		)
 		(property "LCSC" "C38587762"
-			(at 76.2 123.19 0)
+			(at 137.16 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17068,7 +17066,7 @@
 			)
 		)
 		(property "Config" "+right,+flip"
-			(at 76.2 123.19 0)
+			(at 137.16 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17077,7 +17075,7 @@
 			)
 		)
 		(property "MPN" "CD4148WS(0805C)"
-			(at 76.2 123.19 0)
+			(at 137.16 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17086,7 +17084,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 76.2 123.19 0)
+			(at 137.16 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17095,7 +17093,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:D_0805_2012Metric"
-			(at 76.2 123.19 0)
+			(at 137.16 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17104,7 +17102,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
-			(at 76.2 123.19 0)
+			(at 137.16 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17129,7 +17127,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 118.11 111.76 0)
+		(at 121.92 111.76 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17137,7 +17136,7 @@
 		(dnp no)
 		(uuid "388dcc5a-45b6-4b78-9877-3db21795e2a9")
 		(property "Reference" "J55"
-			(at 113.792 110.744 0)
+			(at 126.238 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17146,7 +17145,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 119.38 113.0299 0)
+			(at 120.65 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17156,7 +17155,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 118.11 111.76 0)
+			(at 121.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17165,7 +17164,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 118.11 111.76 0)
+			(at 121.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17174,7 +17173,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 118.11 111.76 0)
+			(at 121.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17183,7 +17182,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 118.11 111.76 0)
+			(at 121.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17192,7 +17191,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 118.11 111.76 0)
+			(at 121.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17201,7 +17200,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 118.11 111.76 0)
+			(at 121.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17210,7 +17209,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 118.11 111.76 0)
+			(at 121.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17219,7 +17218,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 118.11 111.76 0)
+			(at 121.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17228,7 +17227,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 118.11 111.76 0)
+			(at 121.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17250,7 +17249,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 97.79 109.22 0)
+		(at 101.6 109.22 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17258,7 +17258,7 @@
 		(dnp no)
 		(uuid "38a46157-2d27-4ef9-a719-930059b47350")
 		(property "Reference" "J49"
-			(at 93.472 108.204 0)
+			(at 105.918 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17267,7 +17267,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 99.06 110.4899 0)
+			(at 100.33 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17277,7 +17277,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 97.79 109.22 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17286,7 +17286,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 97.79 109.22 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17295,7 +17295,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 97.79 109.22 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17304,7 +17304,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 97.79 109.22 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17313,7 +17313,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 97.79 109.22 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17322,7 +17322,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 97.79 109.22 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17331,7 +17331,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 97.79 109.22 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17340,7 +17340,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 97.79 109.22 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17349,7 +17349,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 97.79 109.22 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17371,7 +17371,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 77.47 91.44 0)
+		(at 81.28 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17379,7 +17380,7 @@
 		(dnp no)
 		(uuid "39485480-0234-42d7-bc74-63b85cf83785")
 		(property "Reference" "J27"
-			(at 73.152 90.424 0)
+			(at 85.598 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17388,7 +17389,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 78.74 92.7099 0)
+			(at 80.01 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17398,7 +17399,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 77.47 91.44 0)
+			(at 81.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17407,7 +17408,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 77.47 91.44 0)
+			(at 81.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17416,7 +17417,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 77.47 91.44 0)
+			(at 81.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17425,7 +17426,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 77.47 91.44 0)
+			(at 81.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17434,7 +17435,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 77.47 91.44 0)
+			(at 81.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17443,7 +17444,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 77.47 91.44 0)
+			(at 81.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17452,7 +17453,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 77.47 91.44 0)
+			(at 81.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17461,7 +17462,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 77.47 91.44 0)
+			(at 81.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17470,7 +17471,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 77.47 91.44 0)
+			(at 81.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17635,8 +17636,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 101.6 71.12 0)
-		(mirror y)
+		(at 97.79 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17644,7 +17644,7 @@
 		(dnp no)
 		(uuid "3cb61629-eae6-40c3-9645-10fdb1988b63")
 		(property "Reference" "J12"
-			(at 105.918 70.104 0)
+			(at 93.472 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17653,7 +17653,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 100.33 72.3899 0)
+			(at 99.06 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17663,7 +17663,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 101.6 71.12 0)
+			(at 97.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17672,7 +17672,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 101.6 71.12 0)
+			(at 97.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17681,7 +17681,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 101.6 71.12 0)
+			(at 97.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17690,7 +17690,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 101.6 71.12 0)
+			(at 97.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17699,7 +17699,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 101.6 71.12 0)
+			(at 97.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17708,7 +17708,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 101.6 71.12 0)
+			(at 97.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17717,7 +17717,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 101.6 71.12 0)
+			(at 97.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17726,7 +17726,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 101.6 71.12 0)
+			(at 97.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17735,7 +17735,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 101.6 71.12 0)
+			(at 97.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18043,7 +18043,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 118.11 68.58 0)
+		(at 121.92 68.58 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18051,7 +18052,7 @@
 		(dnp no)
 		(uuid "419fbf7d-4044-448b-afd7-5f45ffe0eaaa")
 		(property "Reference" "J13"
-			(at 113.792 67.564 0)
+			(at 126.238 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18060,7 +18061,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 119.38 69.8499 0)
+			(at 120.65 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18070,7 +18071,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 118.11 68.58 0)
+			(at 121.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18079,7 +18080,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 118.11 68.58 0)
+			(at 121.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18088,7 +18089,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 118.11 68.58 0)
+			(at 121.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18097,7 +18098,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 118.11 68.58 0)
+			(at 121.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18106,7 +18107,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 118.11 68.58 0)
+			(at 121.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18115,7 +18116,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 118.11 68.58 0)
+			(at 121.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18124,7 +18125,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 118.11 68.58 0)
+			(at 121.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18133,7 +18134,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 118.11 68.58 0)
+			(at 121.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18142,7 +18143,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 118.11 68.58 0)
+			(at 121.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18164,8 +18165,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 142.24 88.9 0)
-		(mirror y)
+		(at 138.43 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18173,7 +18173,7 @@
 		(dnp no)
 		(uuid "4362970b-5ae1-46b9-940a-b70a67b20c9d")
 		(property "Reference" "J38"
-			(at 146.558 87.884 0)
+			(at 134.112 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18182,7 +18182,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 140.97 90.1699 0)
+			(at 139.7 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18192,7 +18192,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 142.24 88.9 0)
+			(at 138.43 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18201,7 +18201,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 142.24 88.9 0)
+			(at 138.43 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18210,7 +18210,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 142.24 88.9 0)
+			(at 138.43 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18219,7 +18219,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 142.24 88.9 0)
+			(at 138.43 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18228,7 +18228,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 142.24 88.9 0)
+			(at 138.43 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18237,7 +18237,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 142.24 88.9 0)
+			(at 138.43 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18246,7 +18246,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 142.24 88.9 0)
+			(at 138.43 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18255,7 +18255,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 142.24 88.9 0)
+			(at 138.43 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18264,7 +18264,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 142.24 88.9 0)
+			(at 138.43 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18455,7 +18455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 69.85 0)
 			(effects
 				(font
@@ -18541,8 +18541,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 101.6 109.22 0)
-		(mirror y)
+		(at 97.79 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18550,7 +18549,7 @@
 		(dnp no)
 		(uuid "461ed696-63a8-4c1b-946e-526b75c4bdab")
 		(property "Reference" "J50"
-			(at 105.918 108.204 0)
+			(at 93.472 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18559,7 +18558,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 100.33 110.4899 0)
+			(at 99.06 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18569,7 +18568,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 101.6 109.22 0)
+			(at 97.79 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18578,7 +18577,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 101.6 109.22 0)
+			(at 97.79 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18587,7 +18586,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 101.6 109.22 0)
+			(at 97.79 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18596,7 +18595,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 101.6 109.22 0)
+			(at 97.79 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18605,7 +18604,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 101.6 109.22 0)
+			(at 97.79 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18614,7 +18613,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 101.6 109.22 0)
+			(at 97.79 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18623,7 +18622,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 101.6 109.22 0)
+			(at 97.79 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18632,7 +18631,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 101.6 109.22 0)
+			(at 97.79 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18641,7 +18640,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 101.6 109.22 0)
+			(at 97.79 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18999,7 +18998,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 57.15 91.44 0)
+		(at 60.96 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19007,7 +19007,7 @@
 		(dnp no)
 		(uuid "496ddd2a-5164-4b3b-98fe-f437f55e40a6")
 		(property "Reference" "J23"
-			(at 52.832 90.424 0)
+			(at 65.278 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19016,7 +19016,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 58.42 92.7099 0)
+			(at 59.69 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19026,7 +19026,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 57.15 91.44 0)
+			(at 60.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19035,7 +19035,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 57.15 91.44 0)
+			(at 60.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19044,7 +19044,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 57.15 91.44 0)
+			(at 60.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19053,7 +19053,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 57.15 91.44 0)
+			(at 60.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19062,7 +19062,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 57.15 91.44 0)
+			(at 60.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19071,7 +19071,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 57.15 91.44 0)
+			(at 60.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19080,7 +19080,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 57.15 91.44 0)
+			(at 60.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19089,7 +19089,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 57.15 91.44 0)
+			(at 60.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19098,7 +19098,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 57.15 91.44 0)
+			(at 60.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19120,8 +19120,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 121.92 68.58 0)
-		(mirror y)
+		(at 118.11 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19129,7 +19128,7 @@
 		(dnp no)
 		(uuid "4a5d1723-d0d7-4cac-b11b-3708738abe83")
 		(property "Reference" "J14"
-			(at 126.238 67.564 0)
+			(at 113.792 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19138,7 +19137,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 120.65 69.8499 0)
+			(at 119.38 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19148,7 +19147,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 121.92 68.58 0)
+			(at 118.11 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19157,7 +19156,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 121.92 68.58 0)
+			(at 118.11 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19166,7 +19165,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 121.92 68.58 0)
+			(at 118.11 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19175,7 +19174,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 121.92 68.58 0)
+			(at 118.11 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19184,7 +19183,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 121.92 68.58 0)
+			(at 118.11 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19193,7 +19192,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 121.92 68.58 0)
+			(at 118.11 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19202,7 +19201,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 121.92 68.58 0)
+			(at 118.11 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19211,7 +19210,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 121.92 68.58 0)
+			(at 118.11 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19220,7 +19219,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 121.92 68.58 0)
+			(at 118.11 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19504,7 +19503,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 138.43 68.58 0)
+		(at 142.24 68.58 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19512,7 +19512,7 @@
 		(dnp no)
 		(uuid "52ecc352-685c-4089-b207-7f50cbcac856")
 		(property "Reference" "J17"
-			(at 134.112 67.564 0)
+			(at 146.558 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19521,7 +19521,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 139.7 69.8499 0)
+			(at 140.97 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19531,7 +19531,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 138.43 68.58 0)
+			(at 142.24 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19540,7 +19540,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 138.43 68.58 0)
+			(at 142.24 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19549,7 +19549,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 138.43 68.58 0)
+			(at 142.24 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19558,7 +19558,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 138.43 68.58 0)
+			(at 142.24 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19567,7 +19567,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 138.43 68.58 0)
+			(at 142.24 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19576,7 +19576,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 138.43 68.58 0)
+			(at 142.24 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19585,7 +19585,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 138.43 68.58 0)
+			(at 142.24 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19594,7 +19594,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 138.43 68.58 0)
+			(at 142.24 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19603,7 +19603,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 138.43 68.58 0)
+			(at 142.24 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19651,7 +19651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 67.31 0)
 			(effects
 				(font
@@ -19906,7 +19906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 67.31 0)
 			(effects
 				(font
@@ -20059,8 +20059,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 81.28 68.58 0)
-		(mirror y)
+		(at 77.47 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20068,7 +20067,7 @@
 		(dnp no)
 		(uuid "561e15cc-06cb-489f-ab2f-bee45deb7509")
 		(property "Reference" "J6"
-			(at 85.598 67.564 0)
+			(at 73.152 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20077,7 +20076,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 80.01 69.8499 0)
+			(at 78.74 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20087,7 +20086,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 81.28 68.58 0)
+			(at 77.47 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20096,7 +20095,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 81.28 68.58 0)
+			(at 77.47 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20105,7 +20104,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 81.28 68.58 0)
+			(at 77.47 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20114,7 +20113,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 81.28 68.58 0)
+			(at 77.47 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20123,7 +20122,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 81.28 68.58 0)
+			(at 77.47 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20132,7 +20131,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 81.28 68.58 0)
+			(at 77.47 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20141,7 +20140,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 81.28 68.58 0)
+			(at 77.47 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20150,7 +20149,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 81.28 68.58 0)
+			(at 77.47 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20159,7 +20158,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 81.28 68.58 0)
+			(at 77.47 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20181,7 +20180,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 97.79 88.9 0)
+		(at 101.6 88.9 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20189,7 +20189,7 @@
 		(dnp no)
 		(uuid "57bfc8a8-ec67-47c1-9504-a3b481419c77")
 		(property "Reference" "J29"
-			(at 93.472 87.884 0)
+			(at 105.918 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20198,7 +20198,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 99.06 90.1699 0)
+			(at 100.33 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20208,7 +20208,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 97.79 88.9 0)
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20217,7 +20217,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 97.79 88.9 0)
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20226,7 +20226,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 97.79 88.9 0)
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20235,7 +20235,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 97.79 88.9 0)
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20244,7 +20244,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 97.79 88.9 0)
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20253,7 +20253,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 97.79 88.9 0)
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20262,7 +20262,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 97.79 88.9 0)
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20271,7 +20271,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 97.79 88.9 0)
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20280,7 +20280,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 97.79 88.9 0)
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20445,7 +20445,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 57.15 68.58 0)
+		(at 60.96 68.58 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20453,7 +20454,7 @@
 		(dnp no)
 		(uuid "5a22e04b-a8fe-4374-ad73-53c90e1125ff")
 		(property "Reference" "J1"
-			(at 52.832 67.564 0)
+			(at 65.278 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20462,7 +20463,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 58.42 69.8499 0)
+			(at 59.69 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20472,7 +20473,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 57.15 68.58 0)
+			(at 60.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20481,7 +20482,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 57.15 68.58 0)
+			(at 60.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20490,7 +20491,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 57.15 68.58 0)
+			(at 60.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20499,7 +20500,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 57.15 68.58 0)
+			(at 60.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20508,7 +20509,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 57.15 68.58 0)
+			(at 60.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20517,7 +20518,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 57.15 68.58 0)
+			(at 60.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20526,7 +20527,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 57.15 68.58 0)
+			(at 60.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20535,7 +20536,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 57.15 68.58 0)
+			(at 60.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20544,7 +20545,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 57.15 68.58 0)
+			(at 60.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20592,7 +20593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 57.15 0)
 			(effects
 				(font
@@ -20678,8 +20679,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 121.92 71.12 0)
-		(mirror y)
+		(at 118.11 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20687,7 +20687,7 @@
 		(dnp no)
 		(uuid "5e6359ec-f47e-4bdd-a472-9fba97008f12")
 		(property "Reference" "J16"
-			(at 126.238 70.104 0)
+			(at 113.792 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20696,7 +20696,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 120.65 72.3899 0)
+			(at 119.38 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20706,7 +20706,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 121.92 71.12 0)
+			(at 118.11 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20715,7 +20715,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 121.92 71.12 0)
+			(at 118.11 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20724,7 +20724,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 121.92 71.12 0)
+			(at 118.11 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20733,7 +20733,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 121.92 71.12 0)
+			(at 118.11 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20742,7 +20742,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 121.92 71.12 0)
+			(at 118.11 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20751,7 +20751,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 121.92 71.12 0)
+			(at 118.11 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20760,7 +20760,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 121.92 71.12 0)
+			(at 118.11 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20769,7 +20769,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 121.92 71.12 0)
+			(at 118.11 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20778,7 +20778,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 121.92 71.12 0)
+			(at 118.11 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20800,7 +20800,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 57.15 109.22 0)
+		(at 60.96 109.22 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20808,7 +20809,7 @@
 		(dnp no)
 		(uuid "6036579c-cd53-4dfd-b3b4-679e8811aa8f")
 		(property "Reference" "J41"
-			(at 52.832 108.204 0)
+			(at 65.278 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20817,7 +20818,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 58.42 110.4899 0)
+			(at 59.69 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20827,7 +20828,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 57.15 109.22 0)
+			(at 60.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20836,7 +20837,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 57.15 109.22 0)
+			(at 60.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20845,7 +20846,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 57.15 109.22 0)
+			(at 60.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20854,7 +20855,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 57.15 109.22 0)
+			(at 60.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20863,7 +20864,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 57.15 109.22 0)
+			(at 60.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20872,7 +20873,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 57.15 109.22 0)
+			(at 60.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20881,7 +20882,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 57.15 109.22 0)
+			(at 60.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20890,7 +20891,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 57.15 109.22 0)
+			(at 60.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20899,7 +20900,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 57.15 109.22 0)
+			(at 60.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20921,7 +20922,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 77.47 88.9 0)
+		(at 81.28 88.9 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20929,7 +20931,7 @@
 		(dnp no)
 		(uuid "6044fd09-8d93-4a20-885d-2eab90027d2c")
 		(property "Reference" "J25"
-			(at 73.152 87.884 0)
+			(at 85.598 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20938,7 +20940,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 78.74 90.1699 0)
+			(at 80.01 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20948,7 +20950,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 77.47 88.9 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20957,7 +20959,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 77.47 88.9 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20966,7 +20968,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 77.47 88.9 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20975,7 +20977,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 77.47 88.9 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20984,7 +20986,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 77.47 88.9 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20993,7 +20995,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 77.47 88.9 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21002,7 +21004,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 77.47 88.9 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21011,7 +21013,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 77.47 88.9 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21020,7 +21022,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 77.47 88.9 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21042,7 +21044,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 97.79 91.44 0)
+		(at 101.6 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21050,7 +21053,7 @@
 		(dnp no)
 		(uuid "60a3f754-6590-47bc-b62d-28565f6cdcb8")
 		(property "Reference" "J31"
-			(at 93.472 90.424 0)
+			(at 105.918 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21059,7 +21062,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 99.06 92.7099 0)
+			(at 100.33 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21069,7 +21072,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 97.79 91.44 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21078,7 +21081,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 97.79 91.44 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21087,7 +21090,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 97.79 91.44 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21096,7 +21099,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 97.79 91.44 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21105,7 +21108,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 97.79 91.44 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21114,7 +21117,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 97.79 91.44 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21123,7 +21126,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 97.79 91.44 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21132,7 +21135,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 97.79 91.44 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21141,7 +21144,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 97.79 91.44 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21189,7 +21192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 69.85 0)
 			(effects
 				(font
@@ -21537,8 +21540,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 121.92 111.76 0)
-		(mirror y)
+		(at 118.11 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21546,7 +21548,7 @@
 		(dnp no)
 		(uuid "65eb6404-7b59-49da-a80a-8e93a7b8b345")
 		(property "Reference" "J56"
-			(at 126.238 110.744 0)
+			(at 113.792 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21555,7 +21557,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 120.65 113.0299 0)
+			(at 119.38 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21565,7 +21567,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 121.92 111.76 0)
+			(at 118.11 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21574,7 +21576,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 121.92 111.76 0)
+			(at 118.11 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21583,7 +21585,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 121.92 111.76 0)
+			(at 118.11 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21592,7 +21594,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 121.92 111.76 0)
+			(at 118.11 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21601,7 +21603,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 121.92 111.76 0)
+			(at 118.11 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21610,7 +21612,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 121.92 111.76 0)
+			(at 118.11 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21619,7 +21621,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 121.92 111.76 0)
+			(at 118.11 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21628,7 +21630,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 121.92 111.76 0)
+			(at 118.11 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21637,7 +21639,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 121.92 111.76 0)
+			(at 118.11 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21659,8 +21661,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 81.28 109.22 0)
-		(mirror y)
+		(at 77.47 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21668,7 +21669,7 @@
 		(dnp no)
 		(uuid "67c98f26-7499-4b3c-b254-07fb36a141a5")
 		(property "Reference" "J46"
-			(at 85.598 108.204 0)
+			(at 73.152 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21677,7 +21678,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 80.01 110.4899 0)
+			(at 78.74 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21687,7 +21688,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 81.28 109.22 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21696,7 +21697,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 81.28 109.22 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21705,7 +21706,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 81.28 109.22 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21714,7 +21715,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 81.28 109.22 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21723,7 +21724,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 81.28 109.22 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21732,7 +21733,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 81.28 109.22 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21741,7 +21742,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 81.28 109.22 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21750,7 +21751,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 81.28 109.22 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21759,7 +21760,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 81.28 109.22 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21781,8 +21782,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 60.96 111.76 0)
-		(mirror y)
+		(at 57.15 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21790,7 +21790,7 @@
 		(dnp no)
 		(uuid "690e2df8-e691-476b-a730-36723d5a5f23")
 		(property "Reference" "J44"
-			(at 65.278 110.744 0)
+			(at 52.832 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21799,7 +21799,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 59.69 113.0299 0)
+			(at 58.42 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21809,7 +21809,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 60.96 111.76 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21818,7 +21818,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 60.96 111.76 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21827,7 +21827,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 60.96 111.76 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21836,7 +21836,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 60.96 111.76 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21845,7 +21845,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 60.96 111.76 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21854,7 +21854,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 60.96 111.76 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21863,7 +21863,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 60.96 111.76 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21872,7 +21872,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 60.96 111.76 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21881,7 +21881,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 60.96 111.76 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21995,7 +21995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 67.31 0)
 			(effects
 				(font
@@ -22081,8 +22081,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 60.96 109.22 0)
-		(mirror y)
+		(at 57.15 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22090,7 +22089,7 @@
 		(dnp no)
 		(uuid "702b499d-32a7-4c1d-8d43-5179529e6946")
 		(property "Reference" "J42"
-			(at 65.278 108.204 0)
+			(at 52.832 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22099,7 +22098,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 59.69 110.4899 0)
+			(at 58.42 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22109,7 +22108,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 60.96 109.22 0)
+			(at 57.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22118,7 +22117,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 60.96 109.22 0)
+			(at 57.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22127,7 +22126,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 60.96 109.22 0)
+			(at 57.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22136,7 +22135,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 60.96 109.22 0)
+			(at 57.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22145,7 +22144,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 60.96 109.22 0)
+			(at 57.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22154,7 +22153,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 60.96 109.22 0)
+			(at 57.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22163,7 +22162,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 60.96 109.22 0)
+			(at 57.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22172,7 +22171,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 60.96 109.22 0)
+			(at 57.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22181,7 +22180,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 60.96 109.22 0)
+			(at 57.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22584,7 +22583,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 77.47 71.12 0)
+		(at 81.28 71.12 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22592,7 +22592,7 @@
 		(dnp no)
 		(uuid "72d6eb19-3953-483d-b4ad-20a2a0716595")
 		(property "Reference" "J7"
-			(at 73.152 70.104 0)
+			(at 85.598 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22601,7 +22601,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 78.74 72.3899 0)
+			(at 80.01 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22611,7 +22611,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 77.47 71.12 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22620,7 +22620,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 77.47 71.12 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22629,7 +22629,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 77.47 71.12 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22638,7 +22638,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 77.47 71.12 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22647,7 +22647,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 77.47 71.12 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22656,7 +22656,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 77.47 71.12 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22665,7 +22665,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 77.47 71.12 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22674,7 +22674,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 77.47 71.12 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22683,7 +22683,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 77.47 71.12 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22705,8 +22705,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 101.6 91.44 0)
-		(mirror y)
+		(at 97.79 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22714,7 +22713,7 @@
 		(dnp no)
 		(uuid "7527190b-4e9b-4d9e-86cb-c8f2d2698c5e")
 		(property "Reference" "J32"
-			(at 105.918 90.424 0)
+			(at 93.472 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22723,7 +22722,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 100.33 92.7099 0)
+			(at 99.06 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22733,7 +22732,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 101.6 91.44 0)
+			(at 97.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22742,7 +22741,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 101.6 91.44 0)
+			(at 97.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22751,7 +22750,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 101.6 91.44 0)
+			(at 97.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22760,7 +22759,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 101.6 91.44 0)
+			(at 97.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22769,7 +22768,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 101.6 91.44 0)
+			(at 97.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22778,7 +22777,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 101.6 91.44 0)
+			(at 97.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22787,7 +22786,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 101.6 91.44 0)
+			(at 97.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22796,7 +22795,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 101.6 91.44 0)
+			(at 97.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22805,7 +22804,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 101.6 91.44 0)
+			(at 97.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22919,7 +22918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 54.61 0)
 			(effects
 				(font
@@ -23005,7 +23004,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 57.15 88.9 0)
+		(at 60.96 88.9 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23013,7 +23013,7 @@
 		(dnp no)
 		(uuid "7872a034-721c-40c7-8a1b-72622fb10bc9")
 		(property "Reference" "J21"
-			(at 52.832 87.884 0)
+			(at 65.278 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23022,7 +23022,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 58.42 90.1699 0)
+			(at 59.69 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23032,7 +23032,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 57.15 88.9 0)
+			(at 60.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23041,7 +23041,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 57.15 88.9 0)
+			(at 60.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23050,7 +23050,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 57.15 88.9 0)
+			(at 60.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23059,7 +23059,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 57.15 88.9 0)
+			(at 60.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23068,7 +23068,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 57.15 88.9 0)
+			(at 60.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23077,7 +23077,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 57.15 88.9 0)
+			(at 60.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23086,7 +23086,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 57.15 88.9 0)
+			(at 60.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23095,7 +23095,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 57.15 88.9 0)
+			(at 60.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23104,7 +23104,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 57.15 88.9 0)
+			(at 60.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23295,7 +23295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 59.69 0)
 			(effects
 				(font
@@ -23524,8 +23524,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 60.96 68.58 0)
-		(mirror y)
+		(at 57.15 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23533,7 +23532,7 @@
 		(dnp no)
 		(uuid "7e051f99-5003-4716-8bc8-208907988125")
 		(property "Reference" "J2"
-			(at 65.278 67.564 0)
+			(at 52.832 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23542,7 +23541,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 59.69 69.8499 0)
+			(at 58.42 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23552,7 +23551,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 60.96 68.58 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23561,7 +23560,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 60.96 68.58 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23570,7 +23569,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 60.96 68.58 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23579,7 +23578,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 60.96 68.58 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23588,7 +23587,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 60.96 68.58 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23597,7 +23596,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 60.96 68.58 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23606,7 +23605,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 60.96 68.58 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23615,7 +23614,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 60.96 68.58 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23624,7 +23623,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 60.96 68.58 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23646,8 +23645,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 121.92 109.22 0)
-		(mirror y)
+		(at 118.11 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23655,7 +23653,7 @@
 		(dnp no)
 		(uuid "808d3955-73e7-4e4f-984b-46009b99a7c4")
 		(property "Reference" "J54"
-			(at 126.238 108.204 0)
+			(at 113.792 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23664,7 +23662,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 120.65 110.4899 0)
+			(at 119.38 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23674,7 +23672,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 121.92 109.22 0)
+			(at 118.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23683,7 +23681,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 121.92 109.22 0)
+			(at 118.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23692,7 +23690,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 121.92 109.22 0)
+			(at 118.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23701,7 +23699,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 121.92 109.22 0)
+			(at 118.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23710,7 +23708,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 121.92 109.22 0)
+			(at 118.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23719,7 +23717,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 121.92 109.22 0)
+			(at 118.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23728,7 +23726,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 121.92 109.22 0)
+			(at 118.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23737,7 +23735,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 121.92 109.22 0)
+			(at 118.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23746,7 +23744,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 121.92 109.22 0)
+			(at 118.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23768,7 +23766,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 118.11 71.12 0)
+		(at 121.92 71.12 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23776,7 +23775,7 @@
 		(dnp no)
 		(uuid "811de313-aa0d-41ab-8fbd-0eadd8cef195")
 		(property "Reference" "J15"
-			(at 113.792 70.104 0)
+			(at 126.238 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23785,7 +23784,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 119.38 72.3899 0)
+			(at 120.65 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23795,7 +23794,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 118.11 71.12 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23804,7 +23803,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 118.11 71.12 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23813,7 +23812,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 118.11 71.12 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23822,7 +23821,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 118.11 71.12 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23831,7 +23830,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 118.11 71.12 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23840,7 +23839,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 118.11 71.12 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23849,7 +23848,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 118.11 71.12 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23858,7 +23857,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 118.11 71.12 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23867,7 +23866,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 118.11 71.12 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24032,8 +24031,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 60.96 88.9 0)
-		(mirror y)
+		(at 57.15 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24041,7 +24039,7 @@
 		(dnp no)
 		(uuid "8202c4e7-cdb3-4118-a025-5f900838c6c0")
 		(property "Reference" "J22"
-			(at 65.278 87.884 0)
+			(at 52.832 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24050,7 +24048,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 59.69 90.1699 0)
+			(at 58.42 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24060,7 +24058,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 60.96 88.9 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24069,7 +24067,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 60.96 88.9 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24078,7 +24076,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 60.96 88.9 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24087,7 +24085,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 60.96 88.9 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24096,7 +24094,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 60.96 88.9 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24105,7 +24103,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 60.96 88.9 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24114,7 +24112,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 60.96 88.9 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24123,7 +24121,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 60.96 88.9 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24132,7 +24130,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 60.96 88.9 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24154,8 +24152,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 81.28 129.54 0)
-		(mirror y)
+		(at 138.43 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24163,7 +24160,7 @@
 		(dnp no)
 		(uuid "843976c1-0b5b-4c97-bde9-a8d602fd41f3")
 		(property "Reference" "J66"
-			(at 85.598 128.524 0)
+			(at 134.112 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24172,7 +24169,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 80.01 130.8099 0)
+			(at 139.7 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24182,7 +24179,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 81.28 129.54 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24191,7 +24188,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 81.28 129.54 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24200,7 +24197,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 81.28 129.54 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24209,7 +24206,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 81.28 129.54 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24218,7 +24215,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 81.28 129.54 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24227,7 +24224,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 81.28 129.54 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24236,7 +24233,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 81.28 129.54 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24245,7 +24242,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 81.28 129.54 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24254,7 +24251,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 81.28 129.54 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24514,7 +24511,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 97.79 71.12 0)
+		(at 101.6 71.12 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24522,7 +24520,7 @@
 		(dnp no)
 		(uuid "93a3def8-7153-42dc-90a1-a69ae4562097")
 		(property "Reference" "J11"
-			(at 93.472 70.104 0)
+			(at 105.918 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24531,7 +24529,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 99.06 72.3899 0)
+			(at 100.33 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24541,7 +24539,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 97.79 71.12 0)
+			(at 101.6 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24550,7 +24548,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 97.79 71.12 0)
+			(at 101.6 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24559,7 +24557,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 97.79 71.12 0)
+			(at 101.6 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24568,7 +24566,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 97.79 71.12 0)
+			(at 101.6 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24577,7 +24575,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 97.79 71.12 0)
+			(at 101.6 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24586,7 +24584,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 97.79 71.12 0)
+			(at 101.6 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24595,7 +24593,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 97.79 71.12 0)
+			(at 101.6 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24604,7 +24602,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 97.79 71.12 0)
+			(at 101.6 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24613,7 +24611,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 97.79 71.12 0)
+			(at 101.6 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24873,7 +24871,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 77.47 109.22 0)
+		(at 81.28 109.22 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24881,7 +24880,7 @@
 		(dnp no)
 		(uuid "985b0c9f-03a9-4dc8-8920-606c94b0db2c")
 		(property "Reference" "J45"
-			(at 73.152 108.204 0)
+			(at 85.598 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24890,7 +24889,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 78.74 110.4899 0)
+			(at 80.01 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24900,7 +24899,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 77.47 109.22 0)
+			(at 81.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24909,7 +24908,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 77.47 109.22 0)
+			(at 81.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24918,7 +24917,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 77.47 109.22 0)
+			(at 81.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24927,7 +24926,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 77.47 109.22 0)
+			(at 81.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24936,7 +24935,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 77.47 109.22 0)
+			(at 81.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24945,7 +24944,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 77.47 109.22 0)
+			(at 81.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24954,7 +24953,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 77.47 109.22 0)
+			(at 81.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24963,7 +24962,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 77.47 109.22 0)
+			(at 81.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24972,7 +24971,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 77.47 109.22 0)
+			(at 81.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25137,8 +25136,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 81.28 111.76 0)
-		(mirror y)
+		(at 77.47 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25146,7 +25144,7 @@
 		(dnp no)
 		(uuid "9dfe2339-1312-4284-8d88-e72c74b370a5")
 		(property "Reference" "J48"
-			(at 85.598 110.744 0)
+			(at 73.152 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25155,7 +25153,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 80.01 113.0299 0)
+			(at 78.74 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25165,7 +25163,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 81.28 111.76 0)
+			(at 77.47 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25174,7 +25172,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 81.28 111.76 0)
+			(at 77.47 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25183,7 +25181,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 81.28 111.76 0)
+			(at 77.47 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25192,7 +25190,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 81.28 111.76 0)
+			(at 77.47 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25201,7 +25199,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 81.28 111.76 0)
+			(at 77.47 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25210,7 +25208,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 81.28 111.76 0)
+			(at 77.47 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25219,7 +25217,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 81.28 111.76 0)
+			(at 77.47 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25228,7 +25226,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 81.28 111.76 0)
+			(at 77.47 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25237,7 +25235,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 81.28 111.76 0)
+			(at 77.47 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25285,7 +25283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 64.77 0)
 			(effects
 				(font
@@ -25514,7 +25512,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 138.43 111.76 0)
+		(at 142.24 111.76 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25522,7 +25521,7 @@
 		(dnp no)
 		(uuid "9eae3d60-42e8-46ca-8e6d-4801fb08d256")
 		(property "Reference" "J59"
-			(at 134.112 110.744 0)
+			(at 146.558 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25531,7 +25530,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 139.7 113.0299 0)
+			(at 140.97 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25541,7 +25540,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 138.43 111.76 0)
+			(at 142.24 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25550,7 +25549,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 138.43 111.76 0)
+			(at 142.24 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25559,7 +25558,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 138.43 111.76 0)
+			(at 142.24 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25568,7 +25567,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 138.43 111.76 0)
+			(at 142.24 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25577,7 +25576,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 138.43 111.76 0)
+			(at 142.24 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25586,7 +25585,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 138.43 111.76 0)
+			(at 142.24 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25595,7 +25594,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 138.43 111.76 0)
+			(at 142.24 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25604,7 +25603,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 138.43 111.76 0)
+			(at 142.24 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25613,7 +25612,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 138.43 111.76 0)
+			(at 142.24 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25778,7 +25777,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 77.47 129.54 0)
+		(at 142.24 130.81 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25786,7 +25786,7 @@
 		(dnp no)
 		(uuid "a4891e4b-fcc2-44cb-acac-e14371d66e73")
 		(property "Reference" "J65"
-			(at 73.152 128.524 0)
+			(at 146.558 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25795,7 +25795,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 78.74 130.8099 0)
+			(at 140.97 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25805,7 +25805,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 77.47 129.54 0)
+			(at 142.24 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25814,7 +25814,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 77.47 129.54 0)
+			(at 142.24 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25823,7 +25823,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 77.47 129.54 0)
+			(at 142.24 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25832,7 +25832,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 77.47 129.54 0)
+			(at 142.24 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25841,7 +25841,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 77.47 129.54 0)
+			(at 142.24 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25850,7 +25850,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 77.47 129.54 0)
+			(at 142.24 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25859,7 +25859,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 77.47 129.54 0)
+			(at 142.24 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25868,7 +25868,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 77.47 129.54 0)
+			(at 142.24 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25877,7 +25877,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 77.47 129.54 0)
+			(at 142.24 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25899,8 +25899,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 101.6 68.58 0)
-		(mirror y)
+		(at 97.79 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25908,248 +25907,6 @@
 		(dnp no)
 		(uuid "a77dc797-382d-462a-b216-fe65a32ce00d")
 		(property "Reference" "J10"
-			(at 105.918 67.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 100.33 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 101.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 101.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 101.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17370797"
-			(at 101.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" "+left"
-			(at 101.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 101.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 101.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 101.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 101.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1fa57208-942f-4f70-88c7-5f10ed4b0355")
-		)
-		(instances
-			(project "half-swept"
-				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 57.15 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7f7d685-dc08-48d3-9d28-c51e9280b458")
-		(property "Reference" "J61"
-			(at 52.832 128.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 58.42 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 57.15 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 57.15 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 57.15 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17370797"
-			(at 57.15 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" "+left"
-			(at 57.15 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 57.15 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 57.15 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 57.15 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 57.15 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed3e719c-e322-4130-a805-4c1f7cce568f")
-		)
-		(instances
-			(project "half-swept"
-				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
-					(reference "J61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 97.79 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aa442a32-71a5-4197-8b89-74b35f2ee6df")
-		(property "Reference" "J9"
 			(at 93.472 67.564 0)
 			(effects
 				(font
@@ -26250,6 +26007,250 @@
 			)
 		)
 		(pin "1"
+			(uuid "1fa57208-942f-4f70-88c7-5f10ed4b0355")
+		)
+		(instances
+			(project "half-swept"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swoon:Conn_01x01_Socket")
+		(at 121.92 130.81 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7f7d685-dc08-48d3-9d28-c51e9280b458")
+		(property "Reference" "J61"
+			(at 126.238 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3305-0-15-80-47-27-10-0"
+			(at 120.65 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed3e719c-e322-4130-a805-4c1f7cce568f")
+		)
+		(instances
+			(project "half-swept"
+				(path "/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+					(reference "J61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swoon:Conn_01x01_Socket")
+		(at 101.6 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa442a32-71a5-4197-8b89-74b35f2ee6df")
+		(property "Reference" "J9"
+			(at 105.918 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3305-0-15-80-47-27-10-0"
+			(at 100.33 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17370797"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+left"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3305-0-15-80-47-27-10-0"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "09b6e9a3-6968-4e69-88b1-c235dd4eeebf")
 		)
 		(instances
@@ -26263,7 +26264,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 77.47 111.76 0)
+		(at 81.28 111.76 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26271,7 +26273,7 @@
 		(dnp no)
 		(uuid "b03265cb-b8bb-4c38-b43b-802cf746dc22")
 		(property "Reference" "J47"
-			(at 73.152 110.744 0)
+			(at 85.598 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26280,7 +26282,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 78.74 113.0299 0)
+			(at 80.01 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26290,7 +26292,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 77.47 111.76 0)
+			(at 81.28 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26299,7 +26301,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 77.47 111.76 0)
+			(at 81.28 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26308,7 +26310,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 77.47 111.76 0)
+			(at 81.28 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26317,7 +26319,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 77.47 111.76 0)
+			(at 81.28 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26326,7 +26328,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 77.47 111.76 0)
+			(at 81.28 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26335,7 +26337,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 77.47 111.76 0)
+			(at 81.28 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26344,7 +26346,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 77.47 111.76 0)
+			(at 81.28 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26353,7 +26355,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 77.47 111.76 0)
+			(at 81.28 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26362,7 +26364,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 77.47 111.76 0)
+			(at 81.28 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26384,7 +26386,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 138.43 91.44 0)
+		(at 142.24 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26392,7 +26395,7 @@
 		(dnp no)
 		(uuid "b151c19b-68d2-4c68-97da-f0dfad7327cf")
 		(property "Reference" "J39"
-			(at 134.112 90.424 0)
+			(at 146.558 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26401,7 +26404,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 139.7 92.7099 0)
+			(at 140.97 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26411,7 +26414,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 138.43 91.44 0)
+			(at 142.24 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26420,7 +26423,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 138.43 91.44 0)
+			(at 142.24 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26429,7 +26432,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 138.43 91.44 0)
+			(at 142.24 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26438,7 +26441,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 138.43 91.44 0)
+			(at 142.24 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26447,7 +26450,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 138.43 91.44 0)
+			(at 142.24 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26456,7 +26459,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 138.43 91.44 0)
+			(at 142.24 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26465,7 +26468,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 138.43 91.44 0)
+			(at 142.24 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26474,7 +26477,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 138.43 91.44 0)
+			(at 142.24 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26483,7 +26486,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 138.43 91.44 0)
+			(at 142.24 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26505,7 +26508,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 118.11 91.44 0)
+		(at 121.92 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26513,7 +26517,7 @@
 		(dnp no)
 		(uuid "b234cb3c-f37c-4426-ae68-46e40dd58742")
 		(property "Reference" "J35"
-			(at 113.792 90.424 0)
+			(at 126.238 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26522,7 +26526,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 119.38 92.7099 0)
+			(at 120.65 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26532,7 +26536,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 118.11 91.44 0)
+			(at 121.92 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26541,7 +26545,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 118.11 91.44 0)
+			(at 121.92 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26550,7 +26554,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 118.11 91.44 0)
+			(at 121.92 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26559,7 +26563,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 118.11 91.44 0)
+			(at 121.92 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26568,7 +26572,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 118.11 91.44 0)
+			(at 121.92 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26577,7 +26581,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 118.11 91.44 0)
+			(at 121.92 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26586,7 +26590,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 118.11 91.44 0)
+			(at 121.92 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26595,7 +26599,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 118.11 91.44 0)
+			(at 121.92 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26604,7 +26608,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 118.11 91.44 0)
+			(at 121.92 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26626,8 +26630,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 60.96 129.54 0)
-		(mirror y)
+		(at 118.11 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26635,7 +26638,7 @@
 		(dnp no)
 		(uuid "b28b8cfa-f9d7-4cd7-b472-aea7a8a1197e")
 		(property "Reference" "J62"
-			(at 65.278 128.524 0)
+			(at 113.792 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26644,7 +26647,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 59.69 130.8099 0)
+			(at 119.38 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26654,7 +26657,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 60.96 129.54 0)
+			(at 118.11 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26663,7 +26666,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 60.96 129.54 0)
+			(at 118.11 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26672,7 +26675,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 60.96 129.54 0)
+			(at 118.11 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26681,7 +26684,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 60.96 129.54 0)
+			(at 118.11 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26690,7 +26693,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 60.96 129.54 0)
+			(at 118.11 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26699,7 +26702,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 60.96 129.54 0)
+			(at 118.11 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26708,7 +26711,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 60.96 129.54 0)
+			(at 118.11 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26717,7 +26720,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 60.96 129.54 0)
+			(at 118.11 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26726,7 +26729,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 60.96 129.54 0)
+			(at 118.11 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26748,7 +26751,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 57.15 111.76 0)
+		(at 60.96 111.76 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26756,7 +26760,7 @@
 		(dnp no)
 		(uuid "b32bdee9-a8d4-4e9b-9213-e5b951e57fd7")
 		(property "Reference" "J43"
-			(at 52.832 110.744 0)
+			(at 65.278 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26765,7 +26769,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 58.42 113.0299 0)
+			(at 59.69 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26775,7 +26779,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 57.15 111.76 0)
+			(at 60.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26784,7 +26788,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 57.15 111.76 0)
+			(at 60.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26793,7 +26797,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 57.15 111.76 0)
+			(at 60.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26802,7 +26806,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 57.15 111.76 0)
+			(at 60.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26811,7 +26815,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 57.15 111.76 0)
+			(at 60.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26820,7 +26824,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 57.15 111.76 0)
+			(at 60.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26829,7 +26833,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 57.15 111.76 0)
+			(at 60.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26838,7 +26842,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 57.15 111.76 0)
+			(at 60.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26847,7 +26851,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 57.15 111.76 0)
+			(at 60.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26869,7 +26873,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 118.11 109.22 0)
+		(at 121.92 109.22 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26877,7 +26882,7 @@
 		(dnp no)
 		(uuid "b57693bd-f942-4dac-8413-9ada7b450ac4")
 		(property "Reference" "J53"
-			(at 113.792 108.204 0)
+			(at 126.238 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26886,7 +26891,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 119.38 110.4899 0)
+			(at 120.65 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26896,7 +26901,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 118.11 109.22 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26905,7 +26910,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 118.11 109.22 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26914,7 +26919,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 118.11 109.22 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26923,7 +26928,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 118.11 109.22 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26932,7 +26937,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 118.11 109.22 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26941,7 +26946,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 118.11 109.22 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26950,7 +26955,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 118.11 109.22 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26959,7 +26964,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 118.11 109.22 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26968,7 +26973,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 118.11 109.22 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27135,7 +27140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 64.77 0)
 			(effects
 				(font
@@ -27350,8 +27355,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 142.24 91.44 0)
-		(mirror y)
+		(at 138.43 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27359,7 +27363,7 @@
 		(dnp no)
 		(uuid "bbd5719e-910b-4426-8a71-aeb7ebf29c16")
 		(property "Reference" "J40"
-			(at 146.558 90.424 0)
+			(at 134.112 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27368,7 +27372,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 140.97 92.7099 0)
+			(at 139.7 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27378,7 +27382,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 142.24 91.44 0)
+			(at 138.43 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27387,7 +27391,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 142.24 91.44 0)
+			(at 138.43 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27396,7 +27400,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 142.24 91.44 0)
+			(at 138.43 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27405,7 +27409,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 142.24 91.44 0)
+			(at 138.43 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27414,7 +27418,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 142.24 91.44 0)
+			(at 138.43 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27423,7 +27427,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 142.24 91.44 0)
+			(at 138.43 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27432,7 +27436,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 142.24 91.44 0)
+			(at 138.43 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27441,7 +27445,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 142.24 91.44 0)
+			(at 138.43 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27450,7 +27454,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 142.24 91.44 0)
+			(at 138.43 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27641,7 +27645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 69.85 0)
 			(effects
 				(font
@@ -27727,8 +27731,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 81.28 91.44 0)
-		(mirror y)
+		(at 77.47 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27736,7 +27739,7 @@
 		(dnp no)
 		(uuid "c4bce40d-6ff1-4127-a323-d38e1794c652")
 		(property "Reference" "J28"
-			(at 85.598 90.424 0)
+			(at 73.152 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27745,7 +27748,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 80.01 92.7099 0)
+			(at 78.74 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27755,7 +27758,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 81.28 91.44 0)
+			(at 77.47 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27764,7 +27767,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 81.28 91.44 0)
+			(at 77.47 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27773,7 +27776,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 81.28 91.44 0)
+			(at 77.47 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27782,7 +27785,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 81.28 91.44 0)
+			(at 77.47 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27791,7 +27794,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 81.28 91.44 0)
+			(at 77.47 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27800,7 +27803,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 81.28 91.44 0)
+			(at 77.47 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27809,7 +27812,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 81.28 91.44 0)
+			(at 77.47 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27818,7 +27821,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 81.28 91.44 0)
+			(at 77.47 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27827,7 +27830,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 81.28 91.44 0)
+			(at 77.47 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27849,8 +27852,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 142.24 111.76 0)
-		(mirror y)
+		(at 138.43 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27858,7 +27860,7 @@
 		(dnp no)
 		(uuid "ca0fc271-0c1e-47b6-b2cd-839817a2e551")
 		(property "Reference" "J60"
-			(at 146.558 110.744 0)
+			(at 134.112 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27867,7 +27869,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 140.97 113.0299 0)
+			(at 139.7 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27877,7 +27879,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 142.24 111.76 0)
+			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27886,7 +27888,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 142.24 111.76 0)
+			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27895,7 +27897,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 142.24 111.76 0)
+			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27904,7 +27906,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 142.24 111.76 0)
+			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27913,7 +27915,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 142.24 111.76 0)
+			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27922,7 +27924,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 142.24 111.76 0)
+			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27931,7 +27933,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 142.24 111.76 0)
+			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27940,7 +27942,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 142.24 111.76 0)
+			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27949,7 +27951,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 142.24 111.76 0)
+			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27997,7 +27999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 213.36 69.85 0)
 			(effects
 				(font
@@ -28217,7 +28219,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 77.47 68.58 0)
+		(at 81.28 68.58 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28225,7 +28228,7 @@
 		(dnp no)
 		(uuid "cff9f751-00f8-4bc5-8cd2-2a722525f37c")
 		(property "Reference" "J5"
-			(at 73.152 67.564 0)
+			(at 85.598 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28234,7 +28237,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 78.74 69.8499 0)
+			(at 80.01 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28244,7 +28247,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 77.47 68.58 0)
+			(at 81.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28253,7 +28256,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 77.47 68.58 0)
+			(at 81.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28262,7 +28265,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 77.47 68.58 0)
+			(at 81.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28271,7 +28274,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 77.47 68.58 0)
+			(at 81.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28280,7 +28283,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 77.47 68.58 0)
+			(at 81.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28289,7 +28292,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 77.47 68.58 0)
+			(at 81.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28298,7 +28301,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 77.47 68.58 0)
+			(at 81.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28307,7 +28310,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 77.47 68.58 0)
+			(at 81.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28316,7 +28319,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 77.47 68.58 0)
+			(at 81.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28338,8 +28341,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 101.6 111.76 0)
-		(mirror y)
+		(at 97.79 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28347,7 +28349,7 @@
 		(dnp no)
 		(uuid "d41b73e0-719c-40b4-8810-2bb34b18511d")
 		(property "Reference" "J52"
-			(at 105.918 110.744 0)
+			(at 93.472 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28356,7 +28358,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 100.33 113.0299 0)
+			(at 99.06 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28366,7 +28368,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 101.6 111.76 0)
+			(at 97.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28375,7 +28377,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 101.6 111.76 0)
+			(at 97.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28384,7 +28386,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 101.6 111.76 0)
+			(at 97.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28393,7 +28395,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 101.6 111.76 0)
+			(at 97.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28402,7 +28404,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 101.6 111.76 0)
+			(at 97.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28411,7 +28413,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 101.6 111.76 0)
+			(at 97.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28420,7 +28422,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 101.6 111.76 0)
+			(at 97.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28429,7 +28431,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 101.6 111.76 0)
+			(at 97.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28438,7 +28440,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 101.6 111.76 0)
+			(at 97.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28460,7 +28462,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 57.15 132.08 0)
+		(at 121.92 133.35 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28468,7 +28471,7 @@
 		(dnp no)
 		(uuid "d50da995-d7ce-46b4-b08e-a7c52d4f4f9d")
 		(property "Reference" "J63"
-			(at 52.832 131.064 0)
+			(at 126.238 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28477,7 +28480,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 58.42 133.3499 0)
+			(at 120.65 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28487,7 +28490,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 57.15 132.08 0)
+			(at 121.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28496,7 +28499,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 57.15 132.08 0)
+			(at 121.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28505,7 +28508,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 57.15 132.08 0)
+			(at 121.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28514,7 +28517,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 57.15 132.08 0)
+			(at 121.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28523,7 +28526,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 57.15 132.08 0)
+			(at 121.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28532,7 +28535,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 57.15 132.08 0)
+			(at 121.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28541,7 +28544,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 57.15 132.08 0)
+			(at 121.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28550,7 +28553,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 57.15 132.08 0)
+			(at 121.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28559,7 +28562,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 57.15 132.08 0)
+			(at 121.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28722,7 +28725,7 @@
 	(symbol
 		(lib_name "CD4148W_8")
 		(lib_id "Diode:CD4148W")
-		(at 52.07 123.19 90)
+		(at 113.03 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28730,7 +28733,7 @@
 		(dnp no)
 		(uuid "d5b41804-d549-4060-ac2d-80ef4fa5a1b8")
 		(property "Reference" "D31"
-			(at 52.324 120.65 90)
+			(at 113.284 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28739,7 +28742,7 @@
 			)
 		)
 		(property "Value" "CD4148WS"
-			(at 54.61 124.4599 90)
+			(at 115.57 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28749,7 +28752,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:D_0805_2012Metric"
-			(at 57.15 123.19 0)
+			(at 118.11 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28758,7 +28761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 123.19 0)
+			(at 113.03 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28767,7 +28770,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Switching Diode, 0805"
-			(at 52.07 123.19 0)
+			(at 113.03 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28776,7 +28779,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 52.07 123.19 0)
+			(at 113.03 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28785,7 +28788,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 52.07 123.19 0)
+			(at 113.03 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28794,7 +28797,7 @@
 			)
 		)
 		(property "LCSC" "C38587762"
-			(at 52.07 123.19 0)
+			(at 113.03 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28803,7 +28806,7 @@
 			)
 		)
 		(property "Config" "+left,+flip"
-			(at 52.07 123.19 0)
+			(at 113.03 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28812,7 +28815,7 @@
 			)
 		)
 		(property "MPN" "CD4148WS(0805C)"
-			(at 52.07 123.19 0)
+			(at 113.03 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28821,7 +28824,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:D_0805_2012Metric"
-			(at 52.07 123.19 0)
+			(at 113.03 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28830,7 +28833,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 52.07 123.19 0)
+			(at 113.03 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28839,7 +28842,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:D_0805_2012Metric"
-			(at 52.07 123.19 0)
+			(at 113.03 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29009,7 +29012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 57.15 0)
 			(effects
 				(font
@@ -29550,7 +29553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Swoon:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Swoon:TestPoint_Pad_Empty"
 			(at 236.22 54.61 0)
 			(effects
 				(font
@@ -30017,8 +30020,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 142.24 109.22 0)
-		(mirror y)
+		(at 138.43 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30026,7 +30028,7 @@
 		(dnp no)
 		(uuid "dca9a9e9-dbe1-479e-9974-7d0a9f4de96a")
 		(property "Reference" "J58"
-			(at 146.558 108.204 0)
+			(at 134.112 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30035,7 +30037,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 140.97 110.4899 0)
+			(at 139.7 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30045,7 +30047,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 142.24 109.22 0)
+			(at 138.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30054,7 +30056,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 142.24 109.22 0)
+			(at 138.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30063,7 +30065,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 142.24 109.22 0)
+			(at 138.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30072,7 +30074,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 142.24 109.22 0)
+			(at 138.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30081,7 +30083,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 142.24 109.22 0)
+			(at 138.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30090,7 +30092,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 142.24 109.22 0)
+			(at 138.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30099,7 +30101,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 142.24 109.22 0)
+			(at 138.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30108,7 +30110,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 142.24 109.22 0)
+			(at 138.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30117,7 +30119,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 142.24 109.22 0)
+			(at 138.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30425,7 +30427,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 138.43 88.9 0)
+		(at 142.24 88.9 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30433,7 +30436,7 @@
 		(dnp no)
 		(uuid "e14dc77e-df57-4870-9306-a11b829c8dcf")
 		(property "Reference" "J37"
-			(at 134.112 87.884 0)
+			(at 146.558 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30442,7 +30445,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 139.7 90.1699 0)
+			(at 140.97 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30452,7 +30455,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 138.43 88.9 0)
+			(at 142.24 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30461,7 +30464,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 138.43 88.9 0)
+			(at 142.24 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30470,7 +30473,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 138.43 88.9 0)
+			(at 142.24 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30479,7 +30482,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 138.43 88.9 0)
+			(at 142.24 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30488,7 +30491,7 @@
 			)
 		)
 		(property "Config" "+left"
-			(at 138.43 88.9 0)
+			(at 142.24 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30497,7 +30500,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 138.43 88.9 0)
+			(at 142.24 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30506,7 +30509,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 138.43 88.9 0)
+			(at 142.24 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30515,7 +30518,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 138.43 88.9 0)
+			(at 142.24 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30524,7 +30527,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 138.43 88.9 0)
+			(at 142.24 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30665,8 +30668,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 60.96 71.12 0)
-		(mirror y)
+		(at 57.15 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30674,7 +30676,7 @@
 		(dnp no)
 		(uuid "e779cb01-870b-4c96-af5e-d741c909d75c")
 		(property "Reference" "J4"
-			(at 65.278 70.104 0)
+			(at 52.832 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30683,7 +30685,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 59.69 72.3899 0)
+			(at 58.42 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30693,7 +30695,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 60.96 71.12 0)
+			(at 57.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30702,7 +30704,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 60.96 71.12 0)
+			(at 57.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30711,7 +30713,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 60.96 71.12 0)
+			(at 57.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30720,7 +30722,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 60.96 71.12 0)
+			(at 57.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30729,7 +30731,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 60.96 71.12 0)
+			(at 57.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30738,7 +30740,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 60.96 71.12 0)
+			(at 57.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30747,7 +30749,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 60.96 71.12 0)
+			(at 57.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30756,7 +30758,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 60.96 71.12 0)
+			(at 57.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30765,7 +30767,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 60.96 71.12 0)
+			(at 57.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30787,8 +30789,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 142.24 71.12 0)
-		(mirror y)
+		(at 138.43 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30796,7 +30797,7 @@
 		(dnp no)
 		(uuid "ea074ed9-2c99-433b-ab46-078cd9687483")
 		(property "Reference" "J20"
-			(at 146.558 70.104 0)
+			(at 134.112 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30805,7 +30806,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 140.97 72.3899 0)
+			(at 139.7 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30815,7 +30816,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 142.24 71.12 0)
+			(at 138.43 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30824,7 +30825,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 142.24 71.12 0)
+			(at 138.43 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30833,7 +30834,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 142.24 71.12 0)
+			(at 138.43 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30842,7 +30843,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 142.24 71.12 0)
+			(at 138.43 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30851,7 +30852,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 142.24 71.12 0)
+			(at 138.43 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30860,7 +30861,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 142.24 71.12 0)
+			(at 138.43 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30869,7 +30870,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 142.24 71.12 0)
+			(at 138.43 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30878,7 +30879,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 142.24 71.12 0)
+			(at 138.43 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30887,7 +30888,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 142.24 71.12 0)
+			(at 138.43 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30909,8 +30910,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 60.96 91.44 0)
-		(mirror y)
+		(at 57.15 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30918,7 +30918,7 @@
 		(dnp no)
 		(uuid "eb2b4d10-1601-4e19-8afd-7a8a4c5752ed")
 		(property "Reference" "J24"
-			(at 65.278 90.424 0)
+			(at 52.832 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30927,7 +30927,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 59.69 92.7099 0)
+			(at 58.42 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30937,7 +30937,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 60.96 91.44 0)
+			(at 57.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30946,7 +30946,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 60.96 91.44 0)
+			(at 57.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30955,7 +30955,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 60.96 91.44 0)
+			(at 57.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30964,7 +30964,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 60.96 91.44 0)
+			(at 57.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30973,7 +30973,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 60.96 91.44 0)
+			(at 57.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30982,7 +30982,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 60.96 91.44 0)
+			(at 57.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30991,7 +30991,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 60.96 91.44 0)
+			(at 57.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31000,7 +31000,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 60.96 91.44 0)
+			(at 57.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31009,7 +31009,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 60.96 91.44 0)
+			(at 57.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31174,7 +31174,8 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 97.79 111.76 0)
+		(at 101.6 111.76 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31182,7 +31183,7 @@
 		(dnp no)
 		(uuid "efd2ee1f-efe8-4296-bbae-71e90ac1ed0d")
 		(property "Reference" "J51"
-			(at 93.472 110.744 0)
+			(at 105.918 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31191,7 +31192,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 99.06 113.0299 0)
+			(at 100.33 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31201,7 +31202,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 97.79 111.76 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31210,7 +31211,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 97.79 111.76 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31219,7 +31220,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 97.79 111.76 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31228,7 +31229,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 97.79 111.76 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31237,7 +31238,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 97.79 111.76 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31246,7 +31247,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 97.79 111.76 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31255,7 +31256,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 97.79 111.76 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31264,7 +31265,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 97.79 111.76 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31273,7 +31274,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 97.79 111.76 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31505,8 +31506,7 @@
 	)
 	(symbol
 		(lib_id "Swoon:Conn_01x01_Socket")
-		(at 81.28 132.08 0)
-		(mirror y)
+		(at 138.43 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31514,7 +31514,7 @@
 		(dnp no)
 		(uuid "fbc4aaa6-7a5a-4215-9436-7b7712c7d54e")
 		(property "Reference" "J68"
-			(at 85.598 131.064 0)
+			(at 134.112 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31523,7 +31523,7 @@
 			)
 		)
 		(property "Value" "3305-0-15-80-47-27-10-0"
-			(at 80.01 133.3499 0)
+			(at 139.7 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31533,7 +31533,7 @@
 			)
 		)
 		(property "Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 81.28 132.08 0)
+			(at 138.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31542,7 +31542,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/3305-0-15-80-47-27-10-0"
-			(at 81.28 132.08 0)
+			(at 138.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31551,7 +31551,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 81.28 132.08 0)
+			(at 138.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31560,7 +31560,7 @@
 			)
 		)
 		(property "LCSC" "C17370797"
-			(at 81.28 132.08 0)
+			(at 138.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31569,7 +31569,7 @@
 			)
 		)
 		(property "Config" "+right"
-			(at 81.28 132.08 0)
+			(at 138.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31578,7 +31578,7 @@
 			)
 		)
 		(property "MPN" "3305-0-15-80-47-27-10-0"
-			(at 81.28 132.08 0)
+			(at 138.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31587,7 +31587,7 @@
 			)
 		)
 		(property "left:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 81.28 132.08 0)
+			(at 138.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31596,7 +31596,7 @@
 			)
 		)
 		(property "right:Footprint" "Swoon:3305-0-15-80-47-27-10-0"
-			(at 81.28 132.08 0)
+			(at 138.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31605,7 +31605,7 @@
 			)
 		)
 		(property "flip:Footprint" "Swoon:TestPoint_Pad_Empty"
-			(at 81.28 132.08 0)
+			(at 138.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
