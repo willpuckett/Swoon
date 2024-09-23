@@ -77,3 +77,17 @@ more of a skin. Print and place the pcb directly in it.
 
 TPU is relatively non-slip, and it absorbs and distributes the force of typing
 very nicely, so no bumpons needed which further reduces height.
+
+## Layouts
+
+### QWERTY
+
+![QWERTY](.images/swoon_QWERTY.svg)
+
+### Engram
+
+![Engram](.images/swoon_ENGRAM.svg)
+
+### Engrammer
+
+![Engrammer](.images/swoon_ENGRAMMER.svg)

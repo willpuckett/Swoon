@@ -1,0 +1,52 @@
+name: keymap drawer
+
+on:
+  push:
+    paths:
+      - '.images/make_keymaps.sh'
+      - '.github/workflows/keymap-drawer.yml'
+  pull_request:
+    paths:
+      - '.images/make_keymaps.sh'
+      - '.github/workflows/keymap-drawer.yml'
+  workflow_run:
+    workflows: ["ZMK Build"]
+    types:
+      - completed
+  # workflow_dispatch:
+
+jobs:
+  draw-keymaps:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # allow workflow to commit to the repo
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 2  
+        ref: ${{ github.head_ref }}
+    # - uses: pkgxdev/setup@v1
+    #   with:
+    #     +: python 
+    #        pipx
+    - run: |
+        python3 -m pip install keymap-drawer
+        .images/draw-keymaps.sh
+    - name: get commit info
+      id: last_commit   
+      run: |
+        echo "message=$(git log -1 --pretty=%s)" >> $GITHUB_OUTPUT
+        echo "author=$(git log -1 --pretty='%an <%ae>')" >> $GITHUB_OUTPUT
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        file_pattern: '.images/*.svg'
+        # So the previous commit is amended instead of creating a new one when desired
+        # See:
+        # - https://github.com/stefanzweifel/git-auto-commit-action#using---amend-and---no-edit-as-commit-options
+        # - https://github.com/stefanzweifel/git-auto-commit-action/issues/159#issuecomment-845347950
+        # - https://github.com/actions/checkout
+        commit_author: ${{ steps.last_commit.outputs.author }}
+        commit_message: '${{  steps.last_commit.outputs.message }}'
+        commit_options: '--amend --no-edit'
+        push_options: '--force-with-lease'
+        skip_fetch: true 

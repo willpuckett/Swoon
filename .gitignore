@@ -34,3 +34,5 @@ default
 
 # Ughh...
 .DS_Store
+
+project.db
