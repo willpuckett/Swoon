@@ -19,13 +19,16 @@ jobs:
     #     run-id: ${{ github.event.workflow_run.id }}
     - run: |
         python3 -m pip install vpype build123d
+        echo "Preparing SVG"
         vpype read case/swoon_edges.svg linemerge --tolerance 3mm linesort reloop linesimplify write case/swoon_edges_vpype.svg
+        echo "Generating case..."
         python case/case.py
+        echo "Done."
     - uses: actions/upload-artifact@v4
       with:
         name: Case_STEP
-        path: "*.step"
+        path: "case/*.step"
     - uses: actions/upload-artifact@v4
       with:
         name: Case_STL
-        path: "*.stl"
+        path: "case/*.stl"
