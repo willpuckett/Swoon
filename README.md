@@ -17,18 +17,33 @@
 - Locate each half's components on its respective top side for more affordable
   assembly and lower overall height
 
+> [!NOTE]
+> In a Hurry? Here are the relevant links for download. No need scroll...
+>
+> Boards [[flip](/jlcpcb/swoon_FLIP.zip)] [[left](/jlcpcb/swoon_LEFT.zip)]
+> [[right](/jlcpcb/swoon_RIGHT.zip)] [[both](/jlcpcb/swoon_BOTH.zip)]
+>
+> Case
+> [[step](https://nightly.link/willpuckett/Swoon/actions/runs/10987780383/Case_STEP.zip)]
+> [[stl](https://nightly.link/willpuckett/Swoon/actions/runs/10987780383/Case_STL.zip)]
+>
+> Firmware
+> [[latest ZMK Builds](https://nightly.link/willpuckett/Swoon/workflows/zmk/main/swoon.zip)]
+
 ## Variants
 
+[![KiBot Check & Generate](https://github.com/willpuckett/Swoon/actions/workflows/kibot.yml/badge.svg)](https://github.com/willpuckett/Swoon/actions/workflows/kibot.yml)[^1]
+
 ### **Flip**
+
+> [!IMPORTANT]
+> You'll need to solder the upward facing jumpers on each half under the Xiao
+> before use.
 
 A flippable variant [[flip](/jlcpcb/swoon_FLIP.zip)] for hand-soldering, like
 the original half-swept. **Flip** is also the most cost conscious variant—about
 $7.60 to get 5 of the boards produced, enough for 2 full keyboads and a nice...
 coaster?
-
-> [!IMPORTANT]
-> You'll need to solder the upward facing jumpers on each half under the Xiao
-> before use.
 
 > [!CAUTION]
 > Use 3.7v LIR1254 (lithium ion rechargable) battery **only**.
@@ -59,17 +74,17 @@ Each half is pre-jumpered in the gerbers so you can print and go.
 > [!CAUTION]
 > Use 3.7v LIR1254 (lithium ion rechargable) battery **only**.
 
-## CI/CD
-
-This project is mostly setup for production and assembly variants in GitHub
-actions. Production variants are newer to KiCad and there's still a few kinks,
-but hopefully they'll be worked out soon. In the mean time, use the files in the
-[jlcpcb](/jlcpcb/) directory.
+There's also a [[both](/jlcpcb/swoon_BOTH.zip)] that will probably supersede the
+**left** and **right** since it's cheaper to produce as a single piece.
 
 ## Case
 
-There's a case [[step](/case/case.step)] [[stl](/case/case.stl)] that's really
-more of a skin. Print and place the pcb directly in it.
+[![Build123d Case](https://github.com/willpuckett/Swoon/actions/workflows/case.yml/badge.svg)](https://github.com/willpuckett/Swoon/actions/workflows/case.yml)
+
+There's a case
+[[step](https://nightly.link/willpuckett/Swoon/actions/runs/10987780383/Case_STEP.zip)]
+[[stl](https://nightly.link/willpuckett/Swoon/actions/runs/10987780383/Case_STL.zip)]
+that's really more of a skin. Print and place the pcb directly in it.
 
 > [!TIP]
 > Polymaker TPU works well. It seems to like to print slow and cool—leave the
@@ -79,6 +94,13 @@ TPU is relatively non-slip, and it absorbs and distributes the force of typing
 very nicely, so no bumpons needed which further reduces height.
 
 ## Layouts
+
+[![ZMK Build](https://github.com/willpuckett/Swoon/actions/workflows/zmk.yml/badge.svg)](https://github.com/willpuckett/Swoon/actions/workflows/zmk.yml)
+[![keymap drawer](https://github.com/willpuckett/Swoon/actions/workflows/keymap-drawer.yml/badge.svg)](https://github.com/willpuckett/Swoon/actions/workflows/keymap-drawer.yml)
+
+Download the
+[latest ZMK Builds](https://nightly.link/willpuckett/Swoon/workflows/zmk/main/swoon.zip).
+The link contains the following layouts...
 
 ### QWERTY
 
@@ -91,3 +113,8 @@ very nicely, so no bumpons needed which further reduces height.
 ### Engrammer
 
 ![Engrammer](.images/swoon_ENGRAMMER.svg)
+
+[^1]: This project is mostly setup for production and assembly variants in
+    GitHub actions. Production variants are newer to KiCad and there's still a
+    few kinks, but hopefully they'll be worked out soon. In the mean time, use
+    the files in the [jlcpcb](/jlcpcb/) directory.
