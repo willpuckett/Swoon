@@ -12,11 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: actions/download-artifact@v4
-      with:
-        name: BOARD_OUTLINE
-        path: case/swoon_edges.svg
-        run-id: ${{ github.event.workflow_run.id }}
+    # - uses: actions/download-artifact@v4
+    #   with:
+    #     name: BOARD_OUTLINE
+    #     path: case/swoon_edges.svg
+    #     run-id: ${{ github.event.workflow_run.id }}
     - run: |
         python3 -m pip install vpype build123d
         vpype read case/swoon_edges.svg linemerge --tolerance 3mm linesort reloop \
