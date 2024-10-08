@@ -9,9 +9,13 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define QWERTY 1
-#define ENGRAM 2
-#define ENGRAMMER 3
+#ifndef LAYOUT
+	#define LAYOUT 1
+#endif
+
+#define QWERTY 0
+#define ENGRAM 1
+#define ENGRAMMER 2
 
 #define NAV 1
 #define NUM 2
@@ -175,21 +179,27 @@
         combo_num_l {
             timeout-ms = <50>;
             key-positions = <30 31>;
+			require-prior-idle-ms = <50>;
             bindings = <&mo NUM>;
         };
         combo_num_r {
             timeout-ms = <50>;
             key-positions = <32 33>;
+			require-prior-idle-ms = <50>;
             bindings = <&mo NUM>;
         };
         combo_esc {
             timeout-ms = <50>;
             key-positions = <0 10>;
+			require-prior-idle-ms = <50>;
+			layers = <0>;
             bindings = <&kp ESC>;
         };
         combo_caps_word {
             timeout-ms = <50>;
             key-positions = <10 20>;
+			require-prior-idle-ms = <50>;
+			layers = <0>;
             bindings = <&caps_word>;
         };
 		
@@ -197,11 +207,15 @@
         combo_z {
             timeout-ms = <50>;
             key-positions = <9 19>;
+			require-prior-idle-ms = <50>;
+			layers = <0>;
             bindings = <&kp Z>;
         };
         combo_q {
             timeout-ms = <50>;
             key-positions = <19 29>;
+			require-prior-idle-ms = <50>;
+			layers = <0>;
             bindings = <&kp Q>;
         };
 		#endif

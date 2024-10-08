@@ -104,15 +104,15 @@ The link contains the following layouts...
 
 ### QWERTY
 
-![QWERTY](.images/swoon_QWERTY.svg)
+![QWERTY](.images/swoon_qwerty.svg)
 
 ### Engram
 
-![Engram](.images/swoon_ENGRAM.svg)
+![Engram](.images/swoon_engram.svg)
 
 ### Engrammer
 
-![Engrammer](.images/swoon_ENGRAMMER.svg)
+![Engrammer](.images/swoon_engrammer.svg)
 
 [^1]: This project is mostly setup for production and assembly variants in
     GitHub actions. Production variants are newer to KiCad and there's still a

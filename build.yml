@@ -11,18 +11,18 @@ include:
 
   - board:  seeeduino_xiao_ble
     shield: swoon_left
-    cmake-args: -DDTS_EXTRA_CPPFLAGS=-DLAYOUT=2
+    cmake-args: -DDTS_EXTRA_CPPFLAGS=-DLAYOUT=1
     artifact-name: swoon_engram_left
   - board:  seeeduino_xiao_ble
     shield: swoon_right
-    cmake-args: -DDTS_EXTRA_CPPFLAGS=-DLAYOUT=2
+    cmake-args: -DDTS_EXTRA_CPPFLAGS=-DLAYOUT=1
     artifact-name: swoon_engram_right
     
   - board:  seeeduino_xiao_ble
     shield: swoon_left
-    cmake-args: -DDTS_EXTRA_CPPFLAGS=-DLAYOUT=3
+    cmake-args: -DDTS_EXTRA_CPPFLAGS=-DLAYOUT=2
     artifact-name: swoon_engrammer_left
   - board:  seeeduino_xiao_ble
     shield: swoon_right
-    cmake-args: -DDTS_EXTRA_CPPFLAGS=-DLAYOUT=3
+    cmake-args: -DDTS_EXTRA_CPPFLAGS=-DLAYOUT=2
     artifact-name: swoon_engrammer_right

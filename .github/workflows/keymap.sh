@@ -1,5 +1,5 @@
 keymap="zmk-config/boards/shields/swoon/swoon.keymap"
-LAYOUTS=('NC' 'QWERTY' 'ENGRAM' 'ENGRAMMER')
+LAYOUTS=('qwerty' 'engram' 'engrammer')
 
 for l in {1..3}; do
     echo "Rendering Layout ${LAYOUTS[l]}"

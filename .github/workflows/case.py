@@ -10,7 +10,7 @@ from build123d import *
 with BuildPart() as void:
     with BuildSketch(Plane.XY.offset(2 * MM)) as edge_cuts:
         with BuildLine() as line:
-            svg = import_svg("case/swoon_edges_vpype.svg")
+            svg = import_svg("swoon_edges_vpype.svg")
             add(svg)
         make_face()
     extrude(amount = 4 * MM)
@@ -26,5 +26,5 @@ with BuildPart() as case:
     # fillet(top_face.edges(), radius=0.3 * MM)
 
 # show(case)
-export_step(case.part, file_path="case/case.step")
-export_stl(case.part, file_path="case/case.stl")
+export_step(case.part, file_path="case.step")
+export_stl(case.part, file_path="case.stl")

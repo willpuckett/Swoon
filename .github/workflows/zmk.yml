@@ -3,17 +3,15 @@ name: ZMK Build
 on:
   push:
     paths:
-      - 'zmk-config/**'
+      - 'config/**'
       - '.github/workflows/zmk.yml'
   pull_request:
     paths:
-      - 'zmk-config/**'
+      - 'config/**'
       - '.github/workflows/zmk.yml'
 
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
-      build_matrix_path: 'zmk-config/build.yml'
-      config_path: 'zmk-config'
       archive_name: 'swoon'

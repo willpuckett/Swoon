@@ -22,13 +22,13 @@ jobs:
         echo "Preparing SVG"
         vpype read case/swoon_edges.svg linemerge --tolerance 3mm linesort reloop linesimplify write case/swoon_edges_vpype.svg
         echo "Generating case..."
-        python case/case.py
+        python .github/workflows/case.py
         echo "Done."
     - uses: actions/upload-artifact@v4
       with:
         name: Case_STEP
-        path: "case/*.step"
+        path: "*.step"
     - uses: actions/upload-artifact@v4
       with:
         name: Case_STL
-        path: "case/*.stl"
+        path: "*.stl"
