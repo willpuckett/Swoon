@@ -115,6 +115,6 @@ The link contains the following layouts...
 ![Engrammer](.images/swoon_engrammer.svg)
 
 [^1]: This project is mostly setup for production and assembly variants in
-    GitHub actions. Production variants are newer to KiCad and there's still a
-    few kinks, but hopefully they'll be worked out soon. In the mean time, use
+    GitHub actions. ~~Production variants are newer to KiCad and there's still a
+    few kinks, but hopefully they'll be worked out soon.~~ The KiBot team has resolved the issues this project will pull them in for a release shortly. In the mean time, use
     the files in the [jlcpcb](/jlcpcb/) directory.
