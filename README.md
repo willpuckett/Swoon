@@ -96,7 +96,7 @@ very nicely, so no bumpons needed which further reduces height.
 ## Layouts
 
 [![ZMK Build](https://github.com/willpuckett/Swoon/actions/workflows/zmk.yml/badge.svg)](https://github.com/willpuckett/Swoon/actions/workflows/zmk.yml)
-[![keymap drawer](https://github.com/willpuckett/Swoon/actions/workflows/keymap-drawer.yml/badge.svg)](https://github.com/willpuckett/Swoon/actions/workflows/keymap-drawer.yml)
+[![keymap drawer](https://github.com/willpuckett/Swoon/actions/workflows/keymap.yml/badge.svg)](https://github.com/willpuckett/Swoon/actions/workflows/keymap.yml)
 
 Download the
 [latest ZMK Builds](https://nightly.link/willpuckett/Swoon/workflows/zmk/main/swoon.zip).
@@ -116,5 +116,6 @@ The link contains the following layouts...
 
 [^1]: This project is mostly setup for production and assembly variants in
     GitHub actions. ~~Production variants are newer to KiCad and there's still a
-    few kinks, but hopefully they'll be worked out soon.~~ The KiBot team has resolved the issues this project will pull them in for a release shortly. In the mean time, use
-    the files in the [jlcpcb](/jlcpcb/) directory.
+    few kinks, but hopefully they'll be worked out soon.~~ The KiBot team has
+    resolved the issues this project will pull them in for a release shortly. In
+    the mean time, use the files in the [jlcpcb](/jlcpcb/) directory.
